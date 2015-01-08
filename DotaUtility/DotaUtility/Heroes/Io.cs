@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					Name = "wisp_tether",
+					IconName = "wisp_tether",
 					Value = @"0.75 100 17
 										1.25 100 17
 										1.75 100 17
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "wisp_spirits",
+					IconName = "wisp_spirits",
 					Value = @"125
 										187
 										281
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "wisp_overcharge",
+					IconName = "wisp_overcharge",
 					Value = @"40  5 4.5
 										50 10 4.5
 										60 15 4.5
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "wisp_relocate",
+					IconName = "wisp_relocate",
 					Value = @"2.5 12
 										2.2 12
 										2.0 12"

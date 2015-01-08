@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					Name = "sven_storm_bolt",
+					IconName = "sven_storm_bolt",
 					Value = @" 75 2
 										131 2
 										187 2
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "sven_great_cleave",
+					IconName = "sven_great_cleave",
 					Passive = true,
 					Value = @"20
 										35
@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "sven_warcry",
+					IconName = "sven_warcry",
 					Value = @" 4 12 8
 										 8 12 8
 										12 12 8
@@ -35,7 +35,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "sven_gods_strength",
+					IconName = "sven_gods_strength",
 					Value = @"100  50 25
 										150  75 25
 										200 100 25"

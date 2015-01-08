@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					Name = "omniknight_purification",
+					IconName = "omniknight_purification",
 					Value = @" 90
 										180
 										270
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "omniknight_repel",
+					IconName = "omniknight_repel",
 					Value = @" 6
 										 8
 										10
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "omniknight_degen_aura",
+					IconName = "omniknight_degen_aura",
 					Passive = true,
 					Value = @"10
 										18
@@ -35,7 +35,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "omniknight_guardian_angel",
+					IconName = "omniknight_guardian_angel",
 					Value = @"6  8
 										7  9
 										8 10"

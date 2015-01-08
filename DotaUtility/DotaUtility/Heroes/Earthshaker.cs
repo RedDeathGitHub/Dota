@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					Name = "earthshaker_fissure",
+					IconName = "earthshaker_fissure",
 					Value = @" 93 1   8
 										131 1.2 8
 										168 1.5 8
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "earthshaker_enchant_totem",
+					IconName = "earthshaker_enchant_totem",
 					Value = @"100
 										200
 										300
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "earthshaker_aftershock",
+					IconName = "earthshaker_aftershock",
 					Passive = true,
 					Value = @"37 0.6
 										56 0.9
@@ -35,7 +35,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "earthshaker_echo_slam",
+					IconName = "earthshaker_echo_slam",
 					Value = @"120 30
 										157 41
 										202 52"

@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					Name = "abaddon_death_coil",
+					IconName = "abaddon_death_coil",
 					Value = @" 75  75 100
 										112 100 150
 										150 125 200
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "abaddon_aphotic_shield",
+					IconName = "abaddon_aphotic_shield",
 					Value = @" 82 110
 										105 140
 										127 170
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "abaddon_frostmourne",
+					IconName = "abaddon_frostmourne",
 					Passive = true,
 					Value = @" 5 10 15
 										10 20 15
@@ -35,7 +35,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "abaddon_borrowed_time",
+					IconName = "abaddon_borrowed_time",
 					Value = @"4 400 5 35
 										5 400 6 35
 										6 400 7 35"

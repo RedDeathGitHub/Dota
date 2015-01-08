@@ -21,15 +21,15 @@ namespace DotaUtility
 
 		private static void Main()
 		{
-			foreach (var hero in HeroCollection.All)
+			foreach (var hero in UnitCollection.All)
 			{
 				foreach (var ability in hero.Abilities)
 				{
 					ProcessImage(ability);
 
-					if (ability.AlternativeNames != null)
+					if (ability.AdditionalIconNames != null)
 					{
-						foreach (var alternativeName in ability.AlternativeNames)
+						foreach (var alternativeName in ability.AdditionalIconNames)
 						{
 							ProcessImage(ability, alternativeName);
 						}
@@ -40,7 +40,7 @@ namespace DotaUtility
 
 		private static void ProcessImage(Ability ability, string alternativeName = null)
 		{
-			var name = alternativeName ?? ability.Name;
+			var name = alternativeName ?? ability.IconName;
 
 			var image = new Bitmap(GetInPath(name));
 			var graphics = Graphics.FromImage(image);

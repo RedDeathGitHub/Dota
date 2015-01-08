@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					Name = "kunkka_torrent",
+					IconName = "kunkka_torrent",
 					Value = @" 90 1.5 35 1
 										135 1.5 35 2
 										180 1.5 35 3
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "kunkka_tidebringer",
+					IconName = "kunkka_tidebringer",
 					Passive = true,
 					Value = @"15 500 100
 										30 500 100
@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "kunkka_x_marks_the_spot",
+					IconName = "kunkka_x_marks_the_spot",
 					Value = @"4 8
 										4 8
 										4 8
@@ -35,7 +35,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "kunkka_ghostship",
+					IconName = "kunkka_ghostship",
 					Value = @"300 1.4 10
 										375 1.4 10
 										450 1.4 10"

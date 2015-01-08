@@ -4,9 +4,9 @@ namespace DotaUtility
 {
 	public class Ability
 	{
-		public string Name { get; set; }
+		public string IconName { get; set; }
 
-		public List<string> AlternativeNames { get; set; }
+		public List<string> AdditionalIconNames { get; set; }
 
 		public string Value { get; set; }
 

@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					Name = "dragon_knight_breathe_fire",
+					IconName = "dragon_knight_breathe_fire",
 					Value = @" 67
 										127
 										180
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "dragon_knight_dragon_tail",
+					IconName = "dragon_knight_dragon_tail",
 					Value = @"18 2.50
 										37 2.75
 										56 3.00
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "dragon_knight_dragon_blood",
+					IconName = "dragon_knight_dragon_blood",
 					Passive = true,
 					Value = @"2  3
 										3  6
@@ -35,7 +35,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "dragon_knight_elder_dragon_form",
+					IconName = "dragon_knight_elder_dragon_form",
 					Value = @" 20 5 25 60
 										  250 25 60
 										20 30 25 60"

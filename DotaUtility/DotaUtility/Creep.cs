@@ -1,6 +1,6 @@
 ﻿namespace DotaUtility
 {
-	public class Hero : Unit
+	public class Creep : Unit
 	{
 	}
 }

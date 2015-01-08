@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					Name = "beastmaster_wild_axes",
+					IconName = "beastmaster_wild_axes",
 					Value = @"140
 										200
 										230
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "beastmaster_call_of_the_wild_hawk",
+					IconName = "beastmaster_call_of_the_wild_hawk",
 					Value = @"4 60
 										4 60
 										4 60
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "beastmaster_call_of_the_wild_boar",
+					IconName = "beastmaster_call_of_the_wild_boar",
 					Value = @"10 3 60
 										20 3 60
 										30 3 60
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "beastmaster_inner_beast",
+					IconName = "beastmaster_inner_beast",
 					Passive = true,
 					Value = @"15
 										25
@@ -43,7 +43,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "beastmaster_primal_roar",
+					IconName = "beastmaster_primal_roar",
 					Value = @"150 3.0 50
 										187 3.5 50
 										225 4.0 50"

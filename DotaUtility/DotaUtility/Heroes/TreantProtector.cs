@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					Name = "treant_natures_guise",
+					IconName = "treant_natures_guise",
 					Value = @"2 10 15
 										2 10 30
 										2 10 45
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "treant_leech_seed",
+					IconName = "treant_leech_seed",
 					Value = @" 67 28  90
 										135 28 180
 										202 28 270
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "treant_living_armor",
+					IconName = "treant_living_armor",
 					Value = @" 80 4  60
 										200 5 105
 										360 6 150
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "treant_overgrowth",
+					IconName = "treant_overgrowth",
 					Value = @"3   393
 										3.7 525
 										4.5 656"

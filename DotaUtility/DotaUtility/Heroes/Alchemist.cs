@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					Name = "alchemist_acid_spray",
+					IconName = "alchemist_acid_spray",
 					Value = @"12 4
 										16 5
 										20 6
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "alchemist_unstable_concoction",
+					IconName = "alchemist_unstable_concoction",
 					Value = @"150
 										220
 										290
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "alchemist_goblins_greed",
+					IconName = "alchemist_goblins_greed",
 					Passive = true,
 					Value = @" 6 12 3
 										 8 20 3
@@ -35,7 +35,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "alchemist_chemical_rage",
+					IconName = "alchemist_chemical_rage",
 					Value = @"4  50  25 30
 										2  75  87 40
 										0 100 150 60"

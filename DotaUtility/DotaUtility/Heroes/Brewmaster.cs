@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					Name = "brewmaster_thunder_clap",
+					IconName = "brewmaster_thunder_clap",
 					Passive = true,
 					Value = @" 75 25 4
 										131 35 4
@@ -19,7 +19,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "brewmaster_drunken_haze",
+					IconName = "brewmaster_drunken_haze",
 					Value = @"45 14 8
 										55 18 8
 										65 22 8
@@ -27,8 +27,8 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "brewmaster_drunken_brawler",
-					AlternativeNames = new List<string>
+					IconName = "brewmaster_drunken_brawler",
+					AdditionalIconNames = new List<string>
 					{
 						"brewmaster_drunken_brawler_active",
 						"brewmaster_drunken_brawler_crit",
@@ -42,7 +42,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					Name = "brewmaster_primal_split",
+					IconName = "brewmaster_primal_split",
 					Value = @"75  2 15
 										 6 20 17
 										11 33 19"
