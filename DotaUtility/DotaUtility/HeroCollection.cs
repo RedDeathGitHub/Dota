@@ -22,6 +22,9 @@ namespace DotaUtility
 					new Omniknight(),
 					new Huskar(),
 					new Alchemist(),
+					new Brewmaster(),
+					new TreantProtector(),
+					new Io(),
 
 					new Abaddon(),
 					new Antimage()

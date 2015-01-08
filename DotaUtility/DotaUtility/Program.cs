@@ -25,14 +25,29 @@ namespace DotaUtility
 			{
 				foreach (var ability in hero.Abilities)
 				{
-					var image = new Bitmap(GetInPath(ability.Name));
-					var graphics = Graphics.FromImage(image);
+					ProcessImage(ability);
 
-					DrawRectangle(graphics, ability);
-					DrawText(graphics, ability);
-					SaveImage(image, GetOutPath(ability.Name));
+					if (ability.AlternativeNames != null)
+					{
+						foreach (var alternativeName in ability.AlternativeNames)
+						{
+							ProcessImage(ability, alternativeName);
+						}
+					}
 				}
 			}
+		}
+
+		private static void ProcessImage(Ability ability, string alternativeName = null)
+		{
+			var name = alternativeName ?? ability.Name;
+
+			var image = new Bitmap(GetInPath(name));
+			var graphics = Graphics.FromImage(image);
+
+			DrawRectangle(graphics, ability);
+			DrawText(graphics, ability);
+			SaveImage(image, GetOutPath(name));
 		}
 
 		private static void SaveImage(Bitmap image, string path)

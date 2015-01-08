@@ -51,6 +51,9 @@
     <Compile Include="Hero.cs" />
     <Compile Include="HeroCollection.cs" />
     <Compile Include="Heroes\Alchemist.cs" />
+    <Compile Include="Heroes\Io.cs" />
+    <Compile Include="Heroes\TreantProtector.cs" />
+    <Compile Include="Heroes\Brewmaster.cs" />
     <Compile Include="Heroes\Huskar.cs" />
     <Compile Include="Heroes\Omniknight.cs" />
     <Compile Include="Heroes\Clockwerk.cs" />
