@@ -47,6 +47,8 @@ namespace DotaUtility
 					new TreantProtector(),
 					new Io(),
 					new CentaurWarrunner(),
+					new Timbersaw(),
+					new Bristleback(),
 
 					new Abaddon(),
 				};
