@@ -55,6 +55,11 @@ namespace DotaUtility
 					new EarthSpirit(),
 					new Phoenix(),
 
+					new Axe(),
+					new Pudge(),
+					new SandKing(),
+					new Slardar(),
+
 					new Abaddon(),
 				};
 			}
