@@ -6,7 +6,7 @@ using DotaUtility.Heroes;
 
 namespace DotaUtility
 {
-	public static class UnitCollection
+	public static class Units
 	{
 		public static List<Unit> All
 		{
@@ -49,6 +49,11 @@ namespace DotaUtility
 					new CentaurWarrunner(),
 					new Timbersaw(),
 					new Bristleback(),
+					new Tusk(),
+					new ElderTitan(),
+					new LegionCommander(),
+					new EarthSpirit(),
+					new Phoenix(),
 
 					new Abaddon(),
 				};

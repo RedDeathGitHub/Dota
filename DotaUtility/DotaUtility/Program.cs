@@ -21,7 +21,7 @@ namespace DotaUtility
 
 		private static void Main()
 		{
-			foreach (var hero in UnitCollection.All)
+			foreach (var hero in Units.All)
 			{
 				foreach (var ability in hero.Abilities)
 				{

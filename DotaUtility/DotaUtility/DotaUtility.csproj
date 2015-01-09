@@ -52,9 +52,14 @@
     <Compile Include="Creeps\CentaurConqueror.cs" />
     <Compile Include="Heroes\Abaddon.cs" />
     <Compile Include="Hero.cs" />
+    <Compile Include="Heroes\Phoenix.cs" />
+    <Compile Include="Heroes\EarthSpirit.cs" />
+    <Compile Include="Heroes\LegionCommander.cs" />
+    <Compile Include="Heroes\ElderTitan.cs" />
+    <Compile Include="Heroes\Tusk.cs" />
     <Compile Include="Heroes\Bristleback.cs" />
     <Compile Include="Heroes\Timbersaw.cs" />
-    <Compile Include="UnitCollection.cs" />
+    <Compile Include="Units.cs" />
     <Compile Include="Heroes\Alchemist.cs" />
     <Compile Include="Heroes\CentaurWarrunner.cs" />
     <Compile Include="Heroes\Io.cs" />
