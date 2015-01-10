@@ -62,6 +62,9 @@ namespace DotaUtility
 					new Tidehunter(),
 					new WraithKing(),
 					new Lifestealer(),
+					new NightStalker(),
+					new Doom(),
+					new SpiritBreaker(),
 
 					new Abaddon(),
 				};
