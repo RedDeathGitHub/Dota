@@ -59,6 +59,9 @@ namespace DotaUtility
 					new Pudge(),
 					new SandKing(),
 					new Slardar(),
+					new Tidehunter(),
+					new WraithKing(),
+					new Lifestealer(),
 
 					new Abaddon(),
 				};

@@ -52,6 +52,9 @@
     <Compile Include="Creeps\CentaurConqueror.cs" />
     <Compile Include="Heroes\Abaddon.cs" />
     <Compile Include="Hero.cs" />
+    <Compile Include="Heroes\Lifestealer.cs" />
+    <Compile Include="Heroes\WraithKing.cs" />
+    <Compile Include="Heroes\Tidehunter.cs" />
     <Compile Include="Heroes\Slardar.cs" />
     <Compile Include="Heroes\SandKing.cs" />
     <Compile Include="Heroes\Pudge.cs" />
