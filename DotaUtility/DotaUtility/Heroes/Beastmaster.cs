@@ -19,10 +19,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "beastmaster_call_of_the_wild_hawk",
-					Value = @"4 60
-										4 60
-										4 60
-										4 60"
+					Value = @"4 60"
 				},
 				new Ability
 				{

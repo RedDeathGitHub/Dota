@@ -65,6 +65,9 @@ namespace DotaUtility
 					new NightStalker(),
 					new Doom(),
 					new SpiritBreaker(),
+					new Lycan(),
+
+					new ChaosKnight(),
 
 					new Abaddon(),
 				};
@@ -77,7 +80,11 @@ namespace DotaUtility
 			{
 				return new List<Hero>
 				{
+					new Juggernaut(),
+
 					new Antimage(),
+
+					new PhantomAssassin(),
 				};
 			}
 		}
@@ -100,6 +107,8 @@ namespace DotaUtility
 				{
 					new CentaurConqueror(),
 					new HellbearSmasher(),
+					new GiantWolf(),
+					new AlphaWolf(),
 				};
 			}
 		}

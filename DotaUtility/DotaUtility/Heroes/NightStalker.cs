@@ -36,9 +36,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "night_stalker_darkness",
-					Value = @"50
-										50
-										50"
+					Value = @"50"
 				}
 			};
 		}

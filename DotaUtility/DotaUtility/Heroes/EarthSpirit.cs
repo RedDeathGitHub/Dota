@@ -19,10 +19,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "earth_spirit_rolling_boulder",
-					Value = @"75 80 2
-										75 80 2
-										75 80 2
-										75 80 2"
+					Value = @"75 80 2"
 				},
 				new Ability
 				{

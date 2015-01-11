@@ -29,18 +29,16 @@ namespace DotaUtility.Heroes
 				{
 					IconName = "skeleton_king_mortal_strike",
 					Passive = true,
-					Value = @"15 150
-										15 200
-										15 250
-										15 300"
+					Value = @" 7
+										15
+										22
+										30"
 				},
 				new Ability
 				{
 					IconName = "skeleton_king_reincarnation",
 					Passive = true,
-					Value = @"3 75 5
-										3 75 5
-										3 75 5"
+					Value = @"3 75 5"
 				}
 			};
 		}

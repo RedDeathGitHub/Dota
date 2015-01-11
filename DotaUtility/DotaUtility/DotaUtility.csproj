@@ -48,10 +48,16 @@
   <ItemGroup>
     <Compile Include="Ability.cs" />
     <Compile Include="Creep.cs" />
+    <Compile Include="Creeps\AlphaWolf.cs" />
+    <Compile Include="Creeps\GiantWolf.cs" />
     <Compile Include="Creeps\HellbearSmasher.cs" />
     <Compile Include="Creeps\CentaurConqueror.cs" />
     <Compile Include="Heroes\Abaddon.cs" />
     <Compile Include="Hero.cs" />
+    <Compile Include="Heroes\PhantomAssassin.cs" />
+    <Compile Include="Heroes\Juggernaut.cs" />
+    <Compile Include="Heroes\ChaosKnight.cs" />
+    <Compile Include="Heroes\Lycan.cs" />
     <Compile Include="Heroes\SpiritBreaker.cs" />
     <Compile Include="Heroes\Doom.cs" />
     <Compile Include="Heroes\NightStalker.cs" />

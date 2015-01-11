@@ -12,10 +12,7 @@ namespace DotaUtility.Heroes
 				{
 					IconName = "huskar_inner_vitality",
 					Passive = true,
-					Value = @"40 16
-										40 16
-										40 16
-										40 16"
+					Value = @"40 16"
 				},
 				new Ability
 				{

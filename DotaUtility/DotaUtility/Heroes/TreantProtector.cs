@@ -35,7 +35,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "treant_overgrowth",
-					Value = @"3   393
+					Value = @"3.0 393
 										3.7 525
 										4.5 656"
 				}

@@ -11,7 +11,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "earthshaker_fissure",
-					Value = @" 93 1   8
+					Value = @" 93 1.0 8
 										131 1.2 8
 										168 1.5 8
 										206 1.7 8"

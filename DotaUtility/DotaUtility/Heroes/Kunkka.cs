@@ -28,10 +28,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "kunkka_x_marks_the_spot",
-					Value = @"4 8
-										4 8
-										4 8
-										4 8"
+					Value = @"4 8"
 				},
 				new Ability
 				{
