@@ -81,7 +81,7 @@ namespace DotaUtility
 				return new List<Hero>
 				{
 					new Antimage(),
-
+					new DrowRanger(),
 					new Juggernaut(),
 
 					new PhantomAssassin(),
