@@ -11,7 +11,8 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "lycan_summon_wolves",
-					Value = @"21 1.7 15 55"
+					Value = @"21 1.7 15 55
+										21 26 36 41"
 				},
 				new Ability
 				{
