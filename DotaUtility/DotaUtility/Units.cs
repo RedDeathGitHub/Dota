@@ -83,6 +83,7 @@ namespace DotaUtility
 					new Antimage(),
 					new DrowRanger(),
 					new Juggernaut(),
+					new Mirana(),
 
 					new PhantomAssassin(),
 				};
