@@ -35,7 +35,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "drow_ranger_marksmanship",
-					Passive = true,
+
 					Value = @"40 14
 										60 22
 										80 29"

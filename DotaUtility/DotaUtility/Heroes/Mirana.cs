@@ -11,7 +11,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "mirana_starfall",
-					Passive = true,
+
 					Value = @" 98
 										196
 										294
@@ -28,7 +28,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "mirana_leap",
-					Passive = true,
+
 					Value = @"44
 										50
 										56

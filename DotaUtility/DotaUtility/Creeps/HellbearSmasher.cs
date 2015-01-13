@@ -11,13 +11,13 @@ namespace DotaUtility.Creeps
 				new Ability
 				{
 					IconName = "centaur_khan_endurance_aura",
-					Passive = true,
+
 					Value = @"15"
 				},
 				new Ability
 				{
 					IconName = "polar_furbolg_ursa_warrior_thunder_clap",
-					Passive = true,
+
 					Value = @"112 25 3"
 				}
 			};

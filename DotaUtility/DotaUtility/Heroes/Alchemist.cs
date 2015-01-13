@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "alchemist_goblins_greed",
-					Passive = true,
+
 					Value = @" 6 12 3
 										 8 20 3
 										10 28 3

@@ -19,7 +19,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "skeleton_king_vampiric_aura",
-					Passive = true,
+
 					Value = @"15
 										20
 										25
@@ -28,7 +28,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "skeleton_king_mortal_strike",
-					Passive = true,
+
 					Value = @" 7
 										15
 										22
@@ -37,7 +37,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "skeleton_king_reincarnation",
-					Passive = true,
+
 					Value = @"3 75 5"
 				}
 			};

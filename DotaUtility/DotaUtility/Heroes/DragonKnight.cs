@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "dragon_knight_dragon_blood",
-					Passive = true,
+
 					Value = @"2  3
 										3  6
 										4  9

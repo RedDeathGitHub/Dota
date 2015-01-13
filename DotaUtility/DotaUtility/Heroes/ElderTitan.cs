@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "elder_titan_natural_order",
-					Passive = true,
+
 					Value = @" 40 12
 										 60 19
 										 80 26

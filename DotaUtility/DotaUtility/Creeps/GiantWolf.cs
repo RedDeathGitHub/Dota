@@ -11,7 +11,7 @@ namespace DotaUtility.Creeps
 				new Ability
 				{
 					IconName = "giant_wolf_critical_strike",
-					Passive = true,
+
 					Value = @"20"
 				}
 			};

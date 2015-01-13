@@ -11,7 +11,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "slardar_sprint",
-					Passive = true,
+
 					Value = @"20 15
 										28 15
 										36 15
@@ -28,7 +28,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "slardar_bash",
-					Passive = true,
+
 					Value = @"10  60 1
 										15  80 1
 										20 100 1

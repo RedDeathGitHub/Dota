@@ -11,7 +11,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "brewmaster_thunder_clap",
-					Passive = true,
+
 					Value = @" 75 25 4
 										131 35 4
 										187 45 4
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes
 						"brewmaster_drunken_brawler_crit",
 						"brewmaster_drunken_brawler_miss"
 					},
-					Passive = true,
+
 					Value = @"10 16
 										15 14
 										20 12

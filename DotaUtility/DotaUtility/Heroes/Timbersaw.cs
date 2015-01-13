@@ -11,7 +11,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "shredder_whirling_death",
-					Passive = true,
+
 					Value = @"100 15 7
 										150 15 7
 										200 15 7
@@ -28,7 +28,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "shredder_reactive_armor",
-					Passive = true,
+
 					Value = @" 4 16
 										 8 16
 										12 16

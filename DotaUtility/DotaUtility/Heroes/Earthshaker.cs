@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "earthshaker_aftershock",
-					Passive = true,
+
 					Value = @"37 0.6
 										56 0.9
 										75 1.2

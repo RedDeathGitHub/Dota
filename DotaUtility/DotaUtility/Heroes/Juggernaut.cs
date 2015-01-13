@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "juggernaut_blade_dance",
-					Passive = true,
+
 					Value = @"20
 										25
 										30

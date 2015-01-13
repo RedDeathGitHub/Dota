@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "omniknight_degen_aura",
-					Passive = true,
+
 					Value = @"10
 										18
 										26

@@ -24,7 +24,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "phantom_assassin_blur",
-					Passive = true,
+
 					Value = @"20
 										30
 										40
@@ -33,7 +33,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "phantom_assassin_coup_de_grace",
-					Passive = true,
+
 					Value = @"20
 										36
 										52"

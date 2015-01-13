@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "pudge_flesh_heap",
-					Passive = true,
+
 					Value = @"29 1.0
 										31 1.5
 										32 2.0

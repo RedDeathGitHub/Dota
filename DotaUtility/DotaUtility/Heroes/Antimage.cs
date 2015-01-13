@@ -11,7 +11,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "antimage_mana_break",
-					Passive = true,
+
 					Value = @"28 16
 										40 24
 										52 31
@@ -28,7 +28,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "antimage_spell_shield",
-					Passive = true,
+
 					Value = @"44
 										50
 										56

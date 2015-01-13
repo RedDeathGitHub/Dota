@@ -11,7 +11,7 @@ namespace DotaUtility.Creeps
 				new Ability
 				{
 					IconName = "centaur_khan_war_stomp",
-					Passive = true,
+
 					Value = @"18 2"
 				}
 			};

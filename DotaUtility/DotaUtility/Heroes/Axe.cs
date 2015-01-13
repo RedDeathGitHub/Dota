@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "axe_counter_helix",
-					Passive = true,
+
 					Value = @"100 20
 										135 20
 										170 20

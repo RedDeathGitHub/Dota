@@ -25,7 +25,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "lycan_feral_impulse",
-					Passive = true,
+
 					Value = @"15
 										20
 										25

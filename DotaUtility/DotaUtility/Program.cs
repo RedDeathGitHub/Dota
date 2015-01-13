@@ -1,5 +1,8 @@
-﻿using System.Drawing;
+﻿using System;
+using System.Drawing;
 using System.Drawing.Imaging;
+
+using DotaUtility.Heroes;
 
 namespace DotaUtility
 {
@@ -7,43 +10,78 @@ namespace DotaUtility
 	{
 		private const string InDirectory = "spellicons\\";
 		private const string OutDirectory = "modifiedSpellicons\\";
+		private const string OutTestDirectory = "test\\";
 		private const string Extension = ".png";
 
-		private const float FontSize = 19F;
+		private const float FontSize = 18F;
 		private static readonly Font Font = new Font("Comic Sans MS", FontSize, FontStyle.Regular, GraphicsUnit.Pixel);
 
 		private const int ImageSize = 128;
+		private const int VerticalMargin = 4;
+		private const int HorizontalMargin = 2;
 		private const string Tab = "\t";
 
 		private static void Main()
 		{
-			foreach (var hero in Units.All)
+			ProcessAllIcons();
+		}
+
+		private static void TestColor(Unit unit)
+		{
+			foreach (var ability in unit.Abilities)
 			{
-				foreach (var ability in hero.Abilities)
+				foreach (var color in (KnownColor[])Enum.GetValues(typeof(KnownColor)))
 				{
-					ProcessImage(ability);
+					var brush = new SolidBrush(Color.FromKnownColor(color));
+
+					ProcessIcon(ability, ability.IconName, brush, true, color.ToString());
 
 					if (ability.AdditionalIconNames != null)
 					{
 						foreach (var alternativeName in ability.AdditionalIconNames)
 						{
-							ProcessImage(ability, alternativeName);
+							ProcessIcon(ability, alternativeName, brush, true, color.ToString());
 						}
 					}
 				}
 			}
 		}
 
-		private static void ProcessImage(Ability ability, string alternativeName = null)
+		private static void ProcessAllIcons()
+		{
+			foreach (var hero in Units.All)
+			{
+				foreach (var ability in hero.Abilities)
+				{
+					ProcessIcon(ability);
+
+					if (ability.AdditionalIconNames != null)
+					{
+						foreach (var alternativeName in ability.AdditionalIconNames)
+						{
+							ProcessIcon(ability, alternativeName);
+						}
+					}
+				}
+			}
+		}
+
+		private static void ProcessIcon(
+			Ability ability,
+			string alternativeName = null,
+			Brush alternativeBrush = null,
+			bool test = false,
+			string suffix = null)
 		{
 			var name = alternativeName ?? ability.IconName;
-
+			var brush = alternativeBrush ?? Brushes.Black;
 			var image = new Bitmap(GetInPath(name));
 			var graphics = Graphics.FromImage(image);
 
-			DrawRectangle(graphics, ability);
-			DrawText(graphics, ability);
-			SaveImage(image, GetOutPath(name));
+			DrawBackground(graphics, ability);
+			DrawText(graphics, ability, brush);
+
+			SaveImage(image, GetOutPath(name, test, suffix));
 		}
 
 		private static void SaveImage(Bitmap image, string path)
@@ -51,33 +89,35 @@ namespace DotaUtility
 			image.Save(path, ImageFormat.Png);
 		}
 
-		private static void DrawText(Graphics graphics, Ability ability)
+		private static void DrawText(Graphics graphics, Ability ability, Brush brush)
 		{
-			var position = GetPosition();
+			var rectangle = GetTextRectangle();
 			var format = new StringFormat
 			{
 				Alignment = StringAlignment.Center,
 				LineAlignment = StringAlignment.Center
 			};
 
-			graphics.DrawString(ability.Value, Font, Brushes.Black, position, format);
+			graphics.DrawString(ability.Value, Font, brush, rectangle, format);
 		}
 
-		private static void DrawRectangle(Graphics graphics, Ability ability)
+		private static void DrawBackground(Graphics graphics, Ability ability)
 		{
-			var rectangle = GetRectangle(graphics, ability);
+			var rectangle = GetBackgroundRectangle(graphics, ability);
 			graphics.FillRectangle(Brushes.White, rectangle);
 		}
 
-		private static RectangleF GetPosition()
+		private static RectangleF GetTextRectangle()
 		{
 			return new RectangleF(0, 0, ImageSize, ImageSize);
 		}
 
-		private static RectangleF GetRectangle(Graphics graphics, Ability ability)
+		private static RectangleF GetBackgroundRectangle(Graphics graphics, Ability ability)
 		{
 			var text = ability.Value.Replace(Tab, string.Empty);
 			var size = graphics.MeasureString(text, Font);
+			size.Width -= HorizontalMargin;
+			size.Height -= VerticalMargin;
 
 			var x = (ImageSize - size.Width) / 2;
 			var y = (ImageSize - size.Height) / 2;
@@ -91,9 +131,11 @@ namespace DotaUtility
 			return InDirectory + name + Extension;
 		}
 
-		private static string GetOutPath(string name)
+		private static string GetOutPath(string name, bool test, string suffix)
 		{
-			return OutDirectory + name + Extension;
+			var directory = test ? OutTestDirectory : OutDirectory;
+
+			return directory + name + suffix + Extension;
 		}
 	}
 }

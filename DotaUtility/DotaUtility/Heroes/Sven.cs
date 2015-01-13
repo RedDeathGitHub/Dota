@@ -19,7 +19,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "sven_great_cleave",
-					Passive = true,
+
 					Value = @"20
 										35
 										50

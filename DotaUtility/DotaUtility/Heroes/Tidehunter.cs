@@ -19,7 +19,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "tidehunter_kraken_shell",
-					Passive = true,
+
 					Value = @"10 600 6
 										20 550 6
 										30 500 6

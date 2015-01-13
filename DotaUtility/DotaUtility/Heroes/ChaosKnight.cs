@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "chaos_knight_chaos_strike",
-					Passive = true,
+
 					Value = @" 5
 										10
 										15

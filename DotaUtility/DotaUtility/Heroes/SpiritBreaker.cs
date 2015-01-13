@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "spirit_breaker_greater_bash",
-					Passive = true,
+
 					Value = @"17 1.0 22 15
 										17 1.2 28 15
 										17 1.4 34 15

@@ -11,7 +11,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "huskar_inner_vitality",
-					Passive = true,
+
 					Value = @"40 16"
 				},
 				new Ability
@@ -25,7 +25,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "huskar_berserkers_blood",
-					Passive = true,
+
 					Value = @"14 4 87 7
 										16 5 87 7
 										18 6 87 7

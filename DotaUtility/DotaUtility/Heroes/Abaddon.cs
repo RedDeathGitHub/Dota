@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "abaddon_frostmourne",
-					Passive = true,
+
 					Value = @" 5 10 15
 										10 20 15
 										15 30 15

@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "legion_commander_moment_of_courage",
-					Passive = true,
+
 					Value = @"16 20
 										18 40
 										20 60

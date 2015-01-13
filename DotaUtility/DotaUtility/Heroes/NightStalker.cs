@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "night_stalker_hunter_in_the_night",
-					Passive = true,
+
 					Value = @"20 45
 										25 60
 										30 75

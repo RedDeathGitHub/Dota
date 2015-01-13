@@ -19,7 +19,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "kunkka_tidebringer",
-					Passive = true,
+
 					Value = @"15 500 100
 										30 500 100
 										45 500 100

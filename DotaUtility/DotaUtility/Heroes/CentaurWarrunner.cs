@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "centaur_return",
-					Passive = true,
+
 					Value = @"16 26
 										18 34
 										20 42

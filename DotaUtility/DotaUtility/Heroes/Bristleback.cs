@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "bristleback_bristleback",
-					Passive = true,
+
 					Value = @"16  8 250
 										24 12 250
 										32 16 250
@@ -36,7 +36,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "bristleback_warpath",
-					Passive = true,
+
 					Value = @"5 100 15
 										6 150 24
 										7 210 35"

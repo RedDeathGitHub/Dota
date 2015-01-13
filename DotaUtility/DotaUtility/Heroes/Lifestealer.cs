@@ -19,7 +19,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "life_stealer_feast",
-					Passive = true,
+
 					Value = @"4
 										5
 										6

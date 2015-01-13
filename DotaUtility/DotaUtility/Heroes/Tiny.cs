@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "tiny_craggy_exterior",
-					Passive = true,
+
 					Value = @"10 18 00 2
 										15 26 25 3
 										20 33 50 4
@@ -36,7 +36,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "tiny_grow",
-					Passive = true,
+
 					Value = @"20  50 40
 										35 100 50
 										50 150 60"

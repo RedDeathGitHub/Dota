@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "sandking_caustic_finale",
-					Passive = true,
+
 					Value = @" 67 8
 										 97 8
 										127 8
