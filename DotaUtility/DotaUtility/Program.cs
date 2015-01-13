@@ -13,10 +13,6 @@ namespace DotaUtility
 		private static readonly Font Font = new Font("Comic Sans MS", FontSize, FontStyle.Regular, GraphicsUnit.Pixel);
 
 		private const int ImageSize = 128;
-		private const int LeftMargin = 2;
-		private const int RightMargin = 2;
-		private const int PassiveTopMargin = 5;
-		private const int PassiveRightMargin = 10;
 		private const string Tab = "\t";
 
 		private static void Main()
@@ -57,8 +53,13 @@ namespace DotaUtility
 
 		private static void DrawText(Graphics graphics, Ability ability)
 		{
-			var position = GetPosition(ability.Passive);
-			var format = new StringFormat { Alignment = StringAlignment.Far };
+			var position = GetPosition();
+			var format = new StringFormat
+			{
+				Alignment = StringAlignment.Center,
+				LineAlignment = StringAlignment.Center
+			};
+
 			graphics.DrawString(ability.Value, Font, Brushes.Black, position, format);
 		}
 
@@ -68,44 +69,21 @@ namespace DotaUtility
 			graphics.FillRectangle(Brushes.White, rectangle);
 		}
 
-		private static RectangleF GetPosition(bool passive)
+		private static RectangleF GetPosition()
 		{
-			var rightMargin = GetRightMargin(passive);
-			var width = ImageSize - rightMargin;
-			var y = passive ? PassiveTopMargin : 0;
-			return new RectangleF(0, y, width, ImageSize);
+			return new RectangleF(0, 0, ImageSize, ImageSize);
 		}
 
 		private static RectangleF GetRectangle(Graphics graphics, Ability ability)
 		{
 			var text = ability.Value.Replace(Tab, string.Empty);
 			var size = graphics.MeasureString(text, Font);
-			var margin = GetMargin(ability.Passive);
 
-			var x = ImageSize - size.Width - margin;
-			var width = size.Width + margin;
-			var height = ability.Passive ? size.Height + PassiveTopMargin : size.Height;
-			return new RectangleF(x, 0, width, height);
-		}
-
-		private static int GetMargin(bool passive)
-		{
-			var margin = RightMargin + LeftMargin;
-			if (passive)
-			{
-				margin += PassiveRightMargin;
-			}
-			return margin;
-		}
-
-		private static int GetRightMargin(bool passive)
-		{
-			var margin = RightMargin;
-			if (passive)
-			{
-				margin += PassiveRightMargin;
-			}
-			return margin;
+			var x = (ImageSize - size.Width) / 2;
+			var y = (ImageSize - size.Height) / 2;
+			var width = size.Width;
+			var height = size.Height;
+			return new RectangleF(x, y, width, height);
 		}
 
 		private static string GetInPath(string name)

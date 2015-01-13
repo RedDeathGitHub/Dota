@@ -10,16 +10,16 @@ namespace DotaUtility.Heroes
 			{
 				new Ability
 				{
-					IconName = "antimage_mana_break",
+					IconName = "mirana_starfall",
 					Passive = true,
-					Value = @"28 16
-										40 24
-										52 31
-										64 38"
+					Value = @" 98
+										196
+										294
+										394"
 				},
 				new Ability
 				{
-					IconName = "antimage_blink",
+					IconName = "mirana_arrow",
 					Value = @"12
 										 9
 										 7
@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					IconName = "antimage_spell_shield",
+					IconName = "mirana_leap",
 					Passive = true,
 					Value = @"44
 										50
@@ -36,7 +36,7 @@ namespace DotaUtility.Heroes
 				},
 				new Ability
 				{
-					IconName = "antimage_mana_void",
+					IconName = "mirana_invis",
 					Value = @"45
 										63
 										82"
