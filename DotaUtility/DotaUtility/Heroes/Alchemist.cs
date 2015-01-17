@@ -19,26 +19,26 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "alchemist_unstable_concoction",
-					Value = @"150
-										220
-										290
-										360"
+					Value = @"150 1.7
+										220 2.5
+										290 3.2
+										360 4.0"
 				},
 				new Ability
 				{
 					IconName = "alchemist_goblins_greed",
 
-					Value = @" 6 12 3
-										 8 20 3
-										10 28 3
-										12 36 3"
+					Value = @" 6 12
+										 8 20
+										10 28
+										12 36"
 				},
 				new Ability
 				{
 					IconName = "alchemist_chemical_rage",
-					Value = @"4  50  25 30
-										2  75  87 40
-										0 100 150 60"
+					Value = @" 50  25
+										 75  87
+										100 150"
 				}
 			};
 		}
