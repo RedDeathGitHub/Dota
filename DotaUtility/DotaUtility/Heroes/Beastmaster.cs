@@ -19,18 +19,18 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "beastmaster_call_of_the_wild_hawk",
-					Value = @"4 60 30
-										     40
-										     50
-										     60"
+					Value = @"4 30
+										  40
+										  50
+										  60"
 				},
 				new Ability
 				{
 					IconName = "beastmaster_call_of_the_wild_boar",
-					Value = @"10 3 60 32
-										20 3 60 32
-										30 3 60 32
-										40 3 60 32"
+					Value = @"10 3 32
+										20 3 32
+										30 3 32
+										40 3 32"
 				},
 				new Ability
 				{

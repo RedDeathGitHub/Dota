@@ -12,18 +12,18 @@ namespace DotaUtility.Heroes
 				{
 					IconName = "brewmaster_thunder_clap",
 
-					Value = @" 75 25 4
-										131 35 4
-										187 45 4
-										225 55 4"
+					Value = @" 75 25
+										131 35
+										187 45
+										225 55"
 				},
 				new Ability
 				{
 					IconName = "brewmaster_drunken_haze",
-					Value = @"45 14 8
-										55 18 8
-										65 22 8
-										75 26 8"
+					Value = @"45 14
+										55 18
+										65 22
+										75 26"
 				},
 				new Ability
 				{
@@ -43,9 +43,9 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "brewmaster_primal_split",
-					Value = @"75  2 15
-										 6 20 17
-										11 33 19"
+					Value = @"15
+										17
+										19"
 				}
 			};
 		}

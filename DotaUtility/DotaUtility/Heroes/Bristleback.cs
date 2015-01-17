@@ -11,27 +11,27 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "bristleback_viscous_nasal_goo",
-					Value = @"1 20  3 4
-										1 20  6 4
-										2 20  9 4
-										2 20 12 4"
+					Value = @"4 32
+										4 44
+										8 56
+										8 68"
 				},
 				new Ability
 				{
 					IconName = "bristleback_quill_spray",
-					Value = @"20 30 14
-										40 32 14
-										60 34 14
-										80 36 14"
+					Value = @"20 30
+										40 32
+										60 34
+										80 36"
 				},
 				new Ability
 				{
 					IconName = "bristleback_bristleback",
 
-					Value = @"16  8 250
-										24 12 250
-										32 16 250
-										40 20 250"
+					Value = @"16  8
+										24 12
+										32 16
+										40 20"
 				},
 				new Ability
 				{

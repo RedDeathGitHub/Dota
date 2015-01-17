@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "abaddon_death_coil",
-					Value = @" 75  75 100
-										112 100 150
-										150 125 200
-										187 150 250"
+					Value = @" 75  75
+										112 100
+										150 125
+										187 150"
 				},
 				new Ability
 				{
@@ -28,17 +28,17 @@ namespace DotaUtility.Heroes
 				{
 					IconName = "abaddon_frostmourne",
 
-					Value = @" 5 10 15
-										10 20 15
-										15 30 15
-										20 40 15"
+					Value = @" 5 10
+										10 20
+										15 30
+										20 40"
 				},
 				new Ability
 				{
 					IconName = "abaddon_borrowed_time",
-					Value = @"4 400 5 35
-										5 400 6 35
-										6 400 7 35"
+					Value = @"4 400 5
+										5 400 6
+										6 400 7"
 				}
 			};
 		}

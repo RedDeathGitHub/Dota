@@ -19,10 +19,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "axe_battle_hunger",
-					Value = @"120 12 10
-										180 12 10
-										240 12 10
-										300 12 10"
+					Value = @"120 12
+										180 12
+										240 12
+										300 12"
 				},
 				new Ability
 				{
@@ -36,9 +36,9 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "axe_culling_blade",
-					Value = @"250 300 40
-										350 450 40
-										450 625 40"
+					Value = @"250 300
+										350 450
+										450 625"
 				}
 			};
 		}
