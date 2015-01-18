@@ -19,25 +19,25 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "doom_bringer_scorched_earth",
-					Value = @" 90 120 16
-										162 216 16
-										252 336 16
-										360 480 16"
+					Value = @" 90
+										162
+										252
+										360"
 				},
 				new Ability
 				{
 					IconName = "doom_bringer_lvl_death",
-					Value = @" 93 6 15
-										131 5 15
-										168 4 15
-										206 3 15"
+					Value = @" 93
+										131
+										168
+										206"
 				},
 				new Ability
 				{
 					IconName = "doom_bringer_doom",
-					Value = @"300 15  640
-										525 15  960
-										750 15 1280"
+					Value = @"300
+										525
+										750"
 				}
 			};
 		}

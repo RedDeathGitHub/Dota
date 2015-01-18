@@ -36,9 +36,9 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "centaur_stampede",
-					Value = @"100 1.5 3.75
-										200 1.5 3.75
-										300 1.5 3.75"
+					Value = @"100 1.5
+										200 1.5
+										300 1.5"
 				}
 			};
 		}

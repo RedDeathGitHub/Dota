@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "chaos_knight_chaos_bolt",
-					Value = @" 1 150 1 2
-										37 168 1 3
-										56 187 1 4
-										75 206 2 4"
+					Value = @" 75 1 2
+										102 1 3
+										122 1 4
+										140 2 4"
 				},
 				new Ability
 				{
@@ -36,9 +36,9 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "chaos_knight_phantasm",
-					Value = @"1 100 50 42
-										2 100 50 42
-										3 100 50 42"
+					Value = @"1 100 50
+										2 100 50
+										3 100 50"
 				}
 			};
 		}

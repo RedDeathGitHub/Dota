@@ -12,31 +12,31 @@ namespace DotaUtility.Heroes
 				{
 					IconName = "huskar_inner_vitality",
 
-					Value = @"40 16"
+					Value = @"40"
 				},
 				new Ability
 				{
 					IconName = "huskar_burning_spear",
-					Value = @" 30 15 8
-										 60 15 8
-										 90 15 8
-										120 15 8"
+					Value = @" 30 15
+										 60 15
+										 90 15
+										120 15"
 				},
 				new Ability
 				{
 					IconName = "huskar_berserkers_blood",
 
-					Value = @"14 4 87 7
-										16 5 87 7
-										18 6 87 7
-										20 7 87 7"
+					Value = @"196 56
+										224 70
+										252 84
+										280 98"
 				},
 				new Ability
 				{
 					IconName = "huskar_life_break",
-					Value = @"26 48 40 4
-										26 48 50 5
-										26 48 60 6"
+					Value = @"26 40 48
+										26 50 48
+										26 60 48"
 				}
 			};
 		}

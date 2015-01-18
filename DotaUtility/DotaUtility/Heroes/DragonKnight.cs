@@ -19,10 +19,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "dragon_knight_dragon_tail",
-					Value = @"18 2.50
-										37 2.75
-										56 3.00
-										75 3.25"
+					Value = @"18 2.5
+										37 2.7
+										56 3.0
+										75 3.2"
 				},
 				new Ability
 				{
@@ -36,9 +36,8 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "dragon_knight_elder_dragon_form",
-					Value = @" 20 5 25 60
-										  250 25 60
-										20 30 25 60"
+					Value = @"75 25
+										20 30"
 				}
 			};
 		}

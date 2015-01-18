@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "wisp_tether",
-					Value = @"0.75 100 17
-										1.25 100 17
-										1.75 100 17
-										2.25 100 17"
+					Value = @"100 17
+										100 17
+										100 17
+										100 17"
 				},
 				new Ability
 				{

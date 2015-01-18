@@ -11,18 +11,18 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "elder_titan_echo_stomp",
-					Value = @" 80 60 2
-										 90 67 3
-										100 75 4
-										110 82 5"
+					Value = @"60 2
+										67 3
+										75 4
+										82 5"
 				},
 				new Ability
 				{
 					IconName = "elder_titan_ancestral_spirit",
-					Value = @" 45 10 5  3
-										 67 20 5  6
-										 90 30 5  9
-										112 40 5 12"
+					Value = @" 45 10  3
+										 67 20  6
+										 90 30  9
+										112 40 12"
 				},
 				new Ability
 				{
@@ -36,9 +36,9 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "elder_titan_earth_splitter",
-					Value = @"35 30 3 4
-										35 40 4 5
-										35 50 5 6"
+					Value = @"30 30
+										30 40
+										30 50"
 				}
 			};
 		}

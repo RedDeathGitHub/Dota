@@ -11,18 +11,18 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "rattletrap_battery_assault",
-					Value = @"240 15 16
-										480 30 16
-										720 45 16
-										960 60 16"
+					Value = @"240 15
+										480 30
+										720 45
+										960 60"
 				},
 				new Ability
 				{
 					IconName = "rattletrap_power_cogs",
-					Value = @" 80 2 5
-										120 2 6
-										160 2 7
-										200 3 8"
+					Value = @" 80  60
+										120  90
+										160 120
+										200 150"
 				},
 				new Ability
 				{

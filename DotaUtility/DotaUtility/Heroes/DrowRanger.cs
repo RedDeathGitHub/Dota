@@ -27,10 +27,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "drow_ranger_trueshot",
-					Value = @"18 30
-										24 30
-										30 30
-										36 30"
+					Value = @"18
+										24
+										30
+										36"
 				},
 				new Ability
 				{
