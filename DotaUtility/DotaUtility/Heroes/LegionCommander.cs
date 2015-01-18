@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "legion_commander_overwhelming_odds",
-					Value = @" 30 15 10
-										 60 26 12
-										 90 37 13
-										120 48 15"
+					Value = @" 30
+										 60
+										 90
+										120"
 				},
 				new Ability
 				{

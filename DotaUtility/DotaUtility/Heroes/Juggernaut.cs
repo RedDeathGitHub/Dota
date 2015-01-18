@@ -11,18 +11,18 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "juggernaut_blade_fury",
-					Value = @" 60 5
-										 75 5
-										 90 5
-										105 5"
+					Value = @" 60
+										 75
+										 90
+										105"
 				},
 				new Ability
 				{
 					IconName = "juggernaut_healing_ward",
-					Value = @"2 25
-										3 25
-										4 25
-										5 25"
+					Value = @"2
+										3
+										4
+										5"
 				},
 				new Ability
 				{

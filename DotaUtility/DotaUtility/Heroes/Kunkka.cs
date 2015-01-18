@@ -11,19 +11,19 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "kunkka_torrent",
-					Value = @" 90 1.5 35 1
-										135 1.5 35 2
-										180 1.5 35 3
-										225 1.5 35 4"
+					Value = @" 90 1.5
+										135 1.5
+										180 1.5
+										225 1.5"
 				},
 				new Ability
 				{
 					IconName = "kunkka_tidebringer",
 
-					Value = @"15 500 100
-										30 500 100
-										45 500 100
-										60 600 100"
+					Value = @"15
+										30
+										45
+										60"
 				},
 				new Ability
 				{
@@ -33,9 +33,9 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "kunkka_ghostship",
-					Value = @"300 1.4 10
-										375 1.4 10
-										450 1.4 10"
+					Value = @"300 1.4
+										375 1.4
+										450 1.4"
 				}
 			};
 		}

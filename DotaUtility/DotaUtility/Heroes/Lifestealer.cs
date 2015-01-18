@@ -28,10 +28,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "life_stealer_open_wounds",
-					Value = @"15 70 10 8
-										20 70 10 8
-										25 70 10 8
-										30 70 10 8"
+					Value = @"15
+										20
+										25
+										30"
 				},
 				new Ability
 				{
