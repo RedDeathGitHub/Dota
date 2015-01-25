@@ -85,6 +85,7 @@ namespace DotaUtility
 					new Juggernaut(),
 					new Mirana(),
 					new Morphling(),
+					new PhantomLancer(),
 
 					new PhantomAssassin(),
 				};
