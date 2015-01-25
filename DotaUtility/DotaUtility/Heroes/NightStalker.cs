@@ -11,18 +11,18 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "night_stalker_void",
-					Value = @" 67 50 35 4
-										120 50 35 4
-										191 50 35 4
-										251 50 35 4"
+					Value = @" 67 50 35
+										120 50 35
+										191 50 35
+										251 50 35"
 				},
 				new Ability
 				{
 					IconName = "night_stalker_crippling_fear",
-					Value = @"50 5 10 3
-										50 6 10 3
-										50 7 10 3
-										50 8 10 3"
+					Value = @"50 5
+										50 6
+										50 7
+										50 8"
 				},
 				new Ability
 				{

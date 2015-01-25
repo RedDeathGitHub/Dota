@@ -11,27 +11,27 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "spirit_breaker_charge_of_darkness",
-					Value = @"1.2 600
-										1.6 650
-										2.0 700
-										2.4 750"
+					Value = @"1.2
+										1.6
+										2.0
+										2.4"
 				},
 				new Ability
 				{
 					IconName = "spirit_breaker_empowering_haste",
-					Value = @" 6 6 10
-										10 6 10
-										14 6 10
-										18 6 10"
+					Value = @" 6
+										10
+										14
+										18"
 				},
 				new Ability
 				{
 					IconName = "spirit_breaker_greater_bash",
 
-					Value = @"17 1.0 22 15
-										17 1.2 28 15
-										17 1.4 34 15
-										17 1.6 40 15"
+					Value = @"17 1.0
+										17 1.2
+										17 1.4
+										17 1.6"
 				},
 				new Ability
 				{

@@ -28,10 +28,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "sven_warcry",
-					Value = @" 4 12 8
-										 8 12 8
-										12 12 8
-										16 12 8"
+					Value = @" 4 12
+										 8 12
+										12 12
+										16 12"
 				},
 				new Ability
 				{

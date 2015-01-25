@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "skeleton_king_hellfire_blast",
-					Value = @" 60 2 20 2
-										120 2 20 2
-										172 2 20 2
-										225 2 20 2"
+					Value = @" 60 2 20
+										120 2 20
+										172 2 20
+										225 2 20"
 				},
 				new Ability
 				{
@@ -38,7 +38,7 @@ namespace DotaUtility.Heroes
 				{
 					IconName = "skeleton_king_reincarnation",
 
-					Value = @"3 75 5"
+					Value = @"75"
 				}
 			};
 		}

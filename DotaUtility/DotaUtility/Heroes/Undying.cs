@@ -11,33 +11,33 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "undying_decay",
-					Value = @" 91 4 40
-										121 4 40
-										151 4 40
-										181 4 40"
+					Value = @" 91 4
+										121 4
+										151 4
+										181 4"
 				},
 				new Ability
 				{
 					IconName = "undying_soul_rip",
-					Value = @"135 180 10
-										198 264 12
-										273 364 14
-										360 480 16"
+					Value = @"135 180
+										198 264
+										273 364
+										360 480"
 				},
 				new Ability
 				{
 					IconName = "undying_tombstone",
-					Value = @"15 3  75
-										20 3 100
-										25 3 125
-										30 3 150"
+					Value = @" 75
+										100
+										125
+										150"
 				},
 				new Ability
 				{
 					IconName = "undying_flesh_golem",
-					Value = @"15 25  6 10
-										20 30  2  3
-										25 35 10 30"
+					Value = @"15 25
+										20 30
+										25 35"
 				}
 			};
 		}

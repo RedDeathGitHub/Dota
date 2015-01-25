@@ -19,19 +19,19 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "sandking_sand_storm",
-					Value = @"18 20 1.5
-										37 40 1.5
-										56 60 1.5
-										75 80 1.5"
+					Value = @"18 1.5
+										37 1.5
+										56 1.5
+										75 1.5"
 				},
 				new Ability
 				{
 					IconName = "sandking_caustic_finale",
 
-					Value = @" 67 8
-										 97 8
-										127 8
-										165 8"
+					Value = @" 67
+										 97
+										127
+										165"
 				},
 				new Ability
 				{

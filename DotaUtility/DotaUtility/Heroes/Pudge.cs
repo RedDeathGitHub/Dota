@@ -36,9 +36,9 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "pudge_dismember",
-					Value = @"168 2.2 3
-										281 2.2 3
-										393 2.2 3"
+					Value = @"168 3
+										281 3
+										393 3"
 				}
 			};
 		}

@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "phantom_assassin_stifling_dagger",
-					Value = @"30 2 50 1
-										50 2 50 2
-										70 2 50 3
-										90 2 50 4"
+					Value = @"30 50 1
+										50 50 2
+										70 50 3
+										90 50 4"
 				},
 				new Ability
 				{

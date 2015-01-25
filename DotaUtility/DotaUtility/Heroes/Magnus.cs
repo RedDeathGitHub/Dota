@@ -19,18 +19,18 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "magnataur_empower",
-					Value = @"20 40
-										30 40
-										40 40
-										50 40"
+					Value = @"20
+										30
+										40
+										50"
 				},
 				new Ability
 				{
 					IconName = "magnataur_skewer",
-					Value = @" 52 40 2.5
-										105 40 2.5
-										157 40 2.5
-										210 40 2.5"
+					Value = @" 52 40
+										105 40
+										157 40
+										210 40"
 				},
 				new Ability
 				{

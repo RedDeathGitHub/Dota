@@ -20,10 +20,10 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "slardar_slithereen_crush",
-					Value = @" 50 1.6 20 2
-										100 1.9 20 2
-										150 2.2 20 2
-										200 2.5 20 2"
+					Value = @" 50 1.6 20
+										100 1.9 20
+										150 2.2 20
+										200 2.5 20"
 				},
 				new Ability
 				{

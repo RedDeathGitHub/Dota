@@ -11,16 +11,15 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "lycan_summon_wolves",
-					Value = @"21 1.7 15 55
-										21 26 36 41"
+					Value = @"55"
 				},
 				new Ability
 				{
 					IconName = "lycan_howl",
-					Value = @"14  5 10
-										26 10 10
-										38 15 10
-										50 20 10"
+					Value = @"14  5
+										26 10
+										38 15
+										50 20"
 				},
 				new Ability
 				{
@@ -34,7 +33,7 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "lycan_shapeshift",
-					Value = @"21 650 18"
+					Value = @"21 18"
 				}
 			};
 		}

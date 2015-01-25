@@ -12,10 +12,10 @@ namespace DotaUtility.Heroes
 				{
 					IconName = "shredder_whirling_death",
 
-					Value = @"100 15 7
-										150 15 7
-										200 15 7
-										250 15 7"
+					Value = @"100 15
+										150 15
+										200 15
+										250 15"
 				},
 				new Ability
 				{
@@ -29,17 +29,17 @@ namespace DotaUtility.Heroes
 				{
 					IconName = "shredder_reactive_armor",
 
-					Value = @" 4 16
-										 8 16
-										12 16
-										16 16"
+					Value = @" 4
+										 8
+										12
+										16"
 				},
 				new Ability
 				{
 					IconName = "shredder_chakram",
-					Value = @"100  50 20
-										140  75 25
-										180 100 30"
+					Value = @"100  50
+										140  75
+										180 100"
 				}
 			};
 		}

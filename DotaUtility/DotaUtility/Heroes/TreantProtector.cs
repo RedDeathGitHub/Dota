@@ -19,18 +19,18 @@ namespace DotaUtility.Heroes
 				new Ability
 				{
 					IconName = "treant_leech_seed",
-					Value = @" 67 28  90
-										135 28 180
-										202 28 270
-										270 28 360"
+					Value = @" 67 28
+										135 28
+										202 28
+										270 28"
 				},
 				new Ability
 				{
 					IconName = "treant_living_armor",
-					Value = @" 80 4  60
-										200 5 105
-										360 6 150
-										560 7 195"
+					Value = @" 80  60
+										200 105
+										360 150
+										560 195"
 				},
 				new Ability
 				{
