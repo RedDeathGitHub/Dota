@@ -84,6 +84,7 @@ namespace DotaUtility
 					new DrowRanger(),
 					new Juggernaut(),
 					new Mirana(),
+					new Morphling(),
 
 					new PhantomAssassin(),
 				};
