@@ -86,6 +86,9 @@ namespace DotaUtility
 					new Mirana(),
 					new Morphling(),
 					new PhantomLancer(),
+					new VengefulSpirit(),
+					new Riki(),
+					new Sniper(),
 
 					new PhantomAssassin(),
 				};
