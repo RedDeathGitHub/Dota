@@ -89,6 +89,8 @@ namespace DotaUtility
 					new VengefulSpirit(),
 					new Riki(),
 					new Sniper(),
+					new TemplarAssassin(),
+					new Luna(),
 
 					new PhantomAssassin(),
 				};

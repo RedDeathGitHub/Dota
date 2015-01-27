@@ -24,10 +24,10 @@ namespace DotaUtility.Heroes
 					{
 						"morphling_adaptive_strike_ethereal_blade"
 					},
-					Value = @"15 0.5
-										30 1.0
-										45 1.5
-										60 2.0"
+					Value = @"15 0.3
+										30 0.7
+										45 1.1
+										60 1.5"
 				},
 				new Ability
 				{
