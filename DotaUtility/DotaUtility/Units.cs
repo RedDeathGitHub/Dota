@@ -91,6 +91,7 @@ namespace DotaUtility
 					new Sniper(),
 					new TemplarAssassin(),
 					new Luna(),
+					new BountyHunter(),
 
 					new PhantomAssassin(),
 				};
