@@ -50,6 +50,7 @@
     <Compile Include="Creeps\CentaurConqueror.cs" />
     <Compile Include="Heroes\Abaddon.cs" />
     <Compile Include="Hero.cs" />
+    <Compile Include="Heroes\LoneDruid.cs" />
     <Compile Include="Heroes\Gyrocopter.cs" />
     <Compile Include="Heroes\Ursa.cs" />
     <Compile Include="Heroes\BountyHunter.cs" />

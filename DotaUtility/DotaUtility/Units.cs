@@ -93,6 +93,7 @@ namespace DotaUtility
 					new Luna(),
 					new BountyHunter(),
 					new Ursa(),
+					new LoneDruid(),
 
 					new PhantomAssassin(),
 				};
