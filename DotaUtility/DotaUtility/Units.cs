@@ -94,6 +94,10 @@ namespace DotaUtility
 					new BountyHunter(),
 					new Ursa(),
 					new LoneDruid(),
+					new NagaSiren(),
+					new TrollWarlord(),
+					new EmberSpirit(),
+					new Bloodseeker(),
 
 					new PhantomAssassin(),
 				};

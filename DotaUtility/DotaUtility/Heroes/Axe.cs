@@ -37,8 +37,8 @@ namespace DotaUtility.Heroes
 				{
 					IconName = "axe_culling_blade",
 					Value = @"250 300
-										350 450
-										450 625"
+										325 425
+										400 550"
 				}
 			};
 		}
