@@ -97,7 +97,10 @@ namespace DotaUtility
 					new NagaSiren(),
 					new TrollWarlord(),
 					new EmberSpirit(),
+
 					new Bloodseeker(),
+					new ShadowFiend(),
+					new Razor(),
 
 					new PhantomAssassin(),
 				};
