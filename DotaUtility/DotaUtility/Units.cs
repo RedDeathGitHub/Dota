@@ -101,8 +101,11 @@ namespace DotaUtility
 					new Bloodseeker(),
 					new ShadowFiend(),
 					new Razor(),
-
+					new Venomancer(),
+					new FacelessVoid(),
 					new PhantomAssassin(),
+					new Viper(),
+					new Clinkz(),
 				};
 			}
 		}
