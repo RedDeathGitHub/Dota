@@ -12,10 +12,10 @@ namespace DotaUtility.Heroes
 				{
 					IconName = "sniper_shrapnel",
 
-					Value = @" 9 15
-										18 20
-										27 25
-										36 30"
+					Value = @" 99 15
+										198 20
+										297 25
+										396 30"
 				},
 				new Ability
 				{

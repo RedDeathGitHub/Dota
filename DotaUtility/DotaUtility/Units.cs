@@ -106,6 +106,9 @@ namespace DotaUtility
 					new PhantomAssassin(),
 					new Viper(),
 					new Clinkz(),
+					new Broodmother(),
+					new Weaver(),
+					new Spectre(),
 				};
 			}
 		}
