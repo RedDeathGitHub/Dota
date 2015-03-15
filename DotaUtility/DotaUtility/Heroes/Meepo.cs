@@ -2,46 +2,45 @@
 
 namespace DotaUtility.Heroes
 {
-    public class Antimage : Hero
+    public class Meepo : Hero
     {
-        public Antimage()
+        public Meepo()
         {
             Abilities = new List<Ability>
             {
                 new Ability
                 {
-                    IconName = "antimage_mana_break",
+                    IconName = "meepo_earthbind",
+
                     Value =
-@"28 16
-40 24
-52 31
-64 38"
+@"2"
                 },
                 new Ability
                 {
-                    IconName = "antimage_blink",
+                    IconName = "meepo_poof",
                     Value =
-@"12
-9
-7
-5"
+@"60
+75
+90
+105"
                 },
                 new Ability
                 {
-                    IconName = "antimage_spell_shield",
+                    IconName = "meepo_geostrike",
+
                     Value =
-@"44
-50
-56
-62"
+@"10
+21
+31
+42"
                 },
                 new Ability
                 {
-                    IconName = "antimage_mana_void",
+                    IconName = "meepo_divided_we_stand",
                     Value =
-@"45
-63
-82"
+@"1
+2
+3"
                 }
             };
         }

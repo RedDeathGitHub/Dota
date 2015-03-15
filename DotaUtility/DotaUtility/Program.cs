@@ -1,137 +1,105 @@
-﻿using System;
-using System.Drawing;
+﻿using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
+using System.Linq;
 
 namespace DotaUtility
 {
-	internal class Program
-	{
-		private const string InDirectory = "spellicons\\";
-		private const string OutDirectory = "modifiedSpellicons\\";
-		private const string OutTestDirectory = "test\\";
-		private const string Extension = ".png";
+    internal class Program
+    {
+        private const string InDirectory = "spellicons\\";
+        private const string OutDirectory = "modifiedSpellicons\\";
+        private const string OutTestDirectory = "test\\";
+        private const string Extension = ".png";
 
-		private const float FontSize = 20F;
-		private const int PenWidth = 4;
-		private static readonly Font Font = new Font("Comic Sans MS", FontSize, FontStyle.Bold, GraphicsUnit.Pixel);
-		private static readonly Brush DefaultBrush = new SolidBrush(Color.White);
-		private static readonly Pen DefaultPen = new Pen(Color.Black, PenWidth);
+        private const float FontSize = 20F;
+        private const int PenWidth = 4;
+        private static readonly Font Font = new Font("Comic Sans MS", FontSize, FontStyle.Bold, GraphicsUnit.Pixel);
+        private static readonly Brush DefaultBrush = new SolidBrush(Color.White);
+        private static readonly Pen DefaultPen = new Pen(Color.Black, PenWidth);
+        private const int ImageSize = 128;
 
-		private const int ImageSize = 128;
+        private static void Main()
+        {
+            ProcessAllIcons();
+        }
 
-		private static void Main()
-		{
-			ProcessAllIcons();
-		}
+        private static void ProcessAllIcons()
+        {
+            foreach (var ability in Units.All.SelectMany(hero => hero.Abilities))
+            {
+                ProcessIcon(ability);
 
-		private static void TestColor(Unit unit)
-		{
-			foreach (var ability in unit.Abilities)
-			{
-				foreach (var brushColor in (KnownColor[])Enum.GetValues(typeof(KnownColor)))
-				{
-					var brush = new SolidBrush(Color.FromKnownColor(brushColor));
+                if (ability.AdditionalIconNames != null)
+                {
+                    foreach (var alternativeName in ability.AdditionalIconNames)
+                    {
+                        ProcessIcon(ability, alternativeName);
+                    }
+                }
+            }
+        }
 
-					foreach (var penColor in (KnownColor[])Enum.GetValues(typeof(KnownColor)))
-					{
-						var pen = new Pen(Color.FromKnownColor(penColor), PenWidth);
-						var suffix = " " + brushColor + " " + penColor;
+        private static void ProcessIcon(
+            Ability ability,
+            string alternativeName = null,
+            Brush alternativeBrush = null,
+            Pen alternativePen = null,
+            bool test = false,
+            string suffix = null)
+        {
+            var name = alternativeName ?? ability.IconName;
+            var brush = alternativeBrush ?? DefaultBrush;
+            var pen = alternativePen ?? DefaultPen;
+            pen.LineJoin = LineJoin.Round;
 
-						ProcessIcon(ability, ability.IconName, brush, pen, true, suffix);
+            var image = new Bitmap(GetInPath(name));
+            var graphics = Graphics.FromImage(image);
 
-						if (ability.AdditionalIconNames != null)
-						{
-							foreach (var alternativeName in ability.AdditionalIconNames)
-							{
-								ProcessIcon(ability, alternativeName, brush, pen, true, suffix);
-							}
-						}
-					}
-				}
-			}
-		}
+            DrawText(graphics, ability, brush, pen);
 
-		private static void ProcessAllIcons()
-		{
-			foreach (var hero in Units.All)
-			{
-				foreach (var ability in hero.Abilities)
-				{
-					ProcessIcon(ability);
+            SaveImage(image, GetOutPath(name, test, suffix));
+        }
 
-					if (ability.AdditionalIconNames != null)
-					{
-						foreach (var alternativeName in ability.AdditionalIconNames)
-						{
-							ProcessIcon(ability, alternativeName);
-						}
-					}
-				}
-			}
-		}
+        private static void SaveImage(Bitmap image, string path)
+        {
+            image.Save(path, ImageFormat.Png);
+        }
 
-		private static void ProcessIcon(
-			Ability ability,
-			string alternativeName = null,
-			Brush alternativeBrush = null,
-			Pen alternativePen = null,
-			bool test = false,
-			string suffix = null)
-		{
-			var name = alternativeName ?? ability.IconName;
-			var brush = alternativeBrush ?? DefaultBrush;
-			var pen = alternativePen ?? DefaultPen;
-			pen.LineJoin = LineJoin.Round;
+        private static void DrawText(Graphics graphics, Ability ability, Brush brush, Pen pen)
+        {
+            var text = ability.Value;
+            var rectangle = GetTextRectangle();
+            var format = new StringFormat
+            {
+                Alignment = StringAlignment.Center,
+                LineAlignment = StringAlignment.Center
+            };
+            var path = new GraphicsPath();
+            path.AddString(text, Font.FontFamily, (int)Font.Style, Font.Size, rectangle, format);
 
-			var image = new Bitmap(GetInPath(name));
-			var graphics = Graphics.FromImage(image);
+            graphics.SmoothingMode = SmoothingMode.AntiAlias;
+            graphics.PixelOffsetMode = PixelOffsetMode.HighQuality;
 
-			DrawText(graphics, ability, brush, pen);
+            graphics.DrawPath(pen, path);
+            graphics.FillPath(brush, path);
+        }
 
-			SaveImage(image, GetOutPath(name, test, suffix));
-		}
+        private static RectangleF GetTextRectangle()
+        {
+            return new RectangleF(0, 0, ImageSize, ImageSize);
+        }
 
-		private static void SaveImage(Bitmap image, string path)
-		{
-			image.Save(path, ImageFormat.Png);
-		}
+        private static string GetInPath(string name)
+        {
+            return InDirectory + name + Extension;
+        }
 
-		private static void DrawText(Graphics graphics, Ability ability, Brush brush, Pen pen)
-		{
-			var text = ability.Value;
-			var rectangle = GetTextRectangle();
-			var format = new StringFormat
-			{
-				Alignment = StringAlignment.Center,
-				LineAlignment = StringAlignment.Center
-			};
+        private static string GetOutPath(string name, bool test, string suffix)
+        {
+            var directory = test ? OutTestDirectory : OutDirectory;
 
-			var path = new GraphicsPath();
-			path.AddString(text, Font.FontFamily, (int)Font.Style, Font.Size, rectangle, format);
-
-			graphics.SmoothingMode = SmoothingMode.AntiAlias;
-			graphics.PixelOffsetMode = PixelOffsetMode.HighQuality;
-
-			graphics.DrawPath(pen, path);
-			graphics.FillPath(brush, path);
-		}
-
-		private static RectangleF GetTextRectangle()
-		{
-			return new RectangleF(0, 0, ImageSize, ImageSize);
-		}
-
-		private static string GetInPath(string name)
-		{
-			return InDirectory + name + Extension;
-		}
-
-		private static string GetOutPath(string name, bool test, string suffix)
-		{
-			var directory = test ? OutTestDirectory : OutDirectory;
-
-			return directory + name + suffix + Extension;
-		}
-	}
+            return directory + name + suffix + Extension;
+        }
+    }
 }

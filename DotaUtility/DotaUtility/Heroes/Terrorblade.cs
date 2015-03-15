@@ -2,46 +2,44 @@
 
 namespace DotaUtility.Heroes
 {
-    public class Antimage : Hero
+    public class Terrorblade : Hero
     {
-        public Antimage()
+        public Terrorblade()
         {
             Abilities = new List<Ability>
             {
                 new Ability
                 {
-                    IconName = "antimage_mana_break",
+                    IconName = "terrorblade_reflection",
                     Value =
-@"28 16
-40 24
-52 31
-64 38"
+@"40 60
+50 60
+60 60
+70 60"
                 },
                 new Ability
                 {
-                    IconName = "antimage_blink",
+                    IconName = "terrorblade_conjure_image",
                     Value =
-@"12
-9
-7
-5"
+@"30 23
+40 23
+50 23
+60 23"
                 },
                 new Ability
                 {
-                    IconName = "antimage_spell_shield",
+                    IconName = "terrorblade_metamorphosis",
                     Value =
-@"44
-50
-56
-62"
+@"20 25
+40 25
+60 25
+80 25"
                 },
                 new Ability
                 {
-                    IconName = "antimage_mana_void",
+                    IconName = "terrorblade_sunder",
                     Value =
-@"45
-63
-82"
+@"20"
                 }
             };
         }

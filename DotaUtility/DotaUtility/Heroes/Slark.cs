@@ -2,46 +2,46 @@
 
 namespace DotaUtility.Heroes
 {
-    public class Antimage : Hero
+    public class Slark : Hero
     {
-        public Antimage()
+        public Slark()
         {
             Abilities = new List<Ability>
             {
                 new Ability
                 {
-                    IconName = "antimage_mana_break",
+                    IconName = "slark_dark_pact",
                     Value =
-@"28 16
-40 24
-52 31
-64 38"
+@" 56  28
+112  56
+168  84
+225 112"
                 },
                 new Ability
                 {
-                    IconName = "antimage_blink",
+                    IconName = "slark_pounce",
                     Value =
-@"12
-9
-7
-5"
+@" 37
+ 75
+112
+150"
                 },
                 new Ability
                 {
-                    IconName = "antimage_spell_shield",
+                    IconName = "slark_essence_shift",
                     Value =
-@"44
-50
-56
-62"
+@" 15
+ 30
+ 60
+120"
                 },
                 new Ability
                 {
-                    IconName = "antimage_mana_void",
+                    IconName = "slark_shadow_dance",
                     Value =
-@"45
-63
-82"
+@"3 30
+5 35
+7 40"
                 }
             };
         }

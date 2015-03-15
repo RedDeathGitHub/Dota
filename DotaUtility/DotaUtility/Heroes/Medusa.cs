@@ -2,46 +2,46 @@
 
 namespace DotaUtility.Heroes
 {
-    public class Antimage : Hero
+    public class Medusa : Hero
     {
-        public Antimage()
+        public Medusa()
         {
             Abilities = new List<Ability>
             {
                 new Ability
                 {
-                    IconName = "antimage_mana_break",
+                    IconName = "medusa_split_shot",
                     Value =
-@"28 16
-40 24
-52 31
-64 38"
-                },
-                new Ability
-                {
-                    IconName = "antimage_blink",
-                    Value =
-@"12
-9
-7
+@"2
+3
+4
 5"
                 },
                 new Ability
                 {
-                    IconName = "antimage_spell_shield",
+                    IconName = "medusa_mystic_snake",
                     Value =
-@"44
-50
-56
-62"
+@"3  90
+4 157
+5 240
+6 337"
                 },
                 new Ability
                 {
-                    IconName = "antimage_mana_void",
+                    IconName = "medusa_mana_shield",
                     Value =
-@"45
-63
-82"
+@"1.6
+1.9
+2.2
+2.5"
+                },
+                new Ability
+                {
+                    IconName = "medusa_stone_gaze",
+                    Value =
+@"50 30
+50 40
+50 50"
                 }
             };
         }
