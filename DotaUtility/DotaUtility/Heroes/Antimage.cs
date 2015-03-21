@@ -11,37 +11,33 @@ namespace DotaUtility.Heroes
                 new Ability
                 {
                     IconName = "antimage_mana_break",
-                    Value =
-@"28 16
-40 24
-52 31
-64 38"
+                    Value = "28 16\n" +
+                            "40 24\n" +
+                            "52 31\n" +
+                            "64 38"
                 },
                 new Ability
                 {
                     IconName = "antimage_blink",
-                    Value =
-@"12
-9
-7
-5"
+                    Value = "12\n" +
+                            " 9\n" +
+                            " 7\n" +
+                            " 5"
                 },
                 new Ability
                 {
                     IconName = "antimage_spell_shield",
-                    Value =
-@"44
-50
-56
-62"
+                    Value = "44\n" +
+                            "50\n" +
+                            "56\n" +
+                            "62"
                 },
                 new Ability
                 {
                     IconName = "antimage_mana_void",
-                    Value =
-@"45
-63
-82"
+                    Value = "45\n" +
+                            "63\n" +
+                            "82"
                 }
             };
         }

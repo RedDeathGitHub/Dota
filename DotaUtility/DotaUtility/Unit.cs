@@ -2,8 +2,8 @@
 
 namespace DotaUtility
 {
-	public class Unit
-	{
-		public List<Ability> Abilities { get; set; }
-	}
+    public class Unit
+    {
+        public List<Ability> Abilities { get; set; }
+    }
 }
