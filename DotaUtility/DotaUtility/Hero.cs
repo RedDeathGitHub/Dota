@@ -1,6 +1,6 @@
 ﻿namespace DotaUtility
 {
-    public class Hero : Unit
+    public abstract class Hero : Unit
     {
     }
 }

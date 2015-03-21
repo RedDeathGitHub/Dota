@@ -129,6 +129,12 @@ namespace DotaUtility
                 return new List<Hero>
                 {
                     new CrystalMaiden(),
+                    new Puck(),
+                    new StormSpirit(),
+                    new Windranger(),
+                    new Zeus(),
+                    new Lina(),
+                    new ShadowShaman()
                 };
             }
         }

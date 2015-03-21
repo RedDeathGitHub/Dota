@@ -48,6 +48,12 @@
     <Compile Include="Creeps\GiantWolf.cs" />
     <Compile Include="Creeps\HellbearSmasher.cs" />
     <Compile Include="Creeps\CentaurConqueror.cs" />
+    <Compile Include="Heroes\Intelligence\Radiant\ShadowShaman.cs" />
+    <Compile Include="Heroes\Intelligence\Radiant\Lina.cs" />
+    <Compile Include="Heroes\Intelligence\Radiant\Zeus.cs" />
+    <Compile Include="Heroes\Intelligence\Radiant\Windranger.cs" />
+    <Compile Include="Heroes\Intelligence\Radiant\StormSpirit.cs" />
+    <Compile Include="Heroes\Intelligence\Radiant\Puck.cs" />
     <Compile Include="Heroes\Intelligence\Radiant\CrystalMaiden.cs" />
     <Compile Include="Heroes\Strength\Dire\Abaddon.cs" />
     <Compile Include="Hero.cs" />
