@@ -48,6 +48,7 @@
     <Compile Include="Creeps\GiantWolf.cs" />
     <Compile Include="Creeps\HellbearSmasher.cs" />
     <Compile Include="Creeps\CentaurConqueror.cs" />
+    <Compile Include="Heroes\Intelligence\Radiant\CrystalMaiden.cs" />
     <Compile Include="Heroes\Strength\Dire\Abaddon.cs" />
     <Compile Include="Hero.cs" />
     <Compile Include="Heroes\Agility\Dire\Terrorblade.cs" />
@@ -129,7 +130,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Heroes\Intelligence\Dire\" />
-    <Folder Include="Heroes\Intelligence\Radiant\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

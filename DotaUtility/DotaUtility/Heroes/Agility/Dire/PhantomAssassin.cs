@@ -19,7 +19,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "phantom_assassin_phantom_strike",
-                    Value = "130 4"
+                    Value = "14\n" +
+                            "11\n" +
+                            " 8\n" +
+                            " 5"
                 },
                 new Ability
                 {
