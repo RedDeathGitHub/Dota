@@ -2,7 +2,10 @@
 using System.Linq;
 
 using DotaUtility.Creeps;
-using DotaUtility.Heroes;
+using DotaUtility.Heroes.Agility.Dire;
+using DotaUtility.Heroes.Agility.Radiant;
+using DotaUtility.Heroes.Strength.Dire;
+using DotaUtility.Heroes.Strength.Radiant;
 
 namespace DotaUtility
 {
