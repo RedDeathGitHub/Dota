@@ -48,6 +48,10 @@
     <Compile Include="Creeps\GiantWolf.cs" />
     <Compile Include="Creeps\HellbearSmasher.cs" />
     <Compile Include="Creeps\CentaurConqueror.cs" />
+    <Compile Include="Heroes\Intelligence\Radiant\Jakiro.cs" />
+    <Compile Include="Heroes\Intelligence\Radiant\Enchantress.cs" />
+    <Compile Include="Heroes\Intelligence\Radiant\NaturesProphet.cs" />
+    <Compile Include="Heroes\Intelligence\Radiant\Tinker.cs" />
     <Compile Include="Heroes\Intelligence\Radiant\ShadowShaman.cs" />
     <Compile Include="Heroes\Intelligence\Radiant\Lina.cs" />
     <Compile Include="Heroes\Intelligence\Radiant\Zeus.cs" />

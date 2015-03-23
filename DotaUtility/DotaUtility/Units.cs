@@ -134,7 +134,11 @@ namespace DotaUtility
                     new Windranger(),
                     new Zeus(),
                     new Lina(),
-                    new ShadowShaman()
+                    new ShadowShaman(),
+                    new Tinker(),
+                    new NaturesProphet(),
+                    new Enchantress(),
+                    new Jakiro(),
                 };
             }
         }
