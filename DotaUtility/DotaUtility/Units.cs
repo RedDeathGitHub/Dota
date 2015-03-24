@@ -139,6 +139,9 @@ namespace DotaUtility
                     new NaturesProphet(),
                     new Enchantress(),
                     new Jakiro(),
+                    new Chen(),
+                    new Silencer(),
+                    new OgreMagi(),
                 };
             }
         }
