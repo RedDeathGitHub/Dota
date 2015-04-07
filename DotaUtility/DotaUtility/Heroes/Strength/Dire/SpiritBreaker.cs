@@ -28,10 +28,10 @@ namespace DotaUtility.Heroes.Strength.Dire
                 {
                     IconName = "spirit_breaker_greater_bash",
 
-                    Value = "17 1.0\n" +
-                            "17 1.2\n" +
-                            "17 1.4\n" +
-                            "17 1.6"
+                    Value = "1.0  17\n" +
+                            "1.2 156\n" +
+                            "1.4\n" +
+                            "1.6"
                 },
                 new Ability
                 {

@@ -142,6 +142,12 @@ namespace DotaUtility
                     new Chen(),
                     new Silencer(),
                     new OgreMagi(),
+                    new Rubick(),
+                    new Disruptor(),
+                    new KeeperOfTheLight(),
+                    new SkywrathMage(),
+                    new Oracle(),
+                    new Techies(),
                 };
             }
         }

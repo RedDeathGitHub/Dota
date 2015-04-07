@@ -11,18 +11,18 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "legion_commander_overwhelming_odds",
-                    Value = " 30\n" +
-                            " 60\n" +
-                            " 90\n" +
-                            "120"
+                    Value = " 30 10 15\n" +
+                            " 60 12 26\n" +
+                            " 90 13 37\n" +
+                            "120 15 48"
                 },
                 new Ability
                 {
                     IconName = "legion_commander_press_the_attack",
-                    Value = " 60 30\n" +
-                            " 80 40\n" +
-                            "100 50\n" +
-                            "120 60"
+                    Value = " 60 150\n" +
+                            " 80 200\n" +
+                            "100 250\n" +
+                            "120 300"
                 },
                 new Ability
                 {
