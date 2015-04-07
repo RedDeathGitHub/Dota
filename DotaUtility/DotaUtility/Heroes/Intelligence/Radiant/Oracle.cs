@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "oracle_fortunes_end",
-                    Value = " 56 2.5\n" +
-                            "112 2.5\n" +
-                            "168 2.5\n" +
-                            "225 2.5"
+                    Value = " 50 2.5\n" +
+                            "110 2.5\n" +
+                            "160 2.5\n" +
+                            "220 2.5"
                 },
                 new Ability
                 {
@@ -27,9 +27,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "oracle_purifying_flames",
-                    Value = " 67  99\n" +
-                            "135 198\n" +
-                            "202 297\n" +
+                    Value = " 60  99\n" +
+                            "130 198\n" +
+                            "200 297\n" +
                             "270 396"
                 },
                 new Ability

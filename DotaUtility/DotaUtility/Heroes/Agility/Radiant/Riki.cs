@@ -30,15 +30,15 @@ namespace DotaUtility.Heroes.Agility.Radiant
                     IconName = "riki_backstab",
 
                     Value = " 50\n" +
-                            " 75\n" +
+                            " 70\n" +
                             "100\n" +
-                            "125"
+                            "120"
                 },
                 new Ability
                 {
                     IconName = "riki_blink_strike",
                     Value = "30\n" +
-                            "52\n" +
+                            "50\n" +
                             "75"
                 }
             };

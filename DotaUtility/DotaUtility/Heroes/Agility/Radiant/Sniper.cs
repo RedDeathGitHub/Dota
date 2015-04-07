@@ -12,18 +12,18 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "sniper_shrapnel",
 
-                    Value = " 99 15\n" +
-                            "198 20\n" +
-                            "297 25\n" +
-                            "396 30"
+                    Value = "100 15\n" +
+                            "200 20\n" +
+                            "300 25\n" +
+                            "400 30"
                 },
                 new Ability
                 {
                     IconName = "sniper_headshot",
-                    Value = " 6\n" +
-                            "16\n" +
-                            "26\n" +
-                            "36"
+                    Value = " 5\n" +
+                            "15\n" +
+                            "25\n" +
+                            "35"
                 },
                 new Ability
                 {
@@ -34,9 +34,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "sniper_assassinate",
-                    Value = "266\n" +
-                            "378\n" +
-                            "491"
+                    Value = "270\n" +
+                            "370\n" +
+                            "500"
                 }
             };
         }

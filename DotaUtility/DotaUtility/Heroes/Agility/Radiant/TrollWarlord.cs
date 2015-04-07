@@ -20,24 +20,24 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "troll_warlord_whirling_axes_ranged",
-                    Value = @"56 30"
+                    Value = @"50 30"
                 },
                 new Ability
                 {
                     IconName = "troll_warlord_whirling_axes_melee",
-                    Value = " 56 60\n" +
-                            " 93 60\n" +
-                            "131 60\n" +
-                            "168 60"
+                    Value = " 50 60\n" +
+                            " 90 60\n" +
+                            "130 60\n" +
+                            "170 60"
                 },
                 new Ability
                 {
                     IconName = "troll_warlord_fervor",
 
-                    Value = "16\n" +
-                            "22\n" +
-                            "28\n" +
-                            "34"
+                    Value = "20\n" +
+                            "25\n" +
+                            "30\n" +
+                            "35"
                 },
                 new Ability
                 {

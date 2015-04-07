@@ -20,10 +20,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "weaver_shukuchi",
-                    Value = " 56\n" +
-                            " 75\n" +
-                            " 93\n" +
-                            "112"
+                    Value = " 50\n" +
+                            " 70\n" +
+                            " 90\n" +
+                            "110"
                 },
                 new Ability
                 {

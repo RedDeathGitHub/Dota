@@ -21,23 +21,23 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                     IconName = "skywrath_mage_concussive_shot",
                     Value = " 45 30\n" +
                             " 90 35\n" +
-                            "135 40\n" +
+                            "130 40\n" +
                             "180 45"
                 },
                 new Ability
                 {
                     IconName = "skywrath_mage_ancient_seal",
-                    Value = " 3 3\n" +
-                            "-1 4\n" +
-                            "-5 5\n" +
-                            "-9 6"
+                    Value = "  5 3\n" +
+                            "  0 4\n" +
+                            " -5 5\n" +
+                            "-10 6"
                 },
                 new Ability
                 {
                     IconName = "skywrath_mage_mystic_flare",
                     Value = " 450\n" +
                             " 750\n" +
-                            "1050"
+                            "1000"
                 }
             };
         }

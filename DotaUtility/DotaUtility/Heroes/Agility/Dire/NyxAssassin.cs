@@ -12,9 +12,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "nyx_assassin_impale",
                     Value = " 60 1.3\n" +
-                            "105 1.8\n" +
+                            "100 1.8\n" +
                             "150 2.3\n" +
-                            "195 2.8"
+                            "200 2.8"
                 },
                 new Ability
                 {
@@ -36,9 +36,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "nyx_assassin_vendetta",
-                    Value = "250 16\n" +
-                            "400 18\n" +
-                            "550 20"
+                    Value = "250\n" +
+                            "400\n" +
+                            "550"
                 }
             };
         }

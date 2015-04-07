@@ -19,10 +19,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "wisp_spirits",
-                    Value = "125\n" +
-                            "187\n" +
-                            "281\n" +
-                            "375"
+                    Value = "120\n" +
+                            "180\n" +
+                            "280\n" +
+                            "370"
                 },
                 new Ability
                 {
@@ -35,9 +35,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "wisp_relocate",
-                    Value = "2.5 12\n" +
-                            "2.2 12\n" +
-                            "2.0 12"
+                    Value = "2.5 10\n" +
+                            "2.2 10\n" +
+                            "2.0 10"
                 }
             };
         }

@@ -11,18 +11,18 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "juggernaut_blade_fury",
-                    Value = " 60\n" +
-                            " 75\n" +
-                            " 90\n" +
-                            "105"
+                    Value = "300\n" +
+                            "370\n" +
+                            "450\n" +
+                            "520"
                 },
                 new Ability
                 {
                     IconName = "juggernaut_healing_ward",
-                    Value = "2\n" +
-                            "3\n" +
-                            "4\n" +
-                            "5"
+                    Value = " 55\n" +
+                            " 80\n" +
+                            "110\n" +
+                            "140"
                 },
                 new Ability
                 {
@@ -36,9 +36,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "juggernaut_omni_slash",
-                    Value = " 637 1275\n" +
-                            "1275 1912\n" +
-                            "1912 2550"
+                    Value = " 600 1300\n" +
+                            "1300 1900\n" +
+                            "1900 2600"
                 }
             };
         }

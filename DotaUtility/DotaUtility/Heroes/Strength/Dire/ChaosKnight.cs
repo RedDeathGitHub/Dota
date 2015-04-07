@@ -11,9 +11,9 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "chaos_knight_chaos_bolt",
-                    Value = " 75 1 2\n" +
-                            "102 1 3\n" +
-                            "122 1 4\n" +
+                    Value = " 70 1 2\n" +
+                            "100 1 3\n" +
+                            "120 1 4\n" +
                             "140 2 4"
                 },
                 new Ability

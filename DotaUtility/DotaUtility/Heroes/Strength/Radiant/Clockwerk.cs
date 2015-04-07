@@ -35,9 +35,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "rattletrap_hookshot",
-                    Value = " 75 1.0\n" +
+                    Value = " 70 1.0\n" +
                             "150 1.5\n" +
-                            "225 2.0"
+                            "220 2.0"
                 }
             };
         }

@@ -12,10 +12,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "morphling_waveform",
 
-                    Value = " 75\n" +
-                            "131\n" +
-                            "187\n" +
-                            "243"
+                    Value = " 70\n" +
+                            "130\n" +
+                            "180\n" +
+                            "240"
                 },
                 new Ability
                 {
@@ -24,10 +24,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                     {
                         "morphling_adaptive_strike_ethereal_blade"
                     },
-                    Value = "15 0.3\n" +
-                            "30 0.7\n" +
-                            "45 1.1\n" +
-                            "60 1.5"
+                    Value = "15 0.3 1.2\n" +
+                            "30 0.7 2.2\n" +
+                            "45 1.1 3.2\n" +
+                            "60 1.5 4.2"
                 },
                 new Ability
                 {

@@ -19,9 +19,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "rubick_fade_bolt",
-                    Value = " 52 4 14\n" +
-                            "105 4 20\n" +
-                            "157 4 26\n" +
+                    Value = " 50 4 14\n" +
+                            "100 4 20\n" +
+                            "150 4 26\n" +
                             "210 4 32"
                 },
                 new Ability

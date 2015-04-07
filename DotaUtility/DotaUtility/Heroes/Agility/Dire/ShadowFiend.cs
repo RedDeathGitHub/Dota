@@ -12,18 +12,18 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "nevermore_shadowraze1",
 
-                    Value = " 75\n" +
-                            "131\n" +
-                            "187\n" +
-                            "243"
+                    Value = " 70\n" +
+                            "130\n" +
+                            "180\n" +
+                            "240"
                 },
                 new Ability
                 {
                     IconName = "nevermore_necromastery",
                     Value = "30\n" +
-                            "44\n" +
-                            "58\n" +
-                            "72"
+                            "40\n" +
+                            "60\n" +
+                            "70"
                 },
                 new Ability
                 {
@@ -37,9 +37,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "nevermore_requiem",
-                    Value = "1080\n" +
-                            "1620\n" +
-                            "2160"
+                    Value = "1000\n" +
+                            "1600\n" +
+                            "2200"
                 }
             };
         }

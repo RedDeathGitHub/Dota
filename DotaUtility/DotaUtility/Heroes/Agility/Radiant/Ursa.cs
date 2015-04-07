@@ -12,9 +12,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "ursa_earthshock",
 
-                    Value = " 67 25\n" +
-                            "105 35\n" +
-                            "142 45\n" +
+                    Value = " 60 25\n" +
+                            "100 35\n" +
+                            "140 45\n" +
                             "180 55"
                 },
                 new Ability

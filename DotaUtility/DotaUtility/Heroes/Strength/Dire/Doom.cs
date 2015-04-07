@@ -20,17 +20,17 @@ namespace DotaUtility.Heroes.Strength.Dire
                 {
                     IconName = "doom_bringer_scorched_earth",
                     Value = " 90\n" +
-                            "162\n" +
-                            "252\n" +
+                            "160\n" +
+                            "250\n" +
                             "360"
                 },
                 new Ability
                 {
                     IconName = "doom_bringer_lvl_death",
-                    Value = " 93\n" +
-                            "131\n" +
-                            "168\n" +
-                            "206"
+                    Value = " 90\n" +
+                            "130\n" +
+                            "160\n" +
+                            "200"
                 },
                 new Ability
                 {

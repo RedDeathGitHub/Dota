@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "night_stalker_void",
-                    Value = " 67 50 35\n" +
+                    Value = " 60 50 35\n" +
                             "120 50 35\n" +
-                            "191 50 35\n" +
-                            "251 50 35"
+                            "190 50 35\n" +
+                            "250 50 35"
                 },
                 new Ability
                 {

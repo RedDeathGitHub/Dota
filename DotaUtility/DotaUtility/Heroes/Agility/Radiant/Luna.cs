@@ -12,32 +12,32 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "luna_lucent_beam",
 
-                    Value = " 56 0.6\n" +
-                            "112 0.6\n" +
-                            "168 0.6\n" +
-                            "225 0.6"
+                    Value = " 50 0.6\n" +
+                            "110 0.6\n" +
+                            "160 0.6\n" +
+                            "220 0.6"
                 },
                 new Ability
                 {
                     IconName = "luna_moon_glaive",
-                    Value = " 65\n" +
-                            "107\n" +
-                            "135\n" +
-                            "172"
+                    Value = " 605\n" +
+                            "110\n" +
+                            "140\n" +
+                            "170"
                 },
                 new Ability
                 {
                     IconName = "luna_lunar_blessing",
 
-                    Value = "14\n" +
-                            "22\n" +
+                    Value = "15\n" +
+                            "20\n" +
                             "30\n" +
-                            "38"
+                            "40"
                 },
                 new Ability
                 {
                     IconName = "luna_eclipse",
-                    Value = "900 3150"
+                    Value = "900 3200"
                 }
             };
         }

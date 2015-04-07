@@ -11,16 +11,16 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "ogre_magi_fireblast",
-                    Value = " 41 1.5\n" +
-                            " 82 1.5\n" +
-                            "123 1.5\n" +
-                            "165 1.5"
+                    Value = " 40 1.5\n" +
+                            " 80 1.5\n" +
+                            "120 1.5\n" +
+                            "160 1.5"
                 },
                 new Ability
                 {
                     IconName = "ogre_magi_ignite",
-                    Value = " 97 20\n" +
-                            "153 22\n" +
+                    Value = "100 20\n" +
+                            "150 22\n" +
                             "220 24\n" +
                             "300 26"
                 },
@@ -42,7 +42,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "ogre_magi_unrefined_fireblast",
-                    Value = "206 1.5"
+                    Value = "200 1.5"
                 },
             };
         }

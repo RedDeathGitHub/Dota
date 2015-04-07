@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "antimage_mana_break",
-                    Value = "28 16\n" +
-                            "40 24\n" +
-                            "52 31\n" +
-                            "64 38"
+                    Value = "30 15\n" +
+                            "40 25\n" +
+                            "50 30\n" +
+                            "65 40"
                 },
                 new Ability
                 {
@@ -27,17 +27,17 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "antimage_spell_shield",
-                    Value = "44\n" +
+                    Value = "45\n" +
                             "50\n" +
-                            "56\n" +
-                            "62"
+                            "55\n" +
+                            "60"
                 },
                 new Ability
                 {
                     IconName = "antimage_mana_void",
-                    Value = "45\n" +
-                            "63\n" +
-                            "82"
+                    Value = "40\n" +
+                            "60\n" +
+                            "80"
                 }
             };
         }

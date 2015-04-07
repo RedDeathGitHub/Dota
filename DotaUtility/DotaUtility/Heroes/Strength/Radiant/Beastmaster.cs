@@ -27,10 +27,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "beastmaster_call_of_the_wild_boar",
-                    Value = "10 3 32\n" +
-                            "20 3 32\n" +
-                            "30 3 32\n" +
-                            "40 3 32"
+                    Value = "10 3 30\n" +
+                            "20 3 30\n" +
+                            "30 3 30\n" +
+                            "40 3 30"
                 },
                 new Ability
                 {
@@ -45,8 +45,8 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 {
                     IconName = "beastmaster_primal_roar",
                     Value = "150 3.0 50\n" +
-                            "187 3.5 50\n" +
-                            "225 4.0 50"
+                            "180 3.5 50\n" +
+                            "220 4.0 50"
                 }
             };
         }

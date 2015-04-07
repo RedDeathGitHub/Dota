@@ -11,9 +11,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "shadow_shaman_ether_shock",
-                    Value = "105\n" +
+                    Value = "100\n" +
                             "150\n" +
-                            "195\n" +
+                            "200\n" +
                             "240"
                 },
                 new Ability
@@ -27,9 +27,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "shadow_shaman_shackles",
-                    Value = " 84 2.7\n" +
-                            "105 3.5\n" +
-                            "129 4.2\n" +
+                    Value = " 80 2.7\n" +
+                            "100 3.5\n" +
+                            "130 4.2\n" +
                             "150 5.0"
                 },
                 new Ability

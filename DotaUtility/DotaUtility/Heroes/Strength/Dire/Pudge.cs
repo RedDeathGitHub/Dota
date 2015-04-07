@@ -19,26 +19,26 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "pudge_rot",
-                    Value = "26 20\n" +
+                    Value = "25 20\n" +
                             "45 20\n" +
-                            "63 20\n" +
-                            "82 20"
+                            "60 20\n" +
+                            "80 20"
                 },
                 new Ability
                 {
                     IconName = "pudge_flesh_heap",
 
-                    Value = "29 1.0\n" +
-                            "31 1.5\n" +
-                            "32 2.0\n" +
-                            "34 2.5"
+                    Value = "30 1.0\n" +
+                            "30 1.5\n" +
+                            "30 2.0\n" +
+                            "35 2.5"
                 },
                 new Ability
                 {
                     IconName = "pudge_dismember",
-                    Value = "168 3\n" +
-                            "281 3\n" +
-                            "393 3"
+                    Value = "160 3\n" +
+                            "280 3\n" +
+                            "390 3"
                 }
             };
         }

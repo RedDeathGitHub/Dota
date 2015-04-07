@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "magnataur_shockwave",
-                    Value = " 56\n" +
-                            "112\n" +
-                            "168\n" +
-                            "225"
+                    Value = " 50\n" +
+                            "110\n" +
+                            "160\n" +
+                            "220"
                 },
                 new Ability
                 {
@@ -27,16 +27,16 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "magnataur_skewer",
-                    Value = " 52 40\n" +
-                            "105 40\n" +
-                            "157 40\n" +
+                    Value = " 50 40\n" +
+                            "100 40\n" +
+                            "160 40\n" +
                             "210 40"
                 },
                 new Ability
                 {
                     IconName = "magnataur_reverse_polarity",
-                    Value = " 37 2.2\n" +
-                            " 93 3.0\n" +
+                    Value = " 40 2.2\n" +
+                            " 90 3.0\n" +
                             "150 3.7"
                 }
             };

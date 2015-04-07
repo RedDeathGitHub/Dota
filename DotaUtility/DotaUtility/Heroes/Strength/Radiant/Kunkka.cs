@@ -12,9 +12,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 {
                     IconName = "kunkka_torrent",
                     Value = " 90 1.5\n" +
-                            "135 1.5\n" +
+                            "130 1.5\n" +
                             "180 1.5\n" +
-                            "225 1.5"
+                            "220 1.5"
                 },
                 new Ability
                 {
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 {
                     IconName = "kunkka_ghostship",
                     Value = "300 1.4\n" +
-                            "375 1.4\n" +
+                            "370 1.4\n" +
                             "450 1.4"
                 }
             };

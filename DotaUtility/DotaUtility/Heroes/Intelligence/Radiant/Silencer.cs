@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "silencer_curse_of_the_silent",
-                    Value = " 90  48\n" +
-                            "157  96\n" +
-                            "225 144\n" +
-                            "292 192"
+                    Value = " 90  50\n" +
+                            "150 100\n" +
+                            "220 150\n" +
+                            "290 200"
                 },
                 new Ability
                 {
@@ -27,10 +27,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "silencer_last_word",
-                    Value = "112 3\n" +
+                    Value = "110 3\n" +
                             "150 4\n" +
-                            "187 5\n" +
-                            "225 6"
+                            "180 5\n" +
+                            "220 6"
                 },
                 new Ability
                 {

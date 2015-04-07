@@ -11,9 +11,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "lina_dragon_slave",
-                    Value = " 82\n" +
-                            "135\n" +
-                            "187\n" +
+                    Value = " 80\n" +
+                            "130\n" +
+                            "180\n" +
                             "240"
                 },
                 new Ability
@@ -28,16 +28,16 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 {
                     IconName = "lina_fiery_soul",
                     Value = "120 15\n" +
-                            "165 18\n" +
+                            "160 18\n" +
                             "210 21\n" +
-                            "255 24"
+                            "250 24"
                 },
                 new Ability
                 {
                     IconName = "lina_laguna_blade",
-                    Value = "337 450\n" +
-                            "506 675\n" +
-                            "712 950"
+                    Value = "330 450\n" +
+                            "500 670\n" +
+                            "710 950"
                 }
             };
         }

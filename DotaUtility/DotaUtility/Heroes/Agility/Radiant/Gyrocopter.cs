@@ -12,18 +12,18 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "gyrocopter_rocket_barrage",
 
-                    Value = "247\n" +
-                            "337\n" +
-                            "427\n" +
-                            "517"
+                    Value = "240\n" +
+                            "330\n" +
+                            "420\n" +
+                            "510"
                 },
                 new Ability
                 {
                     IconName = "gyrocopter_homing_missile",
-                    Value = " 93 2.2\n" +
-                            "187 2.4\n" +
-                            "281 2.6\n" +
-                            "375 2.8"
+                    Value = " 90 2.2\n" +
+                            "180 2.4\n" +
+                            "280 2.6\n" +
+                            "370 2.8"
                 },
                 new Ability
                 {
@@ -37,9 +37,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "gyrocopter_call_down",
-                    Value = "262 318\n" +
-                            "337 393\n" +
-                            "412 468"
+                    Value = "260 320\n" +
+                            "340 400\n" +
+                            "410 460"
                 }
             };
         }

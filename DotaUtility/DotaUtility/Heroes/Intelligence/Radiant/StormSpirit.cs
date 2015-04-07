@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "storm_spirit_static_remnant",
-                    Value = "105\n" +
-                            "135\n" +
-                            "165\n" +
-                            "195"
+                    Value = "100\n" +
+                            "130\n" +
+                            "160\n" +
+                            "200"
                 },
                 new Ability
                 {
@@ -27,10 +27,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "storm_spirit_overload",
-                    Value = "22 50 80\n" +
-                            "37 50 80\n" +
-                            "52 50 80\n" +
-                            "67 50 80"
+                    Value = "20 50 80\n" +
+                            "40 50 80\n" +
+                            "50 50 80\n" +
+                            "60 50 80"
                 },
                 new Ability
                 {

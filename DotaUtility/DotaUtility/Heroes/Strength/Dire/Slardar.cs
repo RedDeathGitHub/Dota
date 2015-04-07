@@ -12,9 +12,9 @@ namespace DotaUtility.Heroes.Strength.Dire
                 {
                     IconName = "slardar_sprint",
                     Value = "20 15\n" +
-                            "28 15\n" +
-                            "36 15\n" +
-                            "44 15"
+                            "30 15\n" +
+                            "35 15\n" +
+                            "45 15"
                 },
                 new Ability
                 {

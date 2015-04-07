@@ -19,10 +19,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "terrorblade_conjure_image",
-                    Value = "30 23\n" +
-                            "40 23\n" +
-                            "50 23\n" +
-                            "60 23"
+                    Value = "30 20\n" +
+                            "40 20\n" +
+                            "50 20\n" +
+                            "60 20"
                 },
                 new Ability
                 {
@@ -30,7 +30,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                     Value = "20 25\n" +
                             "40 25\n" +
                             "60 25\n" +
-                            "q80 25"
+                            "80 25"
                 },
                 new Ability
                 {

@@ -12,17 +12,17 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "mirana_starfall",
 
-                    Value = " 98\n" +
-                            "196\n" +
-                            "294\n" +
-                            "394"
+                    Value = "100\n" +
+                            "200\n" +
+                            "300\n" +
+                            "400"
                 },
                 new Ability
                 {
                     IconName = "mirana_arrow",
-                    Value = " 37\n" +
-                            "105\n" +
-                            "172\n" +
+                    Value = " 30\n" +
+                            "100\n" +
+                            "170\n" +
                             "240"
                 },
                 new Ability

@@ -11,34 +11,34 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "sandking_burrowstrike",
-                    Value = " 75 2.2\n" +
+                    Value = " 70 2.2\n" +
                             "120 2.2\n" +
-                            "165 2.2\n" +
+                            "160 2.2\n" +
                             "210 2.2"
                 },
                 new Ability
                 {
                     IconName = "sandking_sand_storm",
-                    Value = "18 1.5\n" +
-                            "37 1.5\n" +
-                            "56 1.5\n" +
-                            "75 1.5"
+                    Value = "20 1.5\n" +
+                            "40 1.5\n" +
+                            "60 1.5\n" +
+                            "80 1.5"
                 },
                 new Ability
                 {
                     IconName = "sandking_caustic_finale",
 
-                    Value = " 67\n" +
-                            " 97\n" +
-                            "127\n" +
-                            "165"
+                    Value = " 60\n" +
+                            "100\n" +
+                            "120\n" +
+                            "160"
                 },
                 new Ability
                 {
                     IconName = "sandking_epicenter",
-                    Value = "495 660 30\n" +
-                            "660 825 30\n" +
-                            "825 990 30"
+                    Value = "500  650\n" +
+                            "650  800\n" +
+                            "800 1000"
                 }
             };
         }

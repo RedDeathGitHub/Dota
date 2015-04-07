@@ -35,13 +35,11 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "furion_wrath_of_nature",
-                    Value = "289 366\n" +
-                            "372 497\n" +
-                            "465 651"
+                    Value = "300 370\n" +
+                            "370 500\n" +
+                            "460 650"
                 }
             };
         }
     }
 }
-
-

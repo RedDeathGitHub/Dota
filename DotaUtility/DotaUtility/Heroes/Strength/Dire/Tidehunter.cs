@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "tidehunter_gush",
-                    Value = " 82 2 40\n" +
+                    Value = " 80 2 40\n" +
                             "120 3 40\n" +
-                            "157 4 40\n" +
-                            "195 5 40"
+                            "150 4 40\n" +
+                            "190 5 40"
                 },
                 new Ability
                 {
@@ -28,17 +28,17 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "tidehunter_anchor_smash",
-                    Value = " 75 45\n" +
-                            "125 50\n" +
-                            "175 55\n" +
-                            "225 60"
+                    Value = " 70 45\n" +
+                            "120 50\n" +
+                            "170 55\n" +
+                            "220 60"
                 },
                 new Ability
                 {
                     IconName = "tidehunter_ravage",
                     Value = "150 2.0\n" +
-                            "217 2.3\n" +
-                            "285 2.7"
+                            "210 2.3\n" +
+                            "280 2.7"
                 }
             };
         }

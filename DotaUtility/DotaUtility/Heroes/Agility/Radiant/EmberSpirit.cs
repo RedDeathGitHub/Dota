@@ -15,7 +15,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                     Value = " 60 1\n" +
                             " 90 2\n" +
                             "180 2\n" +
-                            "225 3"
+                            "220 3"
                 },
                 new Ability
                 {
@@ -29,16 +29,16 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "ember_spirit_flame_guard",
 
-                    Value = "22  37\n" +
-                            "30 150\n" +
-                            "37 262\n" +
-                            "45 375"
+                    Value = "180  40\n" +
+                            "360 150\n" +
+                            "600 260\n" +
+                            "900 370"
                 },
                 new Ability
                 {
                     IconName = "ember_spirit_fire_remnant",
-                    Value = " 75\n" +
-                            "112\n" +
+                    Value = " 70\n" +
+                            "110\n" +
                             "150"
                 }
             };

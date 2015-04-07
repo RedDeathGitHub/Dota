@@ -12,9 +12,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "spectre_spectral_dagger",
 
-                    Value = " 37  8\n" +
-                            " 75 12\n" +
-                            "112 16\n" +
+                    Value = " 30  8\n" +
+                            " 70 12\n" +
+                            "110 16\n" +
                             "150 20"
                 },
                 new Ability

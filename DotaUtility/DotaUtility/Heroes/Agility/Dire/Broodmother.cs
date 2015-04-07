@@ -12,10 +12,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "broodmother_spawn_spiderlings",
 
-                    Value = " 56 1\n" +
-                            "112 2\n" +
-                            "168 3\n" +
-                            "225 4"
+                    Value = " 50 1\n" +
+                            "110 2\n" +
+                            "170 3\n" +
+                            "220 4"
                 },
                 new Ability
                 {

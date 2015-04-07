@@ -36,8 +36,8 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "life_stealer_infest",
-                    Value = "112\n" +
-                            "206\n" +
+                    Value = "100\n" +
+                            "200\n" +
                             "300"
                 }
             };

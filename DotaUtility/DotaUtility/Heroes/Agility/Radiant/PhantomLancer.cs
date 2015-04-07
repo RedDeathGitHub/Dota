@@ -12,10 +12,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "phantom_lancer_spirit_lance",
 
-                    Value = " 75 10\n" +
-                            "112 20\n" +
+                    Value = " 70 10\n" +
+                            "110 20\n" +
                             "150 30\n" +
-                            "187 40"
+                            "190 40"
                 },
                 new Ability
                 {
@@ -37,9 +37,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "phantom_lancer_juxtapose",
-                    Value = "5 16 20\n" +
-                            "7 16 20\n" +
-                            "9 16 20"
+                    Value = "5 15 20\n" +
+                            "7 15 20\n" +
+                            "9 15 20"
                 }
             };
         }

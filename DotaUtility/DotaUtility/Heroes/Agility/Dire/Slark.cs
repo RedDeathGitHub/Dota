@@ -11,17 +11,17 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "slark_dark_pact",
-                    Value = " 56  28\n" +
-                            "112  56\n" +
-                            "168  84\n" +
-                            "225 112"
+                    Value = " 50  28\n" +
+                            "110  56\n" +
+                            "160  84\n" +
+                            "220 112"
                 },
                 new Ability
                 {
                     IconName = "slark_pounce",
-                    Value = " 37\n" +
-                            " 75\n" +
-                            "112\n" +
+                    Value = " 30\n" +
+                            " 70\n" +
+                            "110\n" +
                             "150"
                 },
                 new Ability

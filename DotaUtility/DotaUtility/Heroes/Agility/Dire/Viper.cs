@@ -13,9 +13,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                     IconName = "viper_poison_attack",
 
                     Value = "15 10\n" +
-                            "24 20\n" +
-                            "33 30\n" +
-                            "42 40"
+                            "25 20\n" +
+                            "30 30\n" +
+                            "40 40"
                 },
                 new Ability
                 {
@@ -29,17 +29,17 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "viper_corrosive_skin",
 
-                    Value = "30 32\n" +
-                            "45 36\n" +
+                    Value = "30 30\n" +
+                            "40 35\n" +
                             "60 40\n" +
-                            "75 44"
+                            "70 45"
                 },
                 new Ability
                 {
                     IconName = "viper_viper_strike",
-                    Value = "225\n" +
-                            "375\n" +
-                            "543"
+                    Value = "220\n" +
+                            "370\n" +
+                            "540"
                 }
             };
         }

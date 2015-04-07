@@ -13,9 +13,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                     IconName = "keeper_of_the_light_illuminate",
                     AdditionalIconNames = new List<string> {"keeper_of_the_light_spirit_form_illuminate"},
                     Value = "150\n" +
-                            "225\n" +
+                            "220\n" +
                             "300\n" +
-                            "375"
+                            "370"
                 },
                 new Ability
                 {
@@ -28,9 +28,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "keeper_of_the_light_chakra_magic",
-                    Value = " 75\n" +
+                    Value = " 70\n" +
                             "150\n" +
-                            "225\n" +
+                            "220\n" +
                             "300"
                 },
                 new Ability

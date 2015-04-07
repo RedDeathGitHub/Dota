@@ -19,25 +19,25 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "treant_leech_seed",
-                    Value = " 67 28\n" +
-                            "135 28\n" +
-                            "202 28\n" +
+                    Value = " 60 28\n" +
+                            "130 28\n" +
+                            "200 28\n" +
                             "270 28"
                 },
                 new Ability
                 {
                     IconName = "treant_living_armor",
                     Value = " 80  60\n" +
-                            "200 105\n" +
+                            "200 100\n" +
                             "360 150\n" +
-                            "560 195"
+                            "560 200"
                 },
                 new Ability
                 {
                     IconName = "treant_overgrowth",
-                    Value = "3.0 393\n" +
-                            "3.7 525\n" +
-                            "4.5 656"
+                    Value = "3.0 390\n" +
+                            "3.7 520\n" +
+                            "4.5 650"
                 }
             };
         }

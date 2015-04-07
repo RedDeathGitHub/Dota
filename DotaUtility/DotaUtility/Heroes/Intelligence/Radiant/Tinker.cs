@@ -19,18 +19,18 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "tinker_heat_seeking_missile",
-                    Value = " 94\n" +
+                    Value = " 90\n" +
                             "150\n" +
-                            "206\n" +
-                            "262"
+                            "200\n" +
+                            "260"
                 },
                 new Ability
                 {
                     IconName = "tinker_march_of_the_machines",
-                    Value = "211\n" +
-                            "316\n" +
-                            "422\n" +
-                            "528"
+                    Value = "220\n" +
+                            "320\n" +
+                            "420\n" +
+                            "520"
                 },
                 new Ability
                 {
@@ -43,5 +43,3 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
         }
     }
 }
-
-

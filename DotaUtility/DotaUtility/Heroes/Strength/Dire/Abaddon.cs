@@ -11,17 +11,17 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "abaddon_death_coil",
-                    Value = " 75  75\n" +
-                            "112 100\n" +
-                            "150 125\n" +
-                            "187 150"
+                    Value = " 70  70\n" +
+                            "110 100\n" +
+                            "150 120\n" +
+                            "180 150"
                 },
                 new Ability
                 {
                     IconName = "abaddon_aphotic_shield",
-                    Value = " 82 110\n" +
-                            "105 140\n" +
-                            "127 170\n" +
+                    Value = " 80 110\n" +
+                            "100 140\n" +
+                            "120 170\n" +
                             "150 200"
                 },
                 new Ability

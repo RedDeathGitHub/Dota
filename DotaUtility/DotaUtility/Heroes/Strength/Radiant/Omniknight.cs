@@ -29,9 +29,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                     IconName = "omniknight_degen_aura",
 
                     Value = "10\n" +
-                            "18\n" +
-                            "26\n" +
-                            "34"
+                            "20\n" +
+                            "25\n" +
+                            "35"
                 },
                 new Ability
                 {

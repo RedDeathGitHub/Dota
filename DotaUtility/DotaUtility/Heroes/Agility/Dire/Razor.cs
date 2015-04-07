@@ -13,33 +13,33 @@ namespace DotaUtility.Heroes.Agility.Dire
                     IconName = "razor_plasma_field",
 
                     Value = "120\n" +
-                            "172\n" +
-                            "225\n" +
-                            "277"
+                            "170\n" +
+                            "220\n" +
+                            "270"
                 },
                 new Ability
                 {
                     IconName = "razor_static_link_alt",
-                    Value = " 56\n" +
-                            "112\n" +
-                            "168\n" +
-                            "224"
+                    Value = " 50\n" +
+                            "110\n" +
+                            "160\n" +
+                            "220"
                 },
                 new Ability
                 {
                     IconName = "razor_unstable_current",
 
                     Value = "30  4\n" +
-                            "52  8\n" +
-                            "75 12\n" +
-                            "97 16"
+                            "50  8\n" +
+                            "70 12\n" +
+                            "90 16"
                 },
                 new Ability
                 {
                     IconName = "razor_eye_of_the_storm",
-                    Value = "37\n" +
+                    Value = "35\n" +
                             "50\n" +
-                            "62"
+                            "60"
                 }
             };
         }

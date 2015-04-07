@@ -11,18 +11,18 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "zuus_arc_lightning",
-                    Value = " 64\n" +
-                            " 75\n" +
-                            " 86\n" +
-                            "109"
+                    Value = " 60\n" +
+                            " 70\n" +
+                            " 80\n" +
+                            "100"
                 },
                 new Ability
                 {
                     IconName = "zuus_lightning_bolt",
-                    Value = " 75\n" +
-                            "131\n" +
-                            "206\n" +
-                            "262"
+                    Value = " 70\n" +
+                            "130\n" +
+                            "200\n" +
+                            "260"
                 },
                 new Ability
                 {
@@ -35,9 +35,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "zuus_thundergods_wrath",
-                    Value = "168 330\n" +
-                            "262 405\n" +
-                            "356 480"
+                    Value = "160 330\n" +
+                            "260 400\n" +
+                            "350 480"
                 }
             };
         }

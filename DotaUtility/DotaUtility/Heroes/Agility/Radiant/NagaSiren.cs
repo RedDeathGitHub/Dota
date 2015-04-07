@@ -12,10 +12,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "naga_siren_mirror_image",
 
-                    Value = "20 16\n" +
+                    Value = "20 15\n" +
                             "25 20\n" +
                             "30 25\n" +
-                            "35 33"
+                            "35 30"
                 },
                 new Ability
                 {
@@ -29,10 +29,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "naga_siren_rip_tide",
 
-                    Value = " 97 2\n" +
+                    Value = "100 2\n" +
                             "120 3\n" +
-                            "142 4\n" +
-                            "165 5"
+                            "140 4\n" +
+                            "160 5"
                 },
                 new Ability
                 {

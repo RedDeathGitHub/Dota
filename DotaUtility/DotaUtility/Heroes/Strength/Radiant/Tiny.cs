@@ -11,18 +11,18 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "tiny_avalanche",
-                    Value = " 75 1\n" +
-                            "135 1\n" +
-                            "195 1\n" +
-                            "225 1"
+                    Value = " 70 1\n" +
+                            "130 1\n" +
+                            "200 1\n" +
+                            "220 1"
                 },
                 new Ability
                 {
                     IconName = "tiny_toss",
-                    Value = " 56 101\n" +
-                            "112 202\n" +
-                            "168 303\n" +
-                            "225 405"
+                    Value = " 50 100\n" +
+                            "110 200\n" +
+                            "160 300\n" +
+                            "220 400"
                 },
                 new Ability
                 {

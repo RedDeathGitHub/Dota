@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "jakiro_dual_breath",
-                    Value = " 60 28\n" +
-                            "135 32\n" +
-                            "210 36\n" +
-                            "285 40"
+                    Value = " 60 25\n" +
+                            "130 30\n" +
+                            "210 35\n" +
+                            "280 40"
                 },
                 new Ability
                 {
@@ -27,21 +27,19 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "jakiro_liquid_fire",
-                    Value = "45 20\n" +
+                    Value = "40 20\n" +
                             "60 30\n" +
-                            "75 40\n" +
+                            "70 40\n" +
                             "90 50"
                 },
                 new Ability
                 {
                     IconName = "jakiro_macropyre",
-                    Value = "525 1312\n" +
-                            "735 1837\n" +
-                            "945 2362"
+                    Value = "500 1300\n" +
+                            "700 1800\n" +
+                            "900 2400"
                 }
             };
         }
     }
 }
-
-

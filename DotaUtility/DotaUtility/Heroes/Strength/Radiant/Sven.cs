@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "sven_storm_bolt",
-                    Value = " 75 2\n" +
-                            "131 2\n" +
-                            "187 2\n" +
-                            "243 2"
+                    Value = " 70 2\n" +
+                            "130 2\n" +
+                            "180 2\n" +
+                            "240 2"
                 },
                 new Ability
                 {

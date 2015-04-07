@@ -20,9 +20,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "medusa_mystic_snake",
                     Value = "3  90\n" +
-                            "4 157\n" +
+                            "4 150\n" +
                             "5 240\n" +
-                            "6 337"
+                            "6 330"
                 },
                 new Ability
                 {

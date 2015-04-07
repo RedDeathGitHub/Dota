@@ -12,10 +12,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "vengefulspirit_magic_missile",
 
-                    Value = " 75 1.4\n" +
-                            "131 1.5\n" +
-                            "187 1.6\n" +
-                            "243 1.7"
+                    Value = " 70 1.4\n" +
+                            "130 1.5\n" +
+                            "180 1.6\n" +
+                            "240 1.7"
                 },
                 new Ability
                 {
@@ -29,10 +29,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "vengefulspirit_command_aura",
 
-                    Value = "12\n" +
+                    Value = "10\n" +
                             "20\n" +
-                            "28\n" +
-                            "36"
+                            "30\n" +
+                            "35"
                 },
                 new Ability
                 {

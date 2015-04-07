@@ -29,15 +29,15 @@ namespace DotaUtility.Heroes.Strength.Dire
                     IconName = "axe_counter_helix",
 
                     Value = "100 20\n" +
-                            "135 20\n" +
+                            "130 20\n" +
                             "170 20\n" +
-                            "205 20"
+                            "200 20"
                 },
                 new Ability
                 {
                     IconName = "axe_culling_blade",
                     Value = "250 300\n" +
-                            "325 425\n" +
+                            "320 420\n" +
                             "400 550"
                 }
             };

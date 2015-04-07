@@ -16,9 +16,9 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "lycan_howl",
-                    Value = "14  5\n" +
-                            "26 10\n" +
-                            "38 15\n" +
+                    Value = "15  5\n" +
+                            "22 10\n" +
+                            "40 15\n" +
                             "50 20"
                 },
                 new Ability
@@ -33,7 +33,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "lycan_shapeshift",
-                    Value = "21 18"
+                    Value = "20"
                 }
             };
         }

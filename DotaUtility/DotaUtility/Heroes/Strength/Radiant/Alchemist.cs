@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "alchemist_acid_spray",
-                    Value = "12 4\n" +
-                            "16 5\n" +
-                            "20 6\n" +
-                            "24 7"
+                    Value = "200 4\n" +
+                            "250 5\n" +
+                            "320 6\n" +
+                            "380 7"
                 },
                 new Ability
                 {
@@ -36,8 +36,8 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "alchemist_chemical_rage",
-                    Value = " 50  25\n" +
-                            " 75  87\n" +
+                    Value = " 50  20\n" +
+                            " 70  80\n" +
                             "100 150"
                 }
             };

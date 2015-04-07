@@ -12,18 +12,18 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 {
                     IconName = "brewmaster_thunder_clap",
 
-                    Value = " 75 25\n" +
-                            "131 35\n" +
-                            "187 45\n" +
-                            "225 55"
+                    Value = " 70 25\n" +
+                            "130 35\n" +
+                            "180 45\n" +
+                            "220 55"
                 },
                 new Ability
                 {
                     IconName = "brewmaster_drunken_haze",
-                    Value = "45 14\n" +
-                            "55 18\n" +
-                            "65 22\n" +
-                            "75 26"
+                    Value = "45 15\n" +
+                            "55 20\n" +
+                            "65 20\n" +
+                            "75 25"
                 },
                 new Ability
                 {
@@ -35,9 +35,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                         "brewmaster_drunken_brawler_miss"
                     },
 
-                    Value = "10 16\n" +
-                            "15 14\n" +
-                            "20 12\n" +
+                    Value = "10 15\n" +
+                            "15 15\n" +
+                            "20 10\n" +
                             "25 10"
                 },
                 new Ability

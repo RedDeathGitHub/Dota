@@ -11,26 +11,26 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "centaur_hoof_stomp",
-                    Value = " 75 2.0\n" +
-                            "112 2.2\n" +
+                    Value = " 70 2.0\n" +
+                            "110 2.2\n" +
                             "150 2.5\n" +
-                            "187 2.7"
+                            "180 2.7"
                 },
                 new Ability
                 {
                     IconName = "centaur_double_edge",
-                    Value = "175\n" +
-                            "187\n" +
-                            "243\n" +
+                    Value = "170\n" +
+                            "180\n" +
+                            "240\n" +
                             "300"
                 },
                 new Ability
                 {
                     IconName = "centaur_return",
 
-                    Value = "16 26\n" +
-                            "18 34\n" +
-                            "20 42\n" +
+                    Value = "16 25\n" +
+                            "18 35\n" +
+                            "20 40\n" +
                             "22 50"
                 },
                 new Ability

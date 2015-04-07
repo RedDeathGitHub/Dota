@@ -35,9 +35,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "disruptor_static_storm",
-                    Value = "390  750\n" +
-                            "490  940\n" +
-                            "590 1130"
+                    Value = "400  700\n" +
+                            "500  900\n" +
+                            "600 1100"
                 }
             };
         }

@@ -26,17 +26,17 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 {
                     IconName = "huskar_berserkers_blood",
 
-                    Value = "196 56\n" +
-                            "224 70\n" +
-                            "252 84\n" +
-                            "280 98"
+                    Value = "200  55\n" +
+                            "220  70\n" +
+                            "250  85\n" +
+                            "280 100"
                 },
                 new Ability
                 {
                     IconName = "huskar_life_break",
-                    Value = "26 40 48\n" +
-                            "26 50 48\n" +
-                            "26 60 48"
+                    Value = "25 40 50\n" +
+                            "25 50 50\n" +
+                            "25 60 50"
                 }
             };
         }

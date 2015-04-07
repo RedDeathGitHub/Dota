@@ -11,17 +11,17 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "puck_illusory_orb",
-                    Value = " 52\n" +
-                            "105\n" +
-                            "157\n" +
+                    Value = " 50\n" +
+                            "100\n" +
+                            "150\n" +
                             "210"
                 },
                 new Ability
                 {
                     IconName = "puck_waning_rift",
-                    Value = " 52 0.7\n" +
-                            "105 1.5\n" +
-                            "157 2.2\n" +
+                    Value = " 50 0.7\n" +
+                            "100 1.5\n" +
+                            "150 2.2\n" +
                             "210 3.0"
                 },
                 new Ability

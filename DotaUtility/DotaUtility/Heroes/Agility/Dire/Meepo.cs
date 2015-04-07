@@ -17,17 +17,17 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "meepo_poof",
                     Value = "60\n" +
-                            "75\n" +
+                            "70\n" +
                             "90\n" +
-                            "105"
+                            "100"
                 },
                 new Ability
                 {
                     IconName = "meepo_geostrike",
                     Value = "10\n" +
-                            "21\n" +
-                            "31\n" +
-                            "42"
+                            "20\n" +
+                            "30\n" +
+                            "40"
                 },
                 new Ability
                 {

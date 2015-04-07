@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "chen_penitence",
-                    Value = "14\n" +
-                            "18\n" +
-                            "22\n" +
-                            "26"
+                    Value = "15\n" +
+                            "20\n" +
+                            "20\n" +
+                            "25"
                 },
                 new Ability
                 {
@@ -35,9 +35,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "chen_holy_persuasion",
-                    Value = "1  75\n" +
+                    Value = "1  70\n" +
                             "2 150\n" +
-                            "3 225\n" +
+                            "3 220\n" +
                             "4 300"
                 },
                 new Ability
@@ -51,5 +51,3 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
         }
     }
 }
-
-
