@@ -48,6 +48,10 @@
     <Compile Include="Creeps\GiantWolf.cs" />
     <Compile Include="Creeps\HellbearSmasher.cs" />
     <Compile Include="Creeps\CentaurConqueror.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\WitchDoctor.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Lion.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Lich.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Bane.cs" />
     <Compile Include="Heroes\Intelligence\Radiant\Chen.cs" />
     <Compile Include="Heroes\Intelligence\Radiant\Techies.cs" />
     <Compile Include="Heroes\Intelligence\Radiant\Oracle.cs" />
@@ -147,9 +151,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Heroes\Intelligence\Dire\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

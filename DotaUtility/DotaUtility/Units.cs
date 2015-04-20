@@ -4,6 +4,7 @@ using System.Linq;
 using DotaUtility.Creeps;
 using DotaUtility.Heroes.Agility.Dire;
 using DotaUtility.Heroes.Agility.Radiant;
+using DotaUtility.Heroes.Intelligence.Dire;
 using DotaUtility.Heroes.Intelligence.Radiant;
 using DotaUtility.Heroes.Strength.Dire;
 using DotaUtility.Heroes.Strength.Radiant;
@@ -148,6 +149,11 @@ namespace DotaUtility
                     new SkywrathMage(),
                     new Oracle(),
                     new Techies(),
+
+                    new Bane(),
+                    new Lich(),
+                    new Lion(),
+                    new WitchDoctor(),
                 };
             }
         }
