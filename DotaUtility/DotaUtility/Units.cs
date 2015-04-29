@@ -154,6 +154,9 @@ namespace DotaUtility
                     new Lich(),
                     new Lion(),
                     new WitchDoctor(),
+                    new Enigma(),
+                    new Necrophos(),
+                    new Warlock(),
                 };
             }
         }

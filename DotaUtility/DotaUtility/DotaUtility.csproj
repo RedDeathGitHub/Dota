@@ -48,6 +48,9 @@
     <Compile Include="Creeps\GiantWolf.cs" />
     <Compile Include="Creeps\HellbearSmasher.cs" />
     <Compile Include="Creeps\CentaurConqueror.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Warlock.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Necrophos.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Enigma.cs" />
     <Compile Include="Heroes\Intelligence\Dire\WitchDoctor.cs" />
     <Compile Include="Heroes\Intelligence\Dire\Lion.cs" />
     <Compile Include="Heroes\Intelligence\Dire\Lich.cs" />
