@@ -48,6 +48,12 @@
     <Compile Include="Creeps\GiantWolf.cs" />
     <Compile Include="Creeps\HellbearSmasher.cs" />
     <Compile Include="Creeps\CentaurConqueror.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\DarkSeer.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Leshrac.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Dazzle.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Pugna.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\DeathProphet.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\QueenOfPain.cs" />
     <Compile Include="Heroes\Intelligence\Dire\Warlock.cs" />
     <Compile Include="Heroes\Intelligence\Dire\Necrophos.cs" />
     <Compile Include="Heroes\Intelligence\Dire\Enigma.cs" />

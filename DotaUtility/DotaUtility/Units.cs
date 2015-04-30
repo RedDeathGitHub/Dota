@@ -157,6 +157,12 @@ namespace DotaUtility
                     new Enigma(),
                     new Necrophos(),
                     new Warlock(),
+                    new QueenOfPain(),
+                    new DeathProphet(),
+                    new Pugna(),
+                    new Dazzle(),
+                    new Leshrac(),
+                    new DarkSeer(),
                 };
             }
         }
