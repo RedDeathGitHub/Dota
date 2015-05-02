@@ -49,6 +49,10 @@
     <Compile Include="Creeps\HellbearSmasher.cs" />
     <Compile Include="Creeps\CentaurConqueror.cs" />
     <Compile Include="Heroes\Intelligence\Dire\AncientApparition.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Visage.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\ShadowDemon.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\OutworldDevourer.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Invoker.cs" />
     <Compile Include="Heroes\Intelligence\Dire\Batrider.cs" />
     <Compile Include="Heroes\Intelligence\Dire\WinterWyvern.cs" />
     <Compile Include="Heroes\Intelligence\Dire\DarkSeer.cs" />

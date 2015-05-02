@@ -165,7 +165,10 @@ namespace DotaUtility
                     new DarkSeer(),
                     new Batrider(),
                     new AncientApparition(),
-
+                    new Invoker(),
+                    new OutworldDevourer(),
+                    new ShadowDemon(),
+                    new Visage(),
                     new WinterWyvern(),
                 };
             }
