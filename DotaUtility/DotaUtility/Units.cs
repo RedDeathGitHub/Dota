@@ -163,6 +163,10 @@ namespace DotaUtility
                     new Dazzle(),
                     new Leshrac(),
                     new DarkSeer(),
+                    new Batrider(),
+                    new AncientApparition(),
+
+                    new WinterWyvern(),
                 };
             }
         }

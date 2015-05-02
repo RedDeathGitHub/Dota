@@ -48,6 +48,9 @@
     <Compile Include="Creeps\GiantWolf.cs" />
     <Compile Include="Creeps\HellbearSmasher.cs" />
     <Compile Include="Creeps\CentaurConqueror.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\AncientApparition.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\Batrider.cs" />
+    <Compile Include="Heroes\Intelligence\Dire\WinterWyvern.cs" />
     <Compile Include="Heroes\Intelligence\Dire\DarkSeer.cs" />
     <Compile Include="Heroes\Intelligence\Dire\Leshrac.cs" />
     <Compile Include="Heroes\Intelligence\Dire\Dazzle.cs" />
