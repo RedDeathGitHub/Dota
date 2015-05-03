@@ -35,9 +35,9 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 new Ability
                 {
                     IconName = "pugna_life_drain",
-                    Value = " 900 1300\n" +
-                            "1200 1800\n" +
-                            "1500 2200"
+                    Value = "110 140\n" +
+                            "140 180\n" +
+                            "160 220"
                 }
             };
         }
