@@ -19,10 +19,10 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 new Ability
                 {
                     IconName = "ancient_apparition_ice_vortex",
-                    Value = "15 14\n" +
-                            "20 10\n" +
-                            "25  6\n" +
-                            "30  2"
+                    Value = "15\n" +
+                            "20\n" +
+                            "25\n" +
+                            "30"
                 },
                 new Ability
                 {

@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                     Value = "10\n" +
                             "20\n" +
                             "30\n" +
-                            "40"
+                            "50"
                 },
                 new Ability
                 {

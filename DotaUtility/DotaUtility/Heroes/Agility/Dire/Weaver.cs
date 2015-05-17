@@ -12,10 +12,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "weaver_the_swarm",
 
-                    Value = "15 1\n" +
-                            "20 1\n" +
-                            "25 1\n" +
-                            "30 1"
+                    Value = "1.4\n" +
+                            "1.2\n" +
+                            "1.1\n" +
+                            "1.0"
                 },
                 new Ability
                 {

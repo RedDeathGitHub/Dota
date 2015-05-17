@@ -20,18 +20,18 @@ namespace DotaUtility.Heroes.Strength.Dire
                 {
                     IconName = "pudge_rot",
                     Value = "25 20\n" +
-                            "45 20\n" +
-                            "60 20\n" +
-                            "80 20"
+                            "45 22\n" +
+                            "60 24\n" +
+                            "80 26"
                 },
                 new Ability
                 {
                     IconName = "pudge_flesh_heap",
 
-                    Value = "30 1.0\n" +
-                            "30 1.5\n" +
-                            "30 2.0\n" +
-                            "35 2.5"
+                    Value = "1.0  6\n" +
+                            "1.5  8\n" +
+                            "2.0 10\n" +
+                            "2.5 12"
                 },
                 new Ability
                 {

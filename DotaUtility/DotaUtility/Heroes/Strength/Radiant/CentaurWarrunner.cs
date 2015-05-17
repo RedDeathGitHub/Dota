@@ -19,7 +19,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "centaur_double_edge",
-                    Value = "170\n" +
+                    Value = "130\n" +
                             "180\n" +
                             "240\n" +
                             "300"
@@ -36,9 +36,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "centaur_stampede",
-                    Value = "100 1.5\n" +
-                            "200 1.5\n" +
-                            "300 1.5"
+                    Value = "1 60\n" +
+                            "2 60\n" +
+                            "3 60"
                 }
             };
         }

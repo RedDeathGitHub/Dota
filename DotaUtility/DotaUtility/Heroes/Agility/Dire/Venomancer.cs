@@ -12,10 +12,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "venomancer_venomous_gale",
 
-                    Value = " 20 50\n" +
-                            "130 50\n" +
-                            "280 50\n" +
-                            "410 50"
+                    Value = " 50 50\n" +
+                            "180 50\n" +
+                            "320 50\n" +
+                            "450 50"
                 },
                 new Ability
                 {

@@ -29,10 +29,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "viper_corrosive_skin",
 
-                    Value = "30 30\n" +
-                            "40 35\n" +
-                            "60 40\n" +
-                            "70 45"
+                    Value = "30 10\n" +
+                            "40 15\n" +
+                            "60 20\n" +
+                            "70 25"
                 },
                 new Ability
                 {

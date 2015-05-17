@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "earth_spirit_boulder_smash",
-                    Value = "90 0.7\n" +
-                            "90 1.2\n" +
-                            "90 1.7\n" +
-                            "90 2.2"
+                    Value = " 30 0.7\n" +
+                            " 70 1.2\n" +
+                            "110 1.7\n" +
+                            "150 2.2"
                 },
                 new Ability
                 {
@@ -24,10 +24,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "earth_spirit_geomagnetic_grip",
-                    Value = " 40 2.5\n" +
-                            " 90 3.0\n" +
-                            "150 3.5\n" +
-                            "200 4.0"
+                    Value = " 30 2.5\n" +
+                            " 70 3.0\n" +
+                            "110 3.5\n" +
+                            "150 4.0"
                 },
                 new Ability
                 {

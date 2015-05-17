@@ -27,10 +27,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "antimage_spell_shield",
-                    Value = "45\n" +
-                            "50\n" +
-                            "55\n" +
-                            "60"
+                    Value = "20\n" +
+                            "30\n" +
+                            "40\n" +
+                            "50"
                 },
                 new Ability
                 {

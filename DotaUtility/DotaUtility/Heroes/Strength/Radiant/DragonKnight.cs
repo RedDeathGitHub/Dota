@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "dragon_knight_breathe_fire",
-                    Value = " 60\n" +
-                            "120\n" +
-                            "180\n" +
-                            "220"
+                    Value = " 60 20\n" +
+                            "120 25\n" +
+                            "180 30\n" +
+                            "220 35"
                 },
                 new Ability
                 {

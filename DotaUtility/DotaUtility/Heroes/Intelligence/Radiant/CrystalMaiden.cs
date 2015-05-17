@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "crystal_maiden_crystal_nova",
-                    Value = " 70 30\n" +
+                    Value = " 70 20\n" +
                             "110 30\n" +
-                            "150 30\n" +
-                            "180 30"
+                            "150 40\n" +
+                            "180 50"
                 },
                 new Ability
                 {

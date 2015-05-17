@@ -28,10 +28,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "life_stealer_open_wounds",
-                    Value = "15\n" +
-                            "20\n" +
-                            "25\n" +
-                            "30"
+                    Value = "50"
                 },
                 new Ability
                 {

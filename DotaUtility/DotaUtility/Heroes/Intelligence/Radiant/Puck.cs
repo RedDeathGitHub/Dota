@@ -19,9 +19,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "puck_waning_rift",
-                    Value = " 50 0.7\n" +
-                            "100 1.5\n" +
-                            "150 2.2\n" +
+                    Value = " 70 0.7\n" +
+                            "120 1.5\n" +
+                            "160 2.2\n" +
                             "210 3.0"
                 },
                 new Ability

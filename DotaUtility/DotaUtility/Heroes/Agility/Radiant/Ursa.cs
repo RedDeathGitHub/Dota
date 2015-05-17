@@ -37,9 +37,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "ursa_enrage",
-                    Value = "5\n" +
-                            "6\n" +
-                            "7"
+                    Value = "1.5 80\n" +
+                            "2.0 80\n" +
+                            "2.5 80"
                 }
             };
         }

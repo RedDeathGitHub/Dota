@@ -28,10 +28,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 {
                     IconName = "legion_commander_moment_of_courage",
 
-                    Value = "15 20\n" +
-                            "15 40\n" +
-                            "20 60\n" +
-                            "20 80"
+                    Value = "2.7 55\n" +
+                            "2.1 65\n" +
+                            "1.5 75\n" +
+                            "0.9 85"
                 },
                 new Ability
                 {

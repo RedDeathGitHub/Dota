@@ -29,10 +29,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 {
                     IconName = "shredder_reactive_armor",
 
-                    Value = " 4\n" +
-                            " 8\n" +
-                            "12\n" +
-                            "16"
+                    Value = " 5\n" +
+                            "10\n" +
+                            "15\n" +
+                            "20"
                 },
                 new Ability
                 {

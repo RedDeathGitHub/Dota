@@ -28,10 +28,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "keeper_of_the_light_chakra_magic",
-                    Value = " 70\n" +
-                            "150\n" +
-                            "220\n" +
-                            "300"
+                    Value = " 70 1\n" +
+                            "150 2\n" +
+                            "220 3\n" +
+                            "300 4"
                 },
                 new Ability
                 {

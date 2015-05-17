@@ -20,7 +20,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "luna_moon_glaive",
-                    Value = " 605\n" +
+                    Value = " 60\n" +
                             "110\n" +
                             "140\n" +
                             "170"
@@ -29,15 +29,15 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "luna_lunar_blessing",
 
-                    Value = "15\n" +
-                            "20\n" +
+                    Value = "14\n" +
+                            "22\n" +
                             "30\n" +
-                            "40"
+                            "38"
                 },
                 new Ability
                 {
                     IconName = "luna_eclipse",
-                    Value = "900 3200"
+                    Value = "1100 3200"
                 }
             };
         }

@@ -98,6 +98,7 @@ namespace DotaUtility
                     new Luna(),
                     new BountyHunter(),
                     new Ursa(),
+                    new Gyrocopter(),
                     new LoneDruid(),
                     new NagaSiren(),
                     new TrollWarlord(),
@@ -169,7 +170,7 @@ namespace DotaUtility
                     new OutworldDevourer(),
                     new ShadowDemon(),
                     new Visage(),
-                    new WinterWyvern(),
+                    new WinterWyvern()
                 };
             }
         }

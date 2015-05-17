@@ -20,10 +20,10 @@ namespace DotaUtility.Heroes.Strength.Dire
                 {
                     IconName = "tidehunter_kraken_shell",
 
-                    Value = "10 600\n" +
-                            "20 550\n" +
-                            "30 500\n" +
-                            "40 450"
+                    Value = "12 600\n" +
+                            "24 550\n" +
+                            "36 500\n" +
+                            "48 450"
                 },
                 new Ability
                 {

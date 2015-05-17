@@ -19,10 +19,10 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "slardar_slithereen_crush",
-                    Value = " 50 1.6 20\n" +
-                            "100 1.9 20\n" +
-                            "150 2.2 20\n" +
-                            "200 2.5 20"
+                    Value = " 70 1.6 20\n" +
+                            "120 1.9 20\n" +
+                            "170 2.2 20\n" +
+                            "220 2.5 20"
                 },
                 new Ability
                 {

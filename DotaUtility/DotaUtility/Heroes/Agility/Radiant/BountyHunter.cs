@@ -12,10 +12,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "bounty_hunter_shuriken_toss",
 
-                    Value = " 70\n" +
-                            "150\n" +
-                            "180\n" +
-                            "240"
+                    Value = "110\n" +
+                            "170\n" +
+                            "220\n" +
+                            "280"
                 },
                 new Ability
                 {

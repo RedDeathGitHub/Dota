@@ -27,10 +27,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "skywrath_mage_ancient_seal",
-                    Value = "  5 3\n" +
-                            "  0 4\n" +
-                            " -5 5\n" +
-                            "-10 6"
+                    Value = "30 3\n" +
+                            "35 4\n" +
+                            "40 5\n" +
+                            "45 6"
                 },
                 new Ability
                 {

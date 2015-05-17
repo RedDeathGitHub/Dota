@@ -27,10 +27,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "silencer_last_word",
-                    Value = "110 3\n" +
-                            "150 4\n" +
-                            "180 5\n" +
-                            "220 6"
+                    Value = "110 14\n" +
+                            "150 16\n" +
+                            "180 18\n" +
+                            "220 20"
                 },
                 new Ability
                 {

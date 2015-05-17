@@ -37,7 +37,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "naga_siren_song_of_the_siren",
-                    Value = "7"
+                    Value = "7 40"
                 }
             };
         }

@@ -12,10 +12,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "riki_smoke_screen",
 
-                    Value = "40 25\n" +
-                            "50 25\n" +
-                            "60 25\n" +
-                            "70 25"
+                    Value = "40 30 25\n" +
+                            "50 30 25\n" +
+                            "60 30 25\n" +
+                            "70 30 25"
                 },
                 new Ability
                 {

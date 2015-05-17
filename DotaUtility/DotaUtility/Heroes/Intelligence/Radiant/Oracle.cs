@@ -27,17 +27,17 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "oracle_purifying_flames",
-                    Value = " 60  99\n" +
-                            "130 198\n" +
-                            "200 297\n" +
-                            "270 396"
+                    Value = " 60 100\n" +
+                            "130 200\n" +
+                            "200 300\n" +
+                            "270 400"
                 },
                 new Ability
                 {
                     IconName = "oracle_false_promise",
-                    Value = "7\n" +
-                            "8\n" +
-                            "9"
+                    Value = "6\n" +
+                            "7\n" +
+                            "8"
                 }
             };
         }

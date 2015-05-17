@@ -28,10 +28,10 @@ namespace DotaUtility.Heroes.Strength.Dire
                 {
                     IconName = "sandking_caustic_finale",
 
-                    Value = " 60\n" +
-                            "100\n" +
-                            "120\n" +
-                            "160"
+                    Value = " 60 20\n" +
+                            "100 30\n" +
+                            "120 35\n" +
+                            "160 50"
                 },
                 new Ability
                 {

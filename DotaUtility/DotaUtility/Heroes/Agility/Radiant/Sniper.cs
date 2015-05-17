@@ -34,9 +34,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "sniper_assassinate",
-                    Value = "270\n" +
-                            "370\n" +
-                            "500"
+                    Value = "240\n" +
+                            "360\n" +
+                            "480"
                 }
             };
         }

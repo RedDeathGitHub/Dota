@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "furion_sprout",
-                    Value = "3.0\n" +
-                            "3.7\n" +
-                            "4.5\n" +
-                            "5.2"
+                    Value = "3\n" +
+                            "4\n" +
+                            "5\n" +
+                            "6"
                 },
                 new Ability
                 {

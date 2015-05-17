@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "bristleback_viscous_nasal_goo",
-                    Value = "4 30\n" +
-                            "4 45\n" +
-                            "8 55\n" +
-                            "8 70"
+                    Value = "4.0 30\n" +
+                            "5.6 45\n" +
+                            "7.2 55\n" +
+                            "8.8 70"
                 },
                 new Ability
                 {

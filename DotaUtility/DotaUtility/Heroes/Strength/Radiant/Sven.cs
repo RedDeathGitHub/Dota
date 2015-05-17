@@ -28,10 +28,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "sven_warcry",
-                    Value = " 4 12\n" +
-                            " 8 12\n" +
-                            "12 12\n" +
-                            "16 12"
+                    Value = " 5 12\n" +
+                            "10 12\n" +
+                            "15 12\n" +
+                            "20 12"
                 },
                 new Ability
                 {

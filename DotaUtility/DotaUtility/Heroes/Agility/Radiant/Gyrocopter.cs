@@ -11,7 +11,6 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "gyrocopter_rocket_barrage",
-
                     Value = "240\n" +
                             "330\n" +
                             "420\n" +

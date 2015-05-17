@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "tinker_laser",
-                    Value = " 80\n" +
-                            "160\n" +
-                            "240\n" +
-                            "320"
+                    Value = " 80 3.0\n" +
+                            "160 3.5\n" +
+                            "240 4.0\n" +
+                            "320 4.5"
                 },
                 new Ability
                 {

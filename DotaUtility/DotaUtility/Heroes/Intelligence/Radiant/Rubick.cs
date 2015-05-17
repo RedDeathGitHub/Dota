@@ -27,10 +27,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "rubick_null_field",
-                    Value = "28\n" +
-                            "32\n" +
-                            "36\n" +
-                            "40"
+                    Value = " 5\n" +
+                            "10\n" +
+                            "15\n" +
+                            "20"
                 },
                 new Ability
                 {

@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "enchantress_untouchable",
-                    Value = " 30\n" +
-                            " 60\n" +
-                            " 90\n" +
-                            "120"
+                    Value = " 40\n" +
+                            " 70\n" +
+                            "100\n" +
+                            "130"
                 },
                 new Ability
                 {
@@ -43,5 +43,3 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
         }
     }
 }
-
-

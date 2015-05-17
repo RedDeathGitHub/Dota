@@ -35,7 +35,9 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 new Ability
                 {
                     IconName = "warlock_rain_of_chaos",
-                    Value = "1"
+                    Value = "25\n" +
+                            "50\n" +
+                            "75"
                 }
             };
         }

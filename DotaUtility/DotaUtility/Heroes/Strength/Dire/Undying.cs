@@ -35,9 +35,9 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "undying_flesh_golem",
-                    Value = "15 25\n" +
-                            "20 30\n" +
-                            "25 35"
+                    Value = "20 30\n" +
+                            "25 35\n" +
+                            "30 40"
                 }
             };
         }

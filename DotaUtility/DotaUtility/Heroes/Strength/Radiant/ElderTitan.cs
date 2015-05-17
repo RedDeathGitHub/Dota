@@ -28,10 +28,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 {
                     IconName = "elder_titan_natural_order",
 
-                    Value = " 40 10\n" +
-                            " 60 20\n" +
-                            " 80 25\n" +
-                            "100 30"
+                    Value = " 40 12\n" +
+                            " 60 19\n" +
+                            " 80 26\n" +
+                            "100 33"
                 },
                 new Ability
                 {

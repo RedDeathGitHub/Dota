@@ -27,10 +27,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "disruptor_kinetic_field",
-                    Value = "2.5\n" +
-                            "3.0\n" +
-                            "3.5\n" +
-                            "4.0"
+                    Value = "2.6\n" +
+                            "3.2\n" +
+                            "3.8\n" +
+                            "4.4"
                 },
                 new Ability
                 {

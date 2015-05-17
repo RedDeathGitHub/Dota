@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "terrorblade_reflection",
-                    Value = "40 60\n" +
-                            "50 60\n" +
-                            "60 60\n" +
-                            "70 60"
+                    Value = " 40 60\n" +
+                            " 60 60\n" +
+                            " 80 60\n" +
+                            "100 60"
                 },
                 new Ability
                 {

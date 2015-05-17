@@ -38,8 +38,8 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "broodmother_insatiable_hunger",
                     Value = " 60\n" +
-                            " 80\n" +
-                            "100"
+                            " 90\n" +
+                            "120"
                 }
             };
         }
