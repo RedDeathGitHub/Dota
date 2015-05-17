@@ -20,15 +20,14 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "sniper_headshot",
-                    Value = " 5\n" +
-                            "15\n" +
-                            "25\n" +
-                            "35"
+                    Value = " 6\n" +
+                            "16\n" +
+                            "26\n" +
+                            "36"
                 },
                 new Ability
                 {
                     IconName = "sniper_take_aim",
-
                     Value = ""
                 },
                 new Ability

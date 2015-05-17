@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "chen_penitence",
-                    Value = "15\n" +
-                            "20\n" +
-                            "20\n" +
-                            "25"
+                    Value = "14\n" +
+                            "18\n" +
+                            "22\n" +
+                            "26"
                 },
                 new Ability
                 {

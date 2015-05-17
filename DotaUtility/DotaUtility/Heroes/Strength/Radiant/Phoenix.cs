@@ -27,10 +27,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "phoenix_sun_ray",
-                    Value = "130 10\n" +
-                            "180 20\n" +
-                            "220 25\n" +
-                            "270 35"
+                    Value = "130  9\n" +
+                            "180 18\n" +
+                            "220 27\n" +
+                            "270 36"
                 },
                 new Ability
                 {

@@ -29,10 +29,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "vengefulspirit_command_aura",
 
-                    Value = "10\n" +
+                    Value = "12\n" +
                             "20\n" +
-                            "30\n" +
-                            "35"
+                            "28\n" +
+                            "36"
                 },
                 new Ability
                 {

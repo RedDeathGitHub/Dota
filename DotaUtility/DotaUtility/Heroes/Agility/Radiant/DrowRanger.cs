@@ -27,10 +27,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "drow_ranger_trueshot",
-                    Value = "20\n" +
-                            "25\n" +
+                    Value = "18\n" +
+                            "24\n" +
                             "30\n" +
-                            "35"
+                            "36"
                 },
                 new Ability
                 {

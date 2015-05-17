@@ -38,8 +38,8 @@ namespace DotaUtility.Heroes.Agility.Dire
                     IconName = "phantom_assassin_coup_de_grace",
 
                     Value = "20\n" +
-                            "35\n" +
-                            "50"
+                            "36\n" +
+                            "52"
                 }
             };
         }

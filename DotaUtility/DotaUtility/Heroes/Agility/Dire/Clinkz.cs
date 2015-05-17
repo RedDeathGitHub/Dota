@@ -29,17 +29,17 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "clinkz_wind_walk",
 
-                    Value = "10\n" +
-                            "20\n" +
-                            "30\n" +
-                            "40"
+                    Value = "11\n" +
+                            "22\n" +
+                            "33\n" +
+                            "44"
                 },
                 new Ability
                 {
                     IconName = "clinkz_death_pact",
-                    Value = "5 50\n" +
-                            "6 65\n" +
-                            "8 80"
+                    Value = "5.0 50\n" +
+                            "6.5 65\n" +
+                            "8.0 80"
                 }
             };
         }

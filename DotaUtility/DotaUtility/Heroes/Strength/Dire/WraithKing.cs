@@ -27,15 +27,15 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "skeleton_king_mortal_strike",
-                    Value = " 5\n" +
+                    Value = " 7\n" +
                             "15\n" +
-                            "20\n" +
+                            "22\n" +
                             "30"
                 },
                 new Ability
                 {
                     IconName = "skeleton_king_reincarnation",
-                    Value = "70"
+                    Value = "75"
                 }
             };
         }

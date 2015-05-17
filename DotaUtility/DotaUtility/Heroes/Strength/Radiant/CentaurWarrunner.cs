@@ -28,9 +28,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 {
                     IconName = "centaur_return",
 
-                    Value = "16 25\n" +
-                            "18 35\n" +
-                            "20 40\n" +
+                    Value = "16 26\n" +
+                            "18 34\n" +
+                            "20 42\n" +
                             "22 50"
                 },
                 new Ability

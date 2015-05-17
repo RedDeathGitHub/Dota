@@ -19,10 +19,10 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "spirit_breaker_empowering_haste",
-                    Value = " 5\n" +
+                    Value = " 6\n" +
                             "10\n" +
-                            "15\n" +
-                            "20"
+                            "14\n" +
+                            "18"
                 },
                 new Ability
                 {

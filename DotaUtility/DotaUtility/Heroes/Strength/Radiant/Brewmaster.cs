@@ -20,10 +20,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "brewmaster_drunken_haze",
-                    Value = "45 15\n" +
-                            "55 20\n" +
-                            "65 20\n" +
-                            "75 25"
+                    Value = "45 14\n" +
+                            "55 18\n" +
+                            "65 22\n" +
+                            "75 26"
                 },
                 new Ability
                 {
@@ -35,9 +35,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                         "brewmaster_drunken_brawler_miss"
                     },
 
-                    Value = "10 15\n" +
-                            "15 15\n" +
-                            "20 10\n" +
+                    Value = "10 16\n" +
+                            "15 14\n" +
+                            "20 12\n" +
                             "25 10"
                 },
                 new Ability

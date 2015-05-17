@@ -21,9 +21,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "nevermore_necromastery",
                     Value = "30\n" +
-                            "40\n" +
-                            "60\n" +
-                            "70"
+                            "44\n" +
+                            "58\n" +
+                            "72"
                 },
                 new Ability
                 {

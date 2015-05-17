@@ -34,10 +34,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 {
                     IconName = "troll_warlord_fervor",
 
-                    Value = "20\n" +
-                            "25\n" +
-                            "30\n" +
-                            "35"
+                    Value = "16\n" +
+                            "22\n" +
+                            "28\n" +
+                            "34"
                 },
                 new Ability
                 {
