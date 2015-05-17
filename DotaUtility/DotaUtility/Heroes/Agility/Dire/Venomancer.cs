@@ -29,10 +29,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 {
                     IconName = "venomancer_plague_ward",
 
-                    Value = "10  70\n" +
-                            "20 200\n" +
-                            "30 320\n" +
-                            "40 450"
+                    Value = "10  75\n" +
+                            "19 200\n" +
+                            "29 325\n" +
+                            "38 450"
                 },
                 new Ability
                 {
