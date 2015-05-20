@@ -11,7 +11,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 new Ability
                 {
                     IconName = "luna_lucent_beam",
-
+                    AdditionalIconNames = new List<string>
+                    {
+                        "luna_lucent_beam_alt",
+                        "luna_lucent_beam_alt2"
+                    },
                     Value = " 50 0.6\n" +
                             "110 0.6\n" +
                             "160 0.6\n" +

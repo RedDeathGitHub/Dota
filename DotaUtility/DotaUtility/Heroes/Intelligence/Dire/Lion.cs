@@ -18,7 +18,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "lion_voodoo_fish",
+                    IconName = "lion_voodoo",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "lion_voodoo_fish"
+                    },
                     Value = "2.5\n" +
                             "3.0\n" +
                             "3.5\n" +

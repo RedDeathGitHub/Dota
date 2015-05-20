@@ -11,6 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "crystal_maiden_crystal_nova",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "crystal_maiden_crystal_nova_icecowl"
+                    },
                     Value = " 70 20\n" +
                             "110 30\n" +
                             "150 40\n" +
@@ -35,6 +39,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "crystal_maiden_freezing_field",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "crystal_maiden_freezing_field_alt1"
+                    },
                     Value = "1500 2500\n" +
                             "2500 3600\n" +
                             "3600 4500"

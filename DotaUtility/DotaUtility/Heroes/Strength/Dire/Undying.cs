@@ -27,6 +27,11 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "undying_tombstone",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "undying_tombstone_alt",
+                        "undying_tombstone_alt_gold"
+                    },
                     Value = " 75\n" +
                             "100\n" +
                             "125\n" +

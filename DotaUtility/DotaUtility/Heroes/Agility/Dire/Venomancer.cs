@@ -11,7 +11,6 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "venomancer_venomous_gale",
-
                     Value = " 50 50\n" +
                             "180 50\n" +
                             "320 50\n" +
@@ -28,7 +27,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "venomancer_plague_ward",
-
+                    AdditionalIconNames = new List<string>
+                    {
+                        "venomancer_plague_ward_alt"
+                    },
                     Value = "10  75\n" +
                             "19 200\n" +
                             "29 325\n" +

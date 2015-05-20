@@ -19,6 +19,10 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 new Ability
                 {
                     IconName = "enigma_demonic_conversion",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "enigma_demonic_conversion_alt"
+                    },
                     Value = "6"
                 },
                 new Ability

@@ -27,6 +27,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "windrunner_windrun",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "windrunner_windrun_sylvan"
+                    },
                     Value = " 8 50\n" +
                             "16 50\n" +
                             "24 50\n" +

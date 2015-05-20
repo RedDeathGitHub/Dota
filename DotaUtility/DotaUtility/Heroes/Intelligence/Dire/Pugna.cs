@@ -27,6 +27,10 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 new Ability
                 {
                     IconName = "pugna_nether_ward",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "pugna_nether_ward_alt"
+                    },
                     Value = "0.7\n" +
                             "0.9\n" +
                             "1.1\n" +

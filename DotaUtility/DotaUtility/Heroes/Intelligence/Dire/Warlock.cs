@@ -27,6 +27,10 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 new Ability
                 {
                     IconName = "warlock_upheaval",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "warlock_hellborn_upheaval"
+                    },
                     Value = "12\n" +
                             " 7\n" +
                             " 5\n" +

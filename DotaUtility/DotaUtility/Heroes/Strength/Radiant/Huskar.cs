@@ -34,6 +34,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "huskar_life_break",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "huskar_life_break_alt"
+                    },
                     Value = "25 40 50\n" +
                             "25 50 50\n" +
                             "25 60 50"

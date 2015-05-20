@@ -19,7 +19,12 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "razor_static_link_alt",
+                    IconName = "razor_static_link",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "razor_static_link_alt",
+                        "razor_static_link_alt_gold"
+                    },
                     Value = " 50\n" +
                             "110\n" +
                             "160\n" +

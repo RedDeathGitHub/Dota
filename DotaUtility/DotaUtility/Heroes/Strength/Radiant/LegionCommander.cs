@@ -36,6 +36,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "legion_commander_duel",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "legion_commander_duel_alt1"
+                    },
                     Value = "10 4.0\n" +
                             "14 4.7\n" +
                             "18 5.5"

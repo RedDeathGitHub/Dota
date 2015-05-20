@@ -35,6 +35,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "storm_spirit_ball_lightning",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "storm_spirit_ball_lightning_orchid"
+                    },
                     Value = ""
                 }
             };

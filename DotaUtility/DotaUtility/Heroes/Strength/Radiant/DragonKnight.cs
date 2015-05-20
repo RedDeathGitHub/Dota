@@ -36,6 +36,10 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "dragon_knight_elder_dragon_form",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "dragon_knight_elder_dragon_form_iron_dragon"
+                    },
                     Value = "75 25\n" +
                             "20 30"
                 }

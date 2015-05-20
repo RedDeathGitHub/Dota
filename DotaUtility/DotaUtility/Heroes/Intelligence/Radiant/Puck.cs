@@ -11,6 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "puck_illusory_orb",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "puck_illusory_orb_merry"
+                    },
                     Value = " 50\n" +
                             "100\n" +
                             "150\n" +

@@ -19,6 +19,11 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "shadow_shaman_voodoo",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "shadow_shaman_voodoo_alt",
+                        "shadow_shaman_voodoo_alt_gold"
+                    },
                     Value = "1.2\n" +
                             "2.0\n" +
                             "2.7\n" +

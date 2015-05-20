@@ -11,6 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "lina_dragon_slave",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "lina_dragon_slave_alt1"
+                    },
                     Value = " 80\n" +
                             "130\n" +
                             "180\n" +
@@ -27,6 +31,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "lina_fiery_soul",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "lina_fiery_soul_alt1"
+                    },
                     Value = "120 15\n" +
                             "160 18\n" +
                             "210 21\n" +

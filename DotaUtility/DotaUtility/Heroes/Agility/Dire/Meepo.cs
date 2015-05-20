@@ -16,6 +16,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "meepo_poof",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "meepo_poof_scavenger"
+                    },
                     Value = "60\n" +
                             "70\n" +
                             "90\n" +
@@ -24,6 +28,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "meepo_geostrike",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "meepo_geostrike_scavenger"
+                    },
                     Value = "10\n" +
                             "20\n" +
                             "30\n" +
@@ -32,6 +40,10 @@ namespace DotaUtility.Heroes.Agility.Dire
                 new Ability
                 {
                     IconName = "meepo_divided_we_stand",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "meepo_divided_we_stand_scavenger"
+                    },
                     Value = "1\n" +
                             "2\n" +
                             "3"

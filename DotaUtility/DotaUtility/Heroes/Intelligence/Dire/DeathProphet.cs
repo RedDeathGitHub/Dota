@@ -11,6 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 new Ability
                 {
                     IconName = "death_prophet_carrion_swarm",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "death_prophet_carrion_swarm_moth"
+                    },
                     Value = " 50\n" +
                             "110\n" +
                             "160\n" +

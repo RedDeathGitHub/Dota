@@ -11,6 +11,10 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "sandking_burrowstrike",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "sandking_burrowstrike_alt"
+                    },
                     Value = " 70 2.2\n" +
                             "120 2.2\n" +
                             "160 2.2\n" +

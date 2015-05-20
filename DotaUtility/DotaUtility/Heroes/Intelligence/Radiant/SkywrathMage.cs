@@ -35,6 +35,11 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "skywrath_mage_mystic_flare",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "skywrath_mage_mystic_flare_alt",
+                        "skywrath_mage_mystic_flare_alt_gold"
+                    },
                     Value = " 450\n" +
                             " 750\n" +
                             "1000"

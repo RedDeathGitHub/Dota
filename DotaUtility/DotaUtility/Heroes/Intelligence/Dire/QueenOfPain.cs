@@ -10,7 +10,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconName = "queenofpain_sanguine_shadow_strike",
+                    IconName = "queenofpain_shadow_strike",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "queenofpain_sanguine_shadow_strike"
+                    },
                     Value = "150 20\n" +
                             "200 30\n" +
                             "260 40\n" +
@@ -18,7 +22,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "queenofpain_sanguine_blink",
+                    IconName = "queenofpain_blink",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "queenofpain_sanguine_blink"
+                    },
                     Value = "15\n" +
                             "12\n" +
                             " 9\n" +
@@ -26,7 +34,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "queenofpain_sanguine_scream_of_pain",
+                    IconName = "queenofpain_scream_of_pain",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "queenofpain_sanguine_scream_of_pain"
+                    },
                     Value = " 60\n" +
                             "120\n" +
                             "160\n" +

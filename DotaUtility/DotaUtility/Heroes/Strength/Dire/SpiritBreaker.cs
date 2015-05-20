@@ -11,6 +11,10 @@ namespace DotaUtility.Heroes.Strength.Dire
                 new Ability
                 {
                     IconName = "spirit_breaker_charge_of_darkness",
+                    AdditionalIconNames = new List<string>
+                    {
+                        "spirit_breaker_charge_of_darkness_alt"
+                    },
                     Value = "1.2\n" +
                             "1.6\n" +
                             "2.0\n" +
