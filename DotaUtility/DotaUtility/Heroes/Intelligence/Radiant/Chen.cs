@@ -35,10 +35,10 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 new Ability
                 {
                     IconName = "chen_holy_persuasion",
-                    Value = "1  70\n" +
-                            "2 150\n" +
-                            "3 220\n" +
-                            "4 300"
+                    Value = "1  700\n" +
+                            "2  800\n" +
+                            "3  900\n" +
+                            "4 1000"
                 },
                 new Ability
                 {

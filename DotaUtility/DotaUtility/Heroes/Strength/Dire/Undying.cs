@@ -32,10 +32,10 @@ namespace DotaUtility.Heroes.Strength.Dire
                         "undying_tombstone_alt",
                         "undying_tombstone_alt_gold"
                     },
-                    Value = " 75\n" +
-                            "100\n" +
-                            "125\n" +
-                            "150"
+                    Value = "175\n" +
+                            "350\n" +
+                            "525\n" +
+                            "700"
                 },
                 new Ability
                 {

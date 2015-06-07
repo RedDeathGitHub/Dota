@@ -11,9 +11,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 new Ability
                 {
                     IconName = "wisp_tether",
-                    Value = "100 17\n" +
-                            "100 17\n" +
-                            "100 17\n" +
+                    Value = "100 14\n" +
+                            "100 15\n" +
+                            "100 16\n" +
                             "100 17"
                 },
                 new Ability

@@ -15,9 +15,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                     {
                         "gyrocopter_skyhigh_rocket_barrage"
                     },
-                    Value = "240\n" +
-                            "330\n" +
-                            "420\n" +
+                    Value = "180\n" +
+                            "290\n" +
+                            "400\n" +
                             "510"
                 },
                 new Ability
