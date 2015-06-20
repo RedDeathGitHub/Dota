@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "silencer_curse_of_the_silent",
+                    IconNames = new List<string> { "silencer_curse_of_the_silent" },
                     Value = " 90  50\n" +
                             "150 100\n" +
                             "220 150\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "silencer_glaives_of_wisdom",
+                    IconNames = new List<string> { "silencer_glaives_of_wisdom" },
                     Value = "30\n" +
                             "50\n" +
                             "70\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "silencer_last_word",
+                    IconNames = new List<string> { "silencer_last_word" },
                     Value = "110 14\n" +
                             "150 16\n" +
                             "180 18\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "silencer_global_silence",
+                    IconNames = new List<string> { "silencer_global_silence" },
                     Value = "4\n" +
                             "5\n" +
                             "6"

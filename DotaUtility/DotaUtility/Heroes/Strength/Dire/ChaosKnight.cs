@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Dire
             {
                 new Ability
                 {
-                    IconName = "chaos_knight_chaos_bolt",
+                    IconNames = new List<string> { "chaos_knight_chaos_bolt" },
                     Value = "100 1 2\n" +
                             "120 1 3\n" +
                             "140 1 4\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "chaos_knight_reality_rift",
+                    IconNames = new List<string> { "chaos_knight_reality_rift" },
                     Value = " 60\n" +
                             " 80\n" +
                             "100\n" +
@@ -26,8 +26,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "chaos_knight_chaos_strike",
-
+                    IconNames = new List<string> { "chaos_knight_chaos_strike" },
                     Value = " 5\n" +
                             "10\n" +
                             "15\n" +
@@ -35,7 +34,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "chaos_knight_phantasm",
+                    IconNames = new List<string> { "chaos_knight_phantasm" },
                     Value = "1 100 50\n" +
                             "2 100 50\n" +
                             "3 100 50"

@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconName = "dazzle_poison_touch",
+                    IconNames = new List<string> { "dazzle_poison_touch" },
                     Value = "110\n" +
                             "160\n" +
                             "200\n" +
@@ -18,12 +18,12 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "dazzle_shallow_grave",
+                    IconNames = new List<string> { "dazzle_shallow_grave" },
                     Value = "5"
                 },
                 new Ability
                 {
-                    IconName = "dazzle_shadow_wave",
+                    IconNames = new List<string> { "dazzle_shadow_wave" },
                     Value = " 80 3\n" +
                             "100 4\n" +
                             "120 5\n" +
@@ -31,7 +31,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "dazzle_weave",
+                    IconNames = new List<string> { "dazzle_weave" },
                     Value = "18 30\n" +
                             "24 36\n" +
                             "30 42"

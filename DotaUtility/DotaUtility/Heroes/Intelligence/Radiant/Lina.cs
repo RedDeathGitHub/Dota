@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "lina_dragon_slave",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "lina_dragon_slave",
                         "lina_dragon_slave_alt1"
                     },
                     Value = " 80\n" +
@@ -22,7 +22,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "lina_light_strike_array",
+                    IconNames = new List<string> { "lina_light_strike_array" },
                     Value = " 90 1.6\n" +
                             "120 1.9\n" +
                             "150 2.2\n" +
@@ -30,9 +30,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "lina_fiery_soul",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "lina_fiery_soul",
                         "lina_fiery_soul_alt1"
                     },
                     Value = "120 15\n" +
@@ -42,7 +42,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "lina_laguna_blade",
+                    IconNames = new List<string> { "lina_laguna_blade" },
                     Value = "330 450\n" +
                             "500 670\n" +
                             "710 950"

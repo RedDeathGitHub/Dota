@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
             {
                 new Ability
                 {
-                    IconName = "bounty_hunter_shuriken_toss",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "bounty_hunter_shuriken_toss",
                         "bounty_hunter_twinblade_shuriken_toss"
                     },
                     Value = "110\n" +
@@ -22,9 +22,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "bounty_hunter_jinada",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "bounty_hunter_jinada",
                         "bounty_hunter_twinblade_jinada"
                     },
                     Value = "150 25\n" +
@@ -34,9 +34,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "bounty_hunter_wind_walk",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "bounty_hunter_wind_walk",
                         "bounty_hunter_twinblade_wind_walk"
                     },
                     Value = " 30 1.0\n" +
@@ -46,9 +46,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "bounty_hunter_track",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "bounty_hunter_track",
                         "bounty_hunter_twinblade_track"
                     },
                     Value = "200  50\n" +

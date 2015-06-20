@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "crystal_maiden_crystal_nova",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "crystal_maiden_crystal_nova",
                         "crystal_maiden_crystal_nova_icecowl"
                     },
                     Value = " 70 20\n" +
@@ -22,7 +22,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "crystal_maiden_frostbite",
+                    IconNames = new List<string> { "crystal_maiden_frostbite" },
                     Value = "110 1.5\n" +
                             "150 2.0\n" +
                             "180 2.5\n" +
@@ -30,7 +30,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "crystal_maiden_brilliance_aura",
+                    IconNames = new List<string> { "crystal_maiden_brilliance_aura" },
                     Value = "1.0 2\n" +
                             "1.5 3\n" +
                             "2.0 4\n" +
@@ -38,9 +38,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "crystal_maiden_freezing_field",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "crystal_maiden_freezing_field",
                         "crystal_maiden_freezing_field_alt1"
                     },
                     Value = "1500 2500\n" +

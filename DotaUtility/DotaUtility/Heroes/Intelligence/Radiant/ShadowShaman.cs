@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "shadow_shaman_ether_shock",
+                    IconNames = new List<string> { "shadow_shaman_ether_shock" },
                     Value = "100\n" +
                             "150\n" +
                             "200\n" +
@@ -18,9 +18,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "shadow_shaman_voodoo",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "shadow_shaman_voodoo",
                         "shadow_shaman_voodoo_alt",
                         "shadow_shaman_voodoo_alt_gold"
                     },
@@ -31,7 +31,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "shadow_shaman_shackles",
+                    IconNames = new List<string> { "shadow_shaman_shackles" },
                     Value = " 80 2.7\n" +
                             "100 3.5\n" +
                             "130 4.2\n" +
@@ -39,7 +39,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "shadow_shaman_mass_serpent_ward",
+                    IconNames = new List<string> { "shadow_shaman_mass_serpent_ward" },
                     Value = ""
                 }
             };

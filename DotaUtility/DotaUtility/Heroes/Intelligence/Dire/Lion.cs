@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconName = "lion_impale",
+                    IconNames = new List<string> { "lion_impale" },
                     Value = " 60 1.0\n" +
                             "100 1.5\n" +
                             "150 2.0\n" +
@@ -18,9 +18,9 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "lion_voodoo",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "lion_voodoo",
                         "lion_voodoo_fish"
                     },
                     Value = "2.5\n" +
@@ -30,7 +30,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "lion_mana_drain",
+                    IconNames = new List<string> { "lion_mana_drain" },
                     Value = "100\n" +
                             "200\n" +
                             "300\n" +
@@ -38,7 +38,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "lion_finger_of_death",
+                    IconNames = new List<string> { "lion_finger_of_death" },
                     Value = "450 550\n" +
                             "550 650\n" +
                             "650 750"

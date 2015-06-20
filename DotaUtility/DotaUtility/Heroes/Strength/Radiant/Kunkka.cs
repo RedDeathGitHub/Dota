@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconName = "kunkka_torrent",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "kunkka_torrent",
                         "kunkka_divine_anchor_torrent"
                     },
                     Value = " 90 1.5\n" +
@@ -22,9 +22,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "kunkka_tidebringer",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "kunkka_tidebringer",
                         "kunkka_divine_anchor_tidebringer"
                     },
                     Value = "15\n" +
@@ -34,18 +34,18 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "kunkka_x_marks_the_spot",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "kunkka_x_marks_the_spot",
                         "kunkka_divine_anchor_x_marks"
                     },
                     Value = "4 8"
                 },
                 new Ability
                 {
-                    IconName = "kunkka_ghostship",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "kunkka_ghostship",
                         "kunkka_divine_anchor_ghostship"
                     },
                     Value = "300 1.4\n" +

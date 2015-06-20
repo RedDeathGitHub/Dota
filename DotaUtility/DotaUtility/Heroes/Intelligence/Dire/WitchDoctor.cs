@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconName = "witch_doctor_paralyzing_cask",
+                    IconNames = new List<string> { "witch_doctor_paralyzing_cask" },
                     Value = "110 3\n" +
                             "180 5\n" +
                             "260 7\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "witch_doctor_voodoo_restoration",
+                    IconNames = new List<string> { "witch_doctor_voodoo_restoration" },
                     Value = "16\n" +
                             "24\n" +
                             "32\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "witch_doctor_maledict",
+                    IconNames = new List<string> { "witch_doctor_maledict" },
                     Value = " 40\n" +
                             " 60\n" +
                             " 90\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "witch_doctor_death_ward",
+                    IconNames = new List<string> { "witch_doctor_death_ward" },
                     Value = "2000 3000\n" +
                             "3000 4000\n" +
                             "4000 5000"

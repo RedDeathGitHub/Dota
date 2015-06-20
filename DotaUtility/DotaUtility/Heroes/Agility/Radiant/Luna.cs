@@ -10,11 +10,12 @@ namespace DotaUtility.Heroes.Agility.Radiant
             {
                 new Ability
                 {
-                    IconName = "luna_lucent_beam",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "luna_lucent_beam",
                         "luna_lucent_beam_alt",
-                        "luna_lucent_beam_alt2"
+                        "luna_lucent_beam_alt2",
+                        @"luna\zodiac_sigils_skills\luna_lucent_beam"
                     },
                     Value = " 50 0.6\n" +
                             "110 0.6\n" +
@@ -23,7 +24,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "luna_moon_glaive",
+                    IconNames = new List<string>
+                    {
+                        "luna_moon_glaive",
+                        @"luna\zodiac_sigils_skills\luna_moon_glaive"
+                    },
                     Value = " 60\n" +
                             "110\n" +
                             "140\n" +
@@ -31,8 +36,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "luna_lunar_blessing",
-
+                    IconNames = new List<string>
+                    {
+                        "luna_lunar_blessing",
+                        @"luna\zodiac_sigils_skills\luna_lunar_blessing"
+                    },
                     Value = "14\n" +
                             "22\n" +
                             "30\n" +
@@ -40,7 +48,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "luna_eclipse",
+                    IconNames = new List<string>
+                    {
+                        "luna_eclipse",
+                        @"luna\zodiac_sigils_skills\luna_eclipse"
+                    },
                     Value = "1100 3200"
                 }
             };

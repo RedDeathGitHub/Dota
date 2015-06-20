@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "windrunner_shackleshot",
+                    IconNames = new List<string> { "windrunner_shackleshot" },
                     Value = "1.5\n" +
                             "2.2\n" +
                             "3.0\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "windrunner_powershot",
+                    IconNames = new List<string> { "windrunner_powershot" },
                     Value = " 90\n" +
                             "150\n" +
                             "210\n" +
@@ -26,9 +26,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "windrunner_windrun",
-                    AdditionalIconNames = new List<string>
+                    IconNames= new List<string>
                     {
+                         "windrunner_windrun",
                         "windrunner_windrun_sylvan"
                     },
                     Value = " 8 50\n" +
@@ -38,7 +38,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "windrunner_focusfire",
+                    IconNames = new List<string> { "windrunner_focusfire" },
                     Value = "50 30\n" +
                             "40 15\n" +
                             "30  0"

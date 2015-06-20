@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Agility.Dire
             {
                 new Ability
                 {
-                    IconName = "nevermore_shadowraze1",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "nevermore_shadowraze1",
                         "nevermore_shadowraze1_demon"
                     },
                     Value = " 70\n" +
@@ -22,9 +22,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "nevermore_necromastery",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "nevermore_necromastery",
                         "nevermore_necromastery_demon"
                     },
                     Value = "30\n" +
@@ -34,9 +34,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "nevermore_dark_lord",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "nevermore_dark_lord",
                         "nevermore_dark_lord_demon"
                     },
                     Value = "3\n" +
@@ -46,9 +46,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "nevermore_requiem",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "nevermore_requiem",
                         "nevermore_requiem_demon"
                     },
                     Value = "1000\n" +

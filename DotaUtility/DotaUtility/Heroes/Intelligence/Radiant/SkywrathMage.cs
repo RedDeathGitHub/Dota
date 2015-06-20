@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "skywrath_mage_arcane_bolt",
+                    IconNames = new List<string> { "skywrath_mage_arcane_bolt" },
                     Value = "45 1.2\n" +
                             "60 1.2\n" +
                             "75 1.2\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "skywrath_mage_concussive_shot",
+                    IconNames = new List<string> { "skywrath_mage_concussive_shot" },
                     Value = " 45 30\n" +
                             " 90 35\n" +
                             "130 40\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "skywrath_mage_ancient_seal",
+                    IconNames = new List<string> { "skywrath_mage_ancient_seal" },
                     Value = "30 3\n" +
                             "35 4\n" +
                             "40 5\n" +
@@ -34,9 +34,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "skywrath_mage_mystic_flare",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "skywrath_mage_mystic_flare",
                         "skywrath_mage_mystic_flare_alt",
                         "skywrath_mage_mystic_flare_alt_gold"
                     },

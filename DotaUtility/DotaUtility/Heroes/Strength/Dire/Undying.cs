@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Dire
             {
                 new Ability
                 {
-                    IconName = "undying_decay",
+                    IconNames = new List<string> { "undying_decay" },
                     Value = " 90 4\n" +
                             "120 4\n" +
                             "150 4\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "undying_soul_rip",
+                    IconNames = new List<string> { "undying_soul_rip" },
                     Value = "130 180\n" +
                             "200 260\n" +
                             "270 360\n" +
@@ -26,9 +26,9 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "undying_tombstone",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "undying_tombstone",
                         "undying_tombstone_alt",
                         "undying_tombstone_alt_gold"
                     },
@@ -39,7 +39,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "undying_flesh_golem",
+                    IconNames = new List<string> { "undying_flesh_golem" },
                     Value = "20 30\n" +
                             "25 35\n" +
                             "30 40"

@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
             {
                 new Ability
                 {
-                    IconName = "gyrocopter_rocket_barrage",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "gyrocopter_rocket_barrage",
                         "gyrocopter_skyhigh_rocket_barrage"
                     },
                     Value = "180\n" +
@@ -22,9 +22,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "gyrocopter_homing_missile",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "gyrocopter_homing_missile",
                         "gyrocopter_skyhigh_homing_missile"
                     },
                     Value = " 90 2.2\n" +
@@ -34,9 +34,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "gyrocopter_flak_cannon",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "gyrocopter_flak_cannon",
                         "gyrocopter_skyhigh_flak_cannon"
                     },
                     Value = "3\n" +
@@ -46,9 +46,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "gyrocopter_call_down",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "gyrocopter_call_down",
                         "gyrocopter_skyhigh_call_down"
                     },
                     Value = "260 320\n" +

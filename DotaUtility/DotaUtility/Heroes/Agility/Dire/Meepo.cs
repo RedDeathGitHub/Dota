@@ -10,14 +10,14 @@ namespace DotaUtility.Heroes.Agility.Dire
             {
                 new Ability
                 {
-                    IconName = "meepo_earthbind",
+                    IconNames = new List<string> { "meepo_earthbind" },
                     Value = "2"
                 },
                 new Ability
                 {
-                    IconName = "meepo_poof",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "meepo_poof",
                         "meepo_poof_scavenger"
                     },
                     Value = "60\n" +
@@ -27,9 +27,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "meepo_geostrike",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "meepo_geostrike",
                         "meepo_geostrike_scavenger"
                     },
                     Value = "10\n" +
@@ -39,9 +39,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "meepo_divided_we_stand",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "meepo_divided_we_stand",
                         "meepo_divided_we_stand_scavenger"
                     },
                     Value = "1\n" +

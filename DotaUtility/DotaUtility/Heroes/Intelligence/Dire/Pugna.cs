@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconName = "pugna_nether_blast",
+                    IconNames = new List<string> { "pugna_nether_blast" },
                     Value = " 70\n" +
                             "130\n" +
                             "180\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "pugna_decrepify",
+                    IconNames = new List<string> { "pugna_decrepify" },
                     Value = "30\n" +
                             "40\n" +
                             "50\n" +
@@ -26,9 +26,9 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "pugna_nether_ward",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "pugna_nether_ward",
                         "pugna_nether_ward_alt"
                     },
                     Value = "0.7\n" +
@@ -38,7 +38,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "pugna_life_drain",
+                    IconNames = new List<string> { "pugna_life_drain" },
                     Value = "110 140\n" +
                             "140 180\n" +
                             "160 220"

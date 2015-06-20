@@ -10,8 +10,7 @@ namespace DotaUtility.Heroes.Agility.Dire
             {
                 new Ability
                 {
-                    IconName = "spectre_spectral_dagger",
-
+                    IconNames = new List<string> { "spectre_spectral_dagger" },
                     Value = " 30  8\n" +
                             " 70 12\n" +
                             "110 16\n" +
@@ -19,7 +18,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "spectre_desolate",
+                    IconNames = new List<string> { "spectre_desolate" },
                     Value = "20\n" +
                             "35\n" +
                             "50\n" +
@@ -27,8 +26,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "spectre_dispersion",
-
+                    IconNames = new List<string> { "spectre_dispersion" },
                     Value = "10\n" +
                             "14\n" +
                             "18\n" +
@@ -36,7 +34,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "spectre_haunt",
+                    IconNames = new List<string> { "spectre_haunt" },
                     Value = "30 50"
                 }
             };

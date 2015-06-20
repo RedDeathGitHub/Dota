@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "disruptor_thunder_strike",
+                    IconNames = new List<string> { "disruptor_thunder_strike" },
                     Value = "120\n" +
                             "180\n" +
                             "240\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "disruptor_glimpse",
+                    IconNames = new List<string> { "disruptor_glimpse" },
                     Value = " 600\n" +
                             "1000\n" +
                             "1400\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "disruptor_kinetic_field",
+                    IconNames = new List<string> { "disruptor_kinetic_field" },
                     Value = "2.6\n" +
                             "3.2\n" +
                             "3.8\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "disruptor_static_storm",
+                    IconNames = new List<string> { "disruptor_static_storm" },
                     Value = "400  700\n" +
                             "500  900\n" +
                             "600 1100"

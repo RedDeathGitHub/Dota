@@ -10,8 +10,7 @@ namespace DotaUtility.Creeps
             {
                 new Ability
                 {
-                    IconName = "giant_wolf_critical_strike",
-
+                    IconNames = new List<string> { "giant_wolf_critical_strike" },
                     Value = "20"
                 }
             };

@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconName = "dragon_knight_breathe_fire",
+                    IconNames = new List<string> { "dragon_knight_breathe_fire" },
                     Value = " 60 20\n" +
                             "120 25\n" +
                             "180 30\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "dragon_knight_dragon_tail",
+                    IconNames = new List<string> { "dragon_knight_dragon_tail" },
                     Value = "20 2.5\n" +
                             "40 2.7\n" +
                             "60 3.0\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "dragon_knight_dragon_blood",
+                    IconNames = new List<string> { "dragon_knight_dragon_blood" },
 
                     Value = "2  3\n" +
                             "3  6\n" +
@@ -35,9 +35,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "dragon_knight_elder_dragon_form",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "dragon_knight_elder_dragon_form",
                         "dragon_knight_elder_dragon_form_iron_dragon"
                     },
                     Value = "75 25\n" +

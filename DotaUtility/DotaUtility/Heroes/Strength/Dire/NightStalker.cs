@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Strength.Dire
             {
                 new Ability
                 {
-                    IconName = "night_stalker_void",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "night_stalker_void",
                         "night_stalker_void_alt"
                     },
                     Value = " 60 50\n" +
@@ -22,7 +22,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "night_stalker_crippling_fear",
+                    IconNames = new List<string> { "night_stalker_crippling_fear" },
                     Value = "50 5\n" +
                             "50 6\n" +
                             "50 7\n" +
@@ -30,7 +30,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "night_stalker_hunter_in_the_night",
+                    IconNames = new List<string> { "night_stalker_hunter_in_the_night" },
                     Value = "20 45\n" +
                             "25 60\n" +
                             "30 75\n" +
@@ -38,7 +38,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "night_stalker_darkness",
+                    IconNames = new List<string> { "night_stalker_darkness" },
                     Value = "50"
                 }
             };

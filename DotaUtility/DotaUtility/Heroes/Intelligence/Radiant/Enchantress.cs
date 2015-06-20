@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "enchantress_untouchable",
+                    IconNames = new List<string> { "enchantress_untouchable" },
                     Value = " 40\n" +
                             " 70\n" +
                             "100\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "enchantress_enchant",
+                    IconNames = new List<string> { "enchantress_enchant" },
                     Value = "20\n" +
                             "30\n" +
                             "40\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "enchantress_natures_attendants",
+                    IconNames = new List<string> { "enchantress_natures_attendants" },
                     Value = "300\n" +
                             "500\n" +
                             "700\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "enchantress_impetus",
+                    IconNames = new List<string> { "enchantress_impetus" },
                     Value = "15\n" +
                             "20\n" +
                             "25"

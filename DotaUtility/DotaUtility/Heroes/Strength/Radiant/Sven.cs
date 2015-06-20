@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconName = "sven_storm_bolt",
+                    IconNames = new List<string> { "sven_storm_bolt" },
                     Value = " 70 2\n" +
                             "130 2\n" +
                             "180 2\n" +
@@ -18,8 +18,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "sven_great_cleave",
-
+                    IconNames = new List<string> { "sven_great_cleave" },
                     Value = "20\n" +
                             "35\n" +
                             "50\n" +
@@ -27,7 +26,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "sven_warcry",
+                    IconNames = new List<string> { "sven_warcry" },
                     Value = " 5 12\n" +
                             "10 12\n" +
                             "15 12\n" +
@@ -35,7 +34,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "sven_gods_strength",
+                    IconNames = new List<string> { "sven_gods_strength" },
                     Value = "100  50 25\n" +
                             "150  75 25\n" +
                             "200 100 25"

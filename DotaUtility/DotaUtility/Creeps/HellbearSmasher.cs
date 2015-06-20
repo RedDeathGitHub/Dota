@@ -10,14 +10,12 @@ namespace DotaUtility.Creeps
             {
                 new Ability
                 {
-                    IconName = "centaur_khan_endurance_aura",
-
+                    IconNames = new List<string> { "centaur_khan_endurance_aura" },
                     Value = "15"
                 },
                 new Ability
                 {
-                    IconName = "polar_furbolg_ursa_warrior_thunder_clap",
-
+                    IconNames = new List<string> { "polar_furbolg_ursa_warrior_thunder_clap" },
                     Value = "112 25 3"
                 }
             };

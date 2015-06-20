@@ -10,8 +10,7 @@ namespace DotaUtility.Creeps
             {
                 new Ability
                 {
-                    IconName = "centaur_khan_war_stomp",
-
+                    IconNames = new List<string> { "centaur_khan_war_stomp" },
                     Value = "18 2"
                 }
             };

@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconName = "wisp_tether",
+                    IconNames = new List<string> { "wisp_tether" },
                     Value = "100 14\n" +
                             "100 15\n" +
                             "100 16\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "wisp_spirits",
+                    IconNames = new List<string> { "wisp_spirits" },
                     Value = "120\n" +
                             "180\n" +
                             "280\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "wisp_overcharge",
+                    IconNames = new List<string> { "wisp_overcharge" },
                     Value = "40  5 4.5\n" +
                             "50 10 4.5\n" +
                             "60 15 4.5\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "wisp_relocate",
+                    IconNames = new List<string> { "wisp_relocate" },
                     Value = "2.5 10\n" +
                             "2.2 10\n" +
                             "2.0 10"

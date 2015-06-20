@@ -10,8 +10,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
             {
                 new Ability
                 {
-                    IconName = "mirana_starfall",
-
+                    IconNames = new List<string> { "mirana_starfall" },
                     Value = "100\n" +
                             "200\n" +
                             "300\n" +
@@ -19,7 +18,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "mirana_arrow",
+                    IconNames = new List<string> { "mirana_arrow" },
                     Value = " 30\n" +
                             "100\n" +
                             "170\n" +
@@ -27,8 +26,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "mirana_leap",
-
+                    IconNames = new List<string> { "mirana_leap" },
                     Value = " 8  4\n" +
                             "16  8\n" +
                             "24 12\n" +
@@ -36,7 +34,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "mirana_invis",
+                    IconNames = new List<string> { "mirana_invis" },
                     Value = "2.5 15\n" +
                             "2.0 15\n" +
                             "1.5 15"

@@ -10,8 +10,7 @@ namespace DotaUtility.Heroes.Agility.Dire
             {
                 new Ability
                 {
-                    IconName = "bloodseeker_bloodrage",
-
+                    IconNames = new List<string> { "bloodseeker_bloodrage" },
                     Value = "25\n" +
                             "30\n" +
                             "35\n" +
@@ -19,7 +18,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "bloodseeker_blood_bath",
+                    IconNames = new List<string> { "bloodseeker_blood_bath" },
                     Value = "120 3\n" +
                             "160 4\n" +
                             "200 5\n" +
@@ -27,8 +26,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "bloodseeker_thirst",
-
+                    IconNames = new List<string> { "bloodseeker_thirst" },
                     Value = "10\n" +
                             "20\n" +
                             "30\n" +
@@ -36,7 +34,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "bloodseeker_rupture",
+                    IconNames = new List<string> { "bloodseeker_rupture" },
                     Value = "20\n" +
                             "40\n" +
                             "60"

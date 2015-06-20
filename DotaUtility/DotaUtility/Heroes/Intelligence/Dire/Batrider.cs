@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconName = "batrider_sticky_napalm",
+                    IconNames = new List<string> { "batrider_sticky_napalm" },
                     Value = " 7 3\n" +
                             "11 5\n" +
                             "15 7\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "batrider_flamebreak",
+                    IconNames = new List<string> { "batrider_flamebreak" },
                     Value = " 30 1\n" +
                             " 70 2\n" +
                             "110 3\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "batrider_firefly",
+                    IconNames = new List<string> { "batrider_firefly" },
                     Value = " 5 2\n" +
                             "20 2\n" +
                             "35 2\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "batrider_flaming_lasso",
+                    IconNames = new List<string> { "batrider_flaming_lasso" },
                     Value = "3.0\n" +
                             "3.5\n" +
                             "4.0"

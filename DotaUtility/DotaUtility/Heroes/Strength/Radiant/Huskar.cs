@@ -10,13 +10,12 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconName = "huskar_inner_vitality",
-
+                    IconNames = new List<string> { "huskar_inner_vitality" },
                     Value = "40"
                 },
                 new Ability
                 {
-                    IconName = "huskar_burning_spear",
+                    IconNames = new List<string> { "huskar_burning_spear" },
                     Value = " 30 15\n" +
                             " 60 15\n" +
                             " 90 15\n" +
@@ -24,8 +23,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "huskar_berserkers_blood",
-
+                    IconNames = new List<string> { "huskar_berserkers_blood" },
                     Value = "200 56\n" +
                             "220 70\n" +
                             "250 84\n" +
@@ -33,9 +31,9 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "huskar_life_break",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "huskar_life_break",
                         "huskar_life_break_alt"
                     },
                     Value = "25 40 50\n" +

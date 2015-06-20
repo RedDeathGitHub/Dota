@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "oracle_fortunes_end",
+                    IconNames = new List<string> { "oracle_fortunes_end" },
                     Value = " 50 2.5\n" +
                             "110 2.5\n" +
                             "160 2.5\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "oracle_fates_edict",
+                    IconNames = new List<string> { "oracle_fates_edict" },
                     Value = "3\n" +
                             "4\n" +
                             "5\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "oracle_purifying_flames",
+                    IconNames = new List<string> { "oracle_purifying_flames" },
                     Value = " 60 100\n" +
                             "130 200\n" +
                             "200 300\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "oracle_false_promise",
+                    IconNames = new List<string> { "oracle_false_promise" },
                     Value = "6\n" +
                             "7\n" +
                             "8"

@@ -29,14 +29,6 @@ namespace DotaUtility
             foreach (var ability in Units.All.SelectMany(hero => hero.Abilities))
             {
                 ProcessIcon(ability);
-
-                if (ability.AdditionalIconNames != null)
-                {
-                    foreach (var alternativeName in ability.AdditionalIconNames)
-                    {
-                        ProcessIcon(ability, alternativeName);
-                    }
-                }
             }
         }
 
@@ -48,17 +40,19 @@ namespace DotaUtility
             bool test = false,
             string suffix = null)
         {
-            var name = alternativeName ?? ability.IconName;
-            var brush = alternativeBrush ?? DefaultBrush;
-            var pen = alternativePen ?? DefaultPen;
-            pen.LineJoin = LineJoin.Round;
+            foreach (var iconName in ability.IconNames)
+            {
+                var brush = alternativeBrush ?? DefaultBrush;
+                var pen = alternativePen ?? DefaultPen;
+                pen.LineJoin = LineJoin.Round;
 
-            var image = new Bitmap(GetInPath(name));
-            var graphics = Graphics.FromImage(image);
+                var image = new Bitmap(GetInPath(iconName));
+                var graphics = Graphics.FromImage(image);
 
-            DrawText(graphics, ability, brush, pen);
+                DrawText(graphics, ability, brush, pen);
 
-            SaveImage(image, GetOutPath(name, test, suffix));
+                SaveImage(image, GetOutPath(iconName, test, suffix));
+            }
         }
 
         private static void SaveImage(Bitmap image, string path)

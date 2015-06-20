@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconName = "beastmaster_wild_axes",
+                    IconNames = new List<string> { "beastmaster_wild_axes" },
                     Value = "140\n" +
                             "200\n" +
                             "230\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "beastmaster_call_of_the_wild_hawk",
+                    IconNames = new List<string> { "beastmaster_call_of_the_wild_hawk" },
                     Value = "4 30\n" +
                             "4 40\n" +
                             "4 50\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "beastmaster_call_of_the_wild_boar",
+                    IconNames = new List<string> { "beastmaster_call_of_the_wild_boar" },
                     Value = "10 3 30\n" +
                             "20 3 30\n" +
                             "30 3 30\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "beastmaster_inner_beast",
+                    IconNames = new List<string> { "beastmaster_inner_beast" },
 
                     Value = "15\n" +
                             "25\n" +
@@ -43,7 +43,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "beastmaster_primal_roar",
+                    IconNames = new List<string> { "beastmaster_primal_roar" },
                     Value = "150 3.0 50\n" +
                             "180 3.5 50\n" +
                             "220 4.0 50"

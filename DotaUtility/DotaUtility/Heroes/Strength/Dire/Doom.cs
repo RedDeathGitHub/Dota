@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Dire
             {
                 new Ability
                 {
-                    IconName = "doom_bringer_devour",
+                    IconNames = new List<string> { "doom_bringer_devour" },
                     Value = " 25\n" +
                             " 50\n" +
                             " 75\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "doom_bringer_scorched_earth",
+                    IconNames = new List<string> { "doom_bringer_scorched_earth" },
                     Value = " 90\n" +
                             "160\n" +
                             "250\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "doom_bringer_lvl_death",
+                    IconNames = new List<string> { "doom_bringer_lvl_death" },
                     Value = " 90\n" +
                             "130\n" +
                             "160\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "doom_bringer_doom",
+                    IconNames = new List<string> { "doom_bringer_doom" },
                     Value = "300\n" +
                             "525\n" +
                             "750"

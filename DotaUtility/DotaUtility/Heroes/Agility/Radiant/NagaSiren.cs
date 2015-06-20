@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
             {
                 new Ability
                 {
-                    IconName = "naga_siren_mirror_image",
+                    IconNames = new List<string> { "naga_siren_mirror_image" },
 
                     Value = "20 15\n" +
                             "25 20\n" +
@@ -19,7 +19,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "naga_siren_ensnare",
+                    IconNames = new List<string> { "naga_siren_ensnare" },
                     Value = "2\n" +
                             "3\n" +
                             "4\n" +
@@ -27,8 +27,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "naga_siren_rip_tide",
-
+                    IconNames = new List<string> { "naga_siren_rip_tide" },
                     Value = "100 2\n" +
                             "120 3\n" +
                             "140 4\n" +
@@ -36,7 +35,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "naga_siren_song_of_the_siren",
+                    IconNames = new List<string> { "naga_siren_song_of_the_siren" },
                     Value = "7 40"
                 }
             };

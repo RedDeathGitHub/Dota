@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconName = "phoenix_icarus_dive",
+                    IconNames = new List<string> { "phoenix_icarus_dive" },
                     Value = " 30 25 4\n" +
                             " 90 25 4\n" +
                             "150 25 4\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "phoenix_fire_spirits",
+                    IconNames = new List<string> { "phoenix_fire_spirits" },
                     Value = " 30  80 4\n" +
                             " 90 100 4\n" +
                             "150 120 4\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "phoenix_sun_ray",
+                    IconNames = new List<string> { "phoenix_sun_ray" },
                     Value = "130  9\n" +
                             "180 18\n" +
                             "220 27\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "phoenix_supernova",
+                    IconNames = new List<string> { "phoenix_supernova" },
                     Value = "270 1.5\n" +
                             "360 2.0\n" +
                             "450 2.5"

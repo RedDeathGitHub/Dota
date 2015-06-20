@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconName = "lich_frost_nova",
+                    IconNames = new List<string> { "lich_frost_nova" },
                     Value = " 90\n" +
                             "150\n" +
                             "200\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "lich_frost_armor",
+                    IconNames = new List<string> { "lich_frost_armor" },
                     Value = "3\n" +
                             "5\n" +
                             "7\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "lich_dark_ritual",
+                    IconNames = new List<string> { "lich_dark_ritual" },
                     Value = "25\n" +
                             "40\n" +
                             "55\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "lich_chain_frost",
+                    IconNames = new List<string> { "lich_chain_frost" },
                     Value = "1200\n" +
                             "1600\n" +
                             "2000"

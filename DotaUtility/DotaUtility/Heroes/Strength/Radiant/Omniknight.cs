@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconName = "omniknight_purification",
+                    IconNames = new List<string> { "omniknight_purification" },
                     Value = " 90\n" +
                             "180\n" +
                             "270\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "omniknight_repel",
+                    IconNames = new List<string> { "omniknight_repel" },
                     Value = " 6\n" +
                             " 8\n" +
                             "10\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "omniknight_degen_aura",
+                    IconNames = new List<string> { "omniknight_degen_aura" },
 
                     Value = "10\n" +
                             "18\n" +
@@ -35,7 +35,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "omniknight_guardian_angel",
+                    IconNames = new List<string> { "omniknight_guardian_angel" },
                     Value = "6  8\n" +
                             "7  9\n" +
                             "8 10"

@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
             {
                 new Ability
                 {
-                    IconName = "ursa_earthshock",
+                    IconNames = new List<string> { "ursa_earthshock" },
 
                     Value = " 60 25\n" +
                             "100 35\n" +
@@ -19,7 +19,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "ursa_overpower",
+                    IconNames = new List<string> { "ursa_overpower" },
                     Value = "3\n" +
                             "4\n" +
                             "5\n" +
@@ -27,7 +27,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "ursa_fury_swipes",
+                    IconNames = new List<string> { "ursa_fury_swipes" },
 
                     Value = "15\n" +
                             "20\n" +
@@ -36,7 +36,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "ursa_enrage",
+                    IconNames = new List<string> { "ursa_enrage" },
                     Value = "1.5 80\n" +
                             "2.0 80\n" +
                             "2.5 80"

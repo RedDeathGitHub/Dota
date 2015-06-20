@@ -10,8 +10,7 @@ namespace DotaUtility.Heroes.Agility.Dire
             {
                 new Ability
                 {
-                    IconName = "weaver_the_swarm",
-
+                    IconNames = new List<string> { "weaver_the_swarm" },
                     Value = "1.4\n" +
                             "1.2\n" +
                             "1.1\n" +
@@ -19,7 +18,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "weaver_shukuchi",
+                    IconNames = new List<string> { "weaver_shukuchi" },
                     Value = " 50\n" +
                             " 70\n" +
                             " 90\n" +
@@ -27,8 +26,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "weaver_geminate_attack",
-
+                    IconNames = new List<string> { "weaver_geminate_attack" },
                     Value = "6\n" +
                             "5\n" +
                             "4\n" +
@@ -36,7 +34,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "weaver_time_lapse",
+                    IconNames = new List<string> { "weaver_time_lapse" },
                     Value = ""
                 }
             };

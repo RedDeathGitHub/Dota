@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Agility.Dire
             {
                 new Ability
                 {
-                    IconName = "terrorblade_reflection",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "terrorblade_reflection",
                         "terrorblade_reflection_alt1"
                     },
                     Value = " 40 60\n" +
@@ -22,9 +22,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "terrorblade_conjure_image",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "terrorblade_conjure_image",
                         "terrorblade_conjure_image_alt1"
                     },
                     Value = "30 20\n" +
@@ -34,9 +34,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "terrorblade_metamorphosis",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "terrorblade_metamorphosis",
                         "terrorblade_metamorphosis_alt1"
                     },
                     Value = "20 25\n" +
@@ -46,9 +46,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "terrorblade_sunder",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "terrorblade_sunder",
                         "terrorblade_sunder_alt1"
                     },
                     Value = "20"

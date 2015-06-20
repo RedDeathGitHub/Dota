@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "tinker_laser",
+                    IconNames = new List<string> { "tinker_laser" },
                     Value = " 80 3.0\n" +
                             "160 3.5\n" +
                             "240 4.0\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "tinker_heat_seeking_missile",
+                    IconNames = new List<string> { "tinker_heat_seeking_missile" },
                     Value = " 90\n" +
                             "150\n" +
                             "200\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "tinker_march_of_the_machines",
+                    IconNames = new List<string> { "tinker_march_of_the_machines" },
                     Value = "220\n" +
                             "320\n" +
                             "420\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "tinker_rearm",
+                    IconNames = new List<string> { "tinker_rearm" },
                     Value = "3\n" +
                             "2\n" +
                             "1"

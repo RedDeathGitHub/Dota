@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconName = "alchemist_acid_spray",
+                    IconNames = new List<string> { "alchemist_acid_spray" },
                     Value = "200 4\n" +
                             "250 5\n" +
                             "320 6\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "alchemist_unstable_concoction",
+                    IconNames = new List<string> { "alchemist_unstable_concoction" },
                     Value = "150 1.7\n" +
                             "220 2.5\n" +
                             "290 3.2\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "alchemist_goblins_greed",
+                    IconNames = new List<string> { "alchemist_goblins_greed" },
 
                     Value = " 6 12\n" +
                             " 8 20\n" +
@@ -35,7 +35,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "alchemist_chemical_rage",
+                    IconNames = new List<string> { "alchemist_chemical_rage" },
                     Value = " 50  20\n" +
                             " 70  80\n" +
                             "100 150"

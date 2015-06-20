@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Strength.Dire
             {
                 new Ability
                 {
-                    IconName = "pudge_meat_hook",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "pudge_meat_hook",
                         "blackdeath_hookicon"
                     },
                     Value = " 90\n" +
@@ -22,9 +22,9 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "pudge_rot",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "pudge_rot",
                         "blackdeath_roticon"
                     },
                     Value = "25 20\n" +
@@ -34,9 +34,9 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "pudge_flesh_heap",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "pudge_flesh_heap",
                         "blackdeath_fleshheapicon"
                     },
                     Value = "1.0  6\n" +
@@ -46,9 +46,9 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "pudge_dismember",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "pudge_dismember",
                         "blackdeath_dismembericon"
                     },
                     Value = "160 3\n" +

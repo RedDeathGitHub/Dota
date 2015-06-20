@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "chen_penitence",
+                    IconNames = new List<string> { "chen_penitence" },
                     Value = "14\n" +
                             "18\n" +
                             "22\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "chen_test_of_faith",
+                    IconNames = new List<string> { "chen_test_of_faith" },
                     Value = " 50 100\n" +
                             "100 200\n" +
                             "150 300\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                  new Ability
                 {
-                    IconName = "chen_test_of_faith_teleport",
+                    IconNames = new List<string> { "chen_test_of_faith_teleport" },
                     Value = "6\n" +
                             "5\n" +
                             "4\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "chen_holy_persuasion",
+                    IconNames = new List<string> { "chen_holy_persuasion" },
                     Value = "1  700\n" +
                             "2  800\n" +
                             "3  900\n" +
@@ -42,7 +42,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "chen_hand_of_god",
+                    IconNames = new List<string> { "chen_hand_of_god" },
                     Value = "200\n" +
                             "300\n" +
                             "400"

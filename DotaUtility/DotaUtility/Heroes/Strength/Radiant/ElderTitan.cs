@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconName = "elder_titan_echo_stomp",
+                    IconNames = new List<string> { "elder_titan_echo_stomp" },
                     Value = "60 2\n" +
                             "65 3\n" +
                             "75 4\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "elder_titan_ancestral_spirit",
+                    IconNames = new List<string> { "elder_titan_ancestral_spirit" },
                     Value = " 45 10  3\n" +
                             " 65 20  6\n" +
                             " 90 30  9\n" +
@@ -26,8 +26,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "elder_titan_natural_order",
-
+                    IconNames = new List<string> { "elder_titan_natural_order" },
                     Value = " 40 12\n" +
                             " 60 19\n" +
                             " 80 26\n" +
@@ -35,7 +34,7 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "elder_titan_earth_splitter",
+                    IconNames = new List<string> { "elder_titan_earth_splitter" },
                     Value = "30 30\n" +
                             "30 40\n" +
                             "30 50"

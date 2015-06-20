@@ -10,8 +10,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
             {
                 new Ability
                 {
-                    IconName = "templar_assassin_refraction",
-
+                    IconNames = new List<string> { "templar_assassin_refraction" },
                     Value = "3 20\n" +
                             "4 40\n" +
                             "5 60\n" +
@@ -19,7 +18,7 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "templar_assassin_meld",
+                    IconNames = new List<string> { "templar_assassin_meld" },
                     Value = " 50 2\n" +
                             "100 4\n" +
                             "150 6\n" +
@@ -27,13 +26,12 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconName = "templar_assassin_psi_blades",
-
+                    IconNames = new List<string> { "templar_assassin_psi_blades" },
                     Value = ""
                 },
                 new Ability
                 {
-                    IconName = "templar_assassin_psionic_trap",
+                    IconNames = new List<string> { "templar_assassin_psionic_trap" },
                     Value = " 5 50\n" +
                             " 8 50\n" +
                             "11 50"

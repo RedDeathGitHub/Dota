@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Agility.Dire
             {
                 new Ability
                 {
-                    IconName = "nyx_assassin_impale",
+                    IconNames = new List<string> { "nyx_assassin_impale" },
                     Value = " 60 1.3\n" +
                             "100 1.8\n" +
                             "150 2.3\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "nyx_assassin_mana_burn",
+                    IconNames = new List<string> { "nyx_assassin_mana_burn" },
                     Value = "3.5\n" +
                             "4.0\n" +
                             "4.5\n" +
@@ -26,8 +26,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "nyx_assassin_spiked_carapace",
-
+                    IconNames = new List<string> { "nyx_assassin_spiked_carapace" },
                     Value = "0.6\n" +
                             "1.2\n" +
                             "1.8\n" +
@@ -35,7 +34,7 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "nyx_assassin_vendetta",
+                    IconNames = new List<string> { "nyx_assassin_vendetta" },
                     Value = "250\n" +
                             "400\n" +
                             "550"

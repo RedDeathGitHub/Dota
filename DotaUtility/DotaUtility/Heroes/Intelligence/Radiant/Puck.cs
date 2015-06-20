@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "puck_illusory_orb",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "puck_illusory_orb",
                         "puck_illusory_orb_merry"
                     },
                     Value = " 50\n" +
@@ -22,7 +22,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "puck_waning_rift",
+                    IconNames = new List<string> { "puck_waning_rift" },
                     Value = " 70 0.7\n" +
                             "120 1.5\n" +
                             "160 2.2\n" +
@@ -30,7 +30,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "puck_phase_shift",
+                    IconNames = new List<string> { "puck_phase_shift" },
                     Value = "0.7\n" +
                             "1.5\n" +
                             "2.2\n" +
@@ -38,7 +38,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "puck_dream_coil",
+                    IconNames = new List<string> { "puck_dream_coil" },
                     Value = "1.5 1.5\n" +
                             "2.2 3.0\n" +
                             "3.0 4.5"

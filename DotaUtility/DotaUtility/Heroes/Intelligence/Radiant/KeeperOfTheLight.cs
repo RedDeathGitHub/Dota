@@ -10,8 +10,11 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "keeper_of_the_light_illuminate",
-                    AdditionalIconNames = new List<string> {"keeper_of_the_light_spirit_form_illuminate"},
+                    IconNames = new List<string>
+                    {
+                        "keeper_of_the_light_illuminate",
+                        "keeper_of_the_light_spirit_form_illuminate"
+                    },
                     Value = "150\n" +
                             "220\n" +
                             "300\n" +
@@ -19,7 +22,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "keeper_of_the_light_mana_leak",
+                    IconNames = new List<string> { "keeper_of_the_light_mana_leak" },
                     Value = "5 1.5\n" +
                             "6 2.0\n" +
                             "7 2.5\n" +
@@ -27,7 +30,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "keeper_of_the_light_chakra_magic",
+                    IconNames = new List<string> { "keeper_of_the_light_chakra_magic" },
                     Value = " 70 1\n" +
                             "150 2\n" +
                             "220 3\n" +
@@ -35,14 +38,14 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "keeper_of_the_light_recall",
+                    IconNames = new List<string> { "keeper_of_the_light_recall" },
                     Value = "5\n" +
                             "4\n" +
                             "3"
                 },
                 new Ability
                 {
-                    IconName = "keeper_of_the_light_blinding_light",
+                    IconNames = new List<string> { "keeper_of_the_light_blinding_light" },
                     Value = "80"
                 }
             };

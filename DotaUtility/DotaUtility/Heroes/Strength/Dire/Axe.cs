@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Strength.Dire
             {
                 new Ability
                 {
-                    IconName = "axe_berserkers_call",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "axe_berserkers_call",
                         "axe_berserkers_call_shoutmask",
                         @"axe\axesaccess_drakonic_abilityicons\axe_berserkers_call"
                     },
@@ -23,9 +23,9 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "axe_battle_hunger",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "axe_battle_hunger",
                         @"axe\axesaccess_drakonic_abilityicons\axe_battle_hunger"
                     },
                     Value = "120 12\n" +
@@ -35,9 +35,9 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "axe_counter_helix",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "axe_counter_helix",
                         @"axe\axesaccess_drakonic_abilityicons\axe_counter_helix"
                     },
                     Value = "100 20\n" +
@@ -47,9 +47,9 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "axe_culling_blade",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "axe_culling_blade",
                         @"axe\axesaccess_drakonic_abilityicons\axe_culling_blade"
                     },
                     Value = "250 300\n" +

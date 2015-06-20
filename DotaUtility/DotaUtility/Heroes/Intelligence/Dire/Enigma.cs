@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconName = "enigma_malefice",
+                    IconNames = new List<string> { "enigma_malefice" },
                     Value = " 50 0.2\n" +
                             " 90 0.5\n" +
                             "120 0.7\n" +
@@ -18,16 +18,16 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "enigma_demonic_conversion",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "enigma_demonic_conversion",
                         "enigma_demonic_conversion_alt"
                     },
                     Value = "6"
                 },
                 new Ability
                 {
-                    IconName = "enigma_midnight_pulse",
+                    IconNames = new List<string> { "enigma_midnight_pulse" },
                     Value = "30\n" +
                             "40\n" +
                             "50\n" +
@@ -35,7 +35,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "enigma_black_hole",
+                    IconNames = new List<string>
+                    {
+                        "enigma_black_hole",
+                        @"enigma\worldchasm\enigma_black_hole_worldchasm"
+                    },
                     Value = "150 20\n" +
                             "300 20\n" +
                             "500 20"

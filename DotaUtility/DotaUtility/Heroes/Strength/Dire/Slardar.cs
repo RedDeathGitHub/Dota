@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Strength.Dire
             {
                 new Ability
                 {
-                    IconName = "slardar_sprint",
+                    IconNames = new List<string> { "slardar_sprint" },
                     Value = "20 15\n" +
                             "28 15\n" +
                             "36 15\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "slardar_slithereen_crush",
+                    IconNames = new List<string> { "slardar_slithereen_crush" },
                     Value = " 70 1.6 20\n" +
                             "120 1.9 20\n" +
                             "170 2.2 20\n" +
@@ -26,8 +26,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "slardar_bash",
-
+                    IconNames = new List<string> { "slardar_bash" },
                     Value = "10  60 1\n" +
                             "15  80 1\n" +
                             "20 100 1\n" +
@@ -35,7 +34,7 @@ namespace DotaUtility.Heroes.Strength.Dire
                 },
                 new Ability
                 {
-                    IconName = "slardar_amplify_damage",
+                    IconNames = new List<string> { "slardar_amplify_damage" },
                     Value = "10 25\n" +
                             "15 25\n" +
                             "20 25"

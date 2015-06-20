@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "techies_land_mines",
+                    IconNames = new List<string> { "techies_land_mines" },
                     Value = "300\n" +
                             "370\n" +
                             "450\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "techies_stasis_trap",
+                    IconNames = new List<string> { "techies_stasis_trap" },
                     Value = "2.5\n" +
                             "3.0\n" +
                             "3.5\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "techies_suicide",
+                    IconNames = new List<string> { "techies_suicide" },
                     Value = " 500\n" +
                             " 600\n" +
                             " 900\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "techies_remote_mines",
+                    IconNames = new List<string> { "techies_remote_mines" },
                     Value = "220 340\n" +
                             "340 450\n" +
                             "450 560"

@@ -10,9 +10,9 @@ namespace DotaUtility.Heroes.Agility.Dire
             {
                 new Ability
                 {
-                    IconName = "phantom_assassin_stifling_dagger",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "phantom_assassin_stifling_dagger",
                         "phantom_assassin_arcana_stifling_dagger"
                     },
                     Value = "30\n" +
@@ -22,9 +22,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "phantom_assassin_phantom_strike",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "phantom_assassin_phantom_strike",
                         "phantom_assassin_arcana_phantom_strike"
                     },
                     Value = "14\n" +
@@ -34,9 +34,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "phantom_assassin_blur",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "phantom_assassin_blur",
                         "phantom_assassin_arcana_blur"
                     },
                     Value = "20\n" +
@@ -46,9 +46,9 @@ namespace DotaUtility.Heroes.Agility.Dire
                 },
                 new Ability
                 {
-                    IconName = "phantom_assassin_coup_de_grace",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "phantom_assassin_coup_de_grace",
                         "phantom_assassin_arcana_coup_de_grace"
                     },
                     Value = "20\n" +

@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
             {
                 new Ability
                 {
-                    IconName = "furion_sprout",
+                    IconNames = new List<string> { "furion_sprout" },
                     Value = "3\n" +
                             "4\n" +
                             "5\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "furion_teleportation",
+                    IconNames = new List<string> { "furion_teleportation" },
                     Value = "50\n" +
                             "40\n" +
                             "30\n" +
@@ -26,7 +26,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "furion_force_of_nature",
+                    IconNames = new List<string> { "furion_force_of_nature" },
                     Value = "2\n" +
                             "3\n" +
                             "4\n" +
@@ -34,7 +34,7 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconName = "furion_wrath_of_nature",
+                    IconNames = new List<string> { "furion_wrath_of_nature" },
                     Value = "300 370\n" +
                             "370 500\n" +
                             "460 650"

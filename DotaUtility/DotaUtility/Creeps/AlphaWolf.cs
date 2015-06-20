@@ -10,14 +10,12 @@ namespace DotaUtility.Creeps
             {
                 new Ability
                 {
-                    IconName = "alpha_wolf_critical_strike",
-
+                    IconNames = new List<string> { "alpha_wolf_critical_strike" },
                     Value = "20"
                 },
                 new Ability
                 {
-                    IconName = "alpha_wolf_command_aura",
-
+                    IconNames = new List<string> { "alpha_wolf_command_aura" },
                     Value = "30"
                 }
             };

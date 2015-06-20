@@ -10,12 +10,13 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconName = "earthshaker_fissure",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "earthshaker_fissure",
                         "earthshaker_fissure_alt",
                         "earthshaker_fissure_alt_gold",
-                        "earthshaker_fissure_egset"
+                        "earthshaker_fissure_egset",
+                        @"earthshaker\sltv__earthshaker_ability_icons\earthshaker_fissure"
                     },
                     Value = " 90 1.0\n" +
                             "130 1.2\n" +
@@ -24,10 +25,11 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "earthshaker_enchant_totem",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
-                        "earthshaker_enchant_totem_egset"
+                        "earthshaker_enchant_totem",
+                        "earthshaker_enchant_totem_egset",
+                        @"earthshaker\sltv__earthshaker_ability_icons\earthshaker_enchant_totem"
                     },
                     Value = "100\n" +
                             "200\n" +
@@ -36,10 +38,11 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "earthshaker_aftershock",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
-                        "earthshaker_aftershock_egset"
+                        "earthshaker_aftershock",
+                        "earthshaker_aftershock_egset",
+                        @"earthshaker\sltv__earthshaker_ability_icons\earthshaker_aftershock"
                     },
                     Value = "40 0.6\n" +
                             "55 0.9\n" +
@@ -48,10 +51,11 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconName = "earthshaker_echo_slam",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
-                        "earthshaker_echo_slam_egset"
+                        "earthshaker_echo_slam",
+                        "earthshaker_echo_slam_egset",
+                        @"earthshaker\sltv__earthshaker_ability_icons\earthshaker_echo_slam"
                     },
                     Value = "120 30\n" +
                             "160 40\n" +

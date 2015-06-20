@@ -10,7 +10,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconName = "warlock_fatal_bonds",
+                    IconNames = new List<string> { "warlock_fatal_bonds" },
                     Value = "3 25\n" +
                             "4 25\n" +
                             "5 25\n" +
@@ -18,7 +18,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "warlock_shadow_word",
+                    IconNames = new List<string> { "warlock_shadow_word" },
                     Value = "120 160\n" +
                             "200 270\n" +
                             "280 380\n" +
@@ -26,9 +26,9 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "warlock_upheaval",
-                    AdditionalIconNames = new List<string>
+                    IconNames = new List<string>
                     {
+                        "warlock_upheaval",
                         "warlock_hellborn_upheaval"
                     },
                     Value = "12\n" +
@@ -38,7 +38,7 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconName = "warlock_rain_of_chaos",
+                    IconNames = new List<string> { "warlock_rain_of_chaos" },
                     Value = "25\n" +
                             "50\n" +
                             "75"
