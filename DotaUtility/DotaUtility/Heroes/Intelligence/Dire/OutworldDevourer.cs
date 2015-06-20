@@ -10,7 +10,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconNames = new List<string> { "obsidian_destroyer_arcane_orb" },
+                    IconNames = new List<string>
+                    {
+                        "obsidian_destroyer_arcane_orb",
+                        @"obsidian_destroyer\lucent_gate_icons\obsidian_destroyer_arcane_orb"
+                    },
                     Value = "6 100\n" +
                             "7 200\n" +
                             "8 300\n" +
@@ -18,7 +22,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "obsidian_destroyer_astral_imprisonment" },
+                    IconNames = new List<string>
+                    {
+                        "obsidian_destroyer_astral_imprisonment",
+                        @"obsidian_destroyer\lucent_gate_icons\obsidian_destroyer_astral_imprisonment"
+                    },
                     Value = " 4 1\n" +
                             " 7 2\n" +
                             "10 3\n" +
@@ -26,7 +34,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "obsidian_destroyer_essence_aura" },
+                    IconNames = new List<string>
+                    {
+                        "obsidian_destroyer_essence_aura",
+                        @"obsidian_destroyer\lucent_gate_icons\obsidian_destroyer_essence_aura"
+                    },
                     Value = "10  75\n" +
                             "15 150\n" +
                             "20 225\n" +
@@ -34,7 +46,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "obsidian_destroyer_sanity_eclipse" },
+                    IconNames = new List<string>
+                    {
+                        "obsidian_destroyer_sanity_eclipse",
+                        @"obsidian_destroyer\lucent_gate_icons\obsidian_destroyer_sanity_eclipse"
+                    },
                     Value = " 8 10\n" +
                             " 9 30\n" +
                             "10 50"

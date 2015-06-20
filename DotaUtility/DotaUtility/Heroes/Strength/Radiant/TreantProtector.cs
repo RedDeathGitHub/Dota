@@ -10,7 +10,11 @@ namespace DotaUtility.Heroes.Strength.Radiant
             {
                 new Ability
                 {
-                    IconNames = new List<string> { "treant_natures_guise" },
+                    IconNames = new List<string>
+                    {
+                        "treant_natures_guise",
+                        @"treant\fungal_protector_icons\treant_natures_guise"
+                    },
                     Value = "2 10 15\n" +
                             "2 10 30\n" +
                             "2 10 45\n" +
@@ -18,7 +22,11 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "treant_leech_seed" },
+                    IconNames = new List<string>
+                    {
+                        "treant_leech_seed",
+                        @"treant\fungal_protector_icons\treant_leech_seed"
+                    },
                     Value = " 60 28\n" +
                             "130 28\n" +
                             "200 28\n" +
@@ -26,7 +34,11 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "treant_living_armor" },
+                    IconNames = new List<string>
+                    {
+                        "treant_living_armor",
+                        @"treant\fungal_protector_icons\treant_living_armor"
+                    },
                     Value = " 80  60\n" +
                             "200 100\n" +
                             "360 150\n" +
@@ -34,7 +46,11 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "treant_overgrowth" },
+                    IconNames = new List<string>
+                    {
+                        "treant_overgrowth",
+                        @"treant\fungal_protector_icons\treant_overgrowth"
+                    },
                     Value = "3.0 390\n" +
                             "3.7 520\n" +
                             "4.5 650"

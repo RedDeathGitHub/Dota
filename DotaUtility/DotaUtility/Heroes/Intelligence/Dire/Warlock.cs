@@ -38,7 +38,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "warlock_rain_of_chaos" },
+                    IconNames = new List<string>
+                    {
+                        "warlock_rain_of_chaos",
+                        @"warlock\wailing_inferno_icons\wailing_inferno_rain_of_chaos"
+                    },
                     Value = "25\n" +
                             "50\n" +
                             "75"

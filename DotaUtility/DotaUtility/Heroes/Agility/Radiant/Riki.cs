@@ -10,7 +10,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
             {
                 new Ability
                 {
-                    IconNames = new List<string> { "riki_smoke_screen" },
+                    IconNames = new List<string>
+                    {
+                        "riki_smoke_screen",
+                        @"riki\haze_atrocity_icons\riki_smoke_screen"
+                    },
                     Value = "40 30 25\n" +
                             "50 30 25\n" +
                             "60 30 25\n" +
@@ -18,7 +22,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "riki_permanent_invisibility" },
+                    IconNames = new List<string>
+                    {
+                        "riki_permanent_invisibility",
+                        @"riki\haze_atrocity_icons\riki_permanent_invisibility"
+                    },
                     Value = "8 4\n" +
                             "6 5\n" +
                             "4 6\n" +
@@ -26,7 +34,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "riki_backstab" },
+                    IconNames = new List<string>
+                    {
+                        "riki_backstab",
+                        @"riki\haze_atrocity_icons\riki_backstab"
+                    },
                     Value = " 50\n" +
                             " 75\n" +
                             "100\n" +
@@ -34,7 +46,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "riki_blink_strike" },
+                    IconNames = new List<string>
+                    {
+                        "riki_blink_strike",
+                        @"riki\haze_atrocity_icons\riki_blink_strike"
+                    },
                     Value = "30\n" +
                             "50\n" +
                             "75"

@@ -13,7 +13,8 @@ namespace DotaUtility.Heroes.Agility.Dire
                     IconNames = new List<string>
                     {
                         "phantom_assassin_stifling_dagger",
-                        "phantom_assassin_arcana_stifling_dagger"
+                        "phantom_assassin_arcana_stifling_dagger",
+                        @"phantom_assassin\ravening_ability_icons\phantom_assassin_stifling_dagger"
                     },
                     Value = "30\n" +
                             "50\n" +
@@ -25,7 +26,8 @@ namespace DotaUtility.Heroes.Agility.Dire
                     IconNames = new List<string>
                     {
                         "phantom_assassin_phantom_strike",
-                        "phantom_assassin_arcana_phantom_strike"
+                        "phantom_assassin_arcana_phantom_strike",
+                        @"phantom_assassin\ravening_ability_icons\phantom_assassin_phantom_strike"
                     },
                     Value = "14\n" +
                             "11\n" +
@@ -37,7 +39,8 @@ namespace DotaUtility.Heroes.Agility.Dire
                     IconNames = new List<string>
                     {
                         "phantom_assassin_blur",
-                        "phantom_assassin_arcana_blur"
+                        "phantom_assassin_arcana_blur",
+                        @"phantom_assassin\ravening_ability_icons\phantom_assassin_blur"
                     },
                     Value = "20\n" +
                             "30\n" +
@@ -49,7 +52,8 @@ namespace DotaUtility.Heroes.Agility.Dire
                     IconNames = new List<string>
                     {
                         "phantom_assassin_coup_de_grace",
-                        "phantom_assassin_arcana_coup_de_grace"
+                        "phantom_assassin_arcana_coup_de_grace",
+                        @"phantom_assassin\ravening_ability_icons\phantom_assassin_coup_de_grace"
                     },
                     Value = "20\n" +
                             "36\n" +

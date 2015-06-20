@@ -10,7 +10,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
             {
                 new Ability
                 {
-                    IconNames = new List<string> { "vengefulspirit_magic_missile" },
+                    IconNames = new List<string>
+                    {
+                        "vengefulspirit_magic_missile",
+                        @"vengefulspirit\huangs_umbra_icons\vengefulspirit_magic_missile"
+                    },
 
                     Value = " 70 1.4\n" +
                             "130 1.5\n" +
@@ -19,7 +23,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "vengefulspirit_wave_of_terror" },
+                    IconNames = new List<string>
+                    {
+                        "vengefulspirit_wave_of_terror",
+                        @"vengefulspirit\huangs_umbra_icons\vengefulspirit_wave_of_terror"
+                    },
                     Value = "30 3\n" +
                             "50 4\n" +
                             "70 5\n" +
@@ -27,7 +35,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "vengefulspirit_command_aura" },
+                    IconNames = new List<string>
+                    {
+                        "vengefulspirit_command_aura",
+                        @"vengefulspirit\huangs_umbra_icons\vengefulspirit_command_aura"
+                    },
 
                     Value = "12\n" +
                             "20\n" +
@@ -36,7 +48,11 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "vengefulspirit_nether_swap" },
+                    IconNames = new List<string>
+                    {
+                        "vengefulspirit_nether_swap",
+                        @"vengefulspirit\huangs_umbra_icons\vengefulspirit_nether_swap"
+                    },
                     Value = ""
                 }
             };
