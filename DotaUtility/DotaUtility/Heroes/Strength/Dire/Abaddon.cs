@@ -13,7 +13,8 @@ namespace DotaUtility.Heroes.Strength.Dire
                     IconNames = new List<string>
                     {
                         "abaddon_death_coil",
-                        "abaddon_death_coil_alliance"
+                        "abaddon_death_coil_alliance",
+                        @"abaddon\mistral_fiend_icons\abaddon_death_coil"
                     },
                     Value = " 70  70\n" +
                             "110 100\n" +
@@ -25,7 +26,8 @@ namespace DotaUtility.Heroes.Strength.Dire
                     IconNames = new List<string>
                     {
                         "abaddon_aphotic_shield",
-                        "abaddon_aphotic_shield_alliance"
+                        "abaddon_aphotic_shield_alliance",
+                        @"abaddon\mistral_fiend_icons\abaddon_aphotic_shield"
                     },
                     Value = " 80 110\n" +
                             "100 140\n" +
@@ -37,7 +39,8 @@ namespace DotaUtility.Heroes.Strength.Dire
                     IconNames = new List<string>
                     {
                         "abaddon_frostmourne",
-                        "abaddon_frostmourne_alliance"
+                        "abaddon_frostmourne_alliance",
+                        @"abaddon\mistral_fiend_icons\abaddon_frostmourne"
                     },
                     Value = " 5 10\n" +
                             "10 20\n" +
@@ -49,7 +52,8 @@ namespace DotaUtility.Heroes.Strength.Dire
                     IconNames = new List<string>
                     {
                         "abaddon_borrowed_time",
-                        "abaddon_borrowed_time_alliance"
+                        "abaddon_borrowed_time_alliance",
+                        @"abaddon\mistral_fiend_icons\abaddon_borrowed_time"
                     },
                     Value = "4 400 5\n" +
                             "5 400 6\n" +

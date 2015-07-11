@@ -18,7 +18,11 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "furion_teleportation" },
+                    IconNames = new List<string>
+                    {
+                        "furion_teleportation",
+                        @"furion\sufferwood_sapling\furion_sufferwood_sapling_tp"
+                    },
                     Value = "50\n" +
                             "40\n" +
                             "30\n" +

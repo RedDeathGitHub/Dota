@@ -18,7 +18,8 @@ namespace DotaUtility.Heroes.Agility.Dire
                     IconNames = new List<string>
                     {
                         "meepo_poof",
-                        "meepo_poof_scavenger"
+                        "meepo_poof_scavenger",
+                        @"meepo\colossal_crystal_chorus\meepo_poof"
                     },
                     Value = "60\n" +
                             "70\n" +

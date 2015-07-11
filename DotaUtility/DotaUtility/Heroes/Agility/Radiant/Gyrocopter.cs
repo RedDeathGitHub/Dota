@@ -13,7 +13,9 @@ namespace DotaUtility.Heroes.Agility.Radiant
                     IconNames = new List<string>
                     {
                         "gyrocopter_rocket_barrage",
-                        "gyrocopter_skyhigh_rocket_barrage"
+                        "gyrocopter_skyhigh_rocket_barrage",
+                        @"gyrocopter\atomic_ray_thrusters\atomicraythrusters_rocket_barrage",
+                        @"gyrocopter\atomic_ray_thrusters\atomicraythrusters_golden_rocket_barrage"
                     },
                     Value = "180\n" +
                             "290\n" +

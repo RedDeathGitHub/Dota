@@ -10,7 +10,11 @@ namespace DotaUtility.Heroes.Agility.Dire
             {
                 new Ability
                 {
-                    IconNames = new List<string> { "faceless_void_time_walk" },
+                    IconNames = new List<string>
+                    {
+                        "faceless_void_time_walk",
+                        @"faceless_void\jewelofaeons\faceless_void_time_walk_1"
+                    },
                     Value = "20\n" +
                             "30\n" +
                             "40\n" +

@@ -10,7 +10,12 @@ namespace DotaUtility.Heroes.Agility.Radiant
             {
                 new Ability
                 {
-                    IconNames = new List<string> { "antimage_mana_break" },
+                    IconNames = new List<string>
+                    {
+                        "antimage_mana_break",
+                        @"antimage\the_basher_blades\antimage_mana_break",
+                        @"antimage\golden_basher_blades\antimage_mana_break"
+                    },
                     Value = "28 16\n" +
                             "40 24\n" +
                             "52 31\n" +
@@ -18,7 +23,10 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "antimage_blink" },
+                    IconNames = new List<string> 
+                    { 
+                        "antimage_blink"
+                    },
                     Value = "12\n" +
                             " 9\n" +
                             " 7\n" +
@@ -34,7 +42,13 @@ namespace DotaUtility.Heroes.Agility.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "antimage_mana_void" },
+                    IconNames = new List<string>
+                    {
+                        "antimage_mana_void",
+                        @"antimage\the_basher_blades\antimage_mana_void",
+                        @"antimage\golden_basher_blades\antimage_mana_void"
+                        
+                    },
                     Value = "40\n" +
                             "60\n" +
                             "80"

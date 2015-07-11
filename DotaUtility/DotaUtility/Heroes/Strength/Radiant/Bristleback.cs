@@ -18,7 +18,11 @@ namespace DotaUtility.Heroes.Strength.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "bristleback_quill_spray" },
+                    IconNames = new List<string>
+                    {
+                        "bristleback_quill_spray",
+                        @"bristleback\piston_impaler\bristleback_quill_spray"
+                    },
                     Value = "20 30\n" +
                             "40 32\n" +
                             "60 34\n" +

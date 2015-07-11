@@ -10,17 +10,29 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconNames = new List<string> { "invoker_quas" },
+                    IconNames = new List<string>
+                    {
+                        "invoker_quas",
+                        @"invoker\magus_apex\invoker_quas"
+                    },
                     Value = "1"
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "invoker_wex" },
+                    IconNames = new List<string>
+                    {
+                        "invoker_wex",
+                        @"invoker\magus_apex\invoker_wex"
+                    },
                     Value = "2 1"
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "invoker_exort" },
+                    IconNames = new List<string>
+                    {
+                        "invoker_exort",
+                        @"invoker\magus_apex\invoker_exort"
+                    },
                     Value = "3"
                 },
                 new Ability
@@ -68,7 +80,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "invoker_sun_strike" },
+                    IconNames = new List<string>
+                    {
+                        "invoker_sun_strike",
+                        @"invoker\magus_apex\invoker_sun_strike"
+                    },
                     Value = "100 280\n" +
                             "160 350\n" +
                             "220 410\n" +

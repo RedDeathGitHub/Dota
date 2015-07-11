@@ -10,7 +10,11 @@ namespace DotaUtility.Heroes.Intelligence.Dire
             {
                 new Ability
                 {
-                    IconNames = new List<string> { "witch_doctor_paralyzing_cask" },
+                    IconNames = new List<string>
+                    {
+                        "witch_doctor_paralyzing_cask",
+                        @"witch_doctor\bonkers_the_mad\witch_doctor_paralyzing_cask"
+                    },
                     Value = "110 3\n" +
                             "180 5\n" +
                             "260 7\n" +

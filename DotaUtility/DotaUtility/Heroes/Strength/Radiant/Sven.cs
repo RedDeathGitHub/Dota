@@ -40,7 +40,8 @@ namespace DotaUtility.Heroes.Strength.Radiant
                     {
                         "sven_warcry",
                         @"sven\cyclopean_marauder_ability_icons\sven_warcry",
-                        @"sven\fiend_cleaver_icons\sven_warcry"
+                        @"sven\fiend_cleaver_icons\sven_warcry",
+                        @"sven\vigil_signet\sven_warcry"
                     },
                     Value = " 5 12\n" +
                             "10 12\n" +

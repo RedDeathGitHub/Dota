@@ -26,7 +26,11 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "tinker_march_of_the_machines" },
+                    IconNames = new List<string>
+                    {
+                        "tinker_march_of_the_machines",
+                       @"tinker\rollermawster\tinker_march_of_the_machines_1"
+                    },
                     Value = "220\n" +
                             "320\n" +
                             "420\n" +

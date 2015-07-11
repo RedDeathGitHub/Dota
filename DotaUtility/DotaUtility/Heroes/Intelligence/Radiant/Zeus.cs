@@ -18,7 +18,11 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "zuus_lightning_bolt" },
+                    IconNames = new List<string>
+                    {
+                        "zuus_lightning_bolt",
+                        "zuus_lightning_bolt_immortal"
+                    },
                     Value = " 70\n" +
                             "130\n" +
                             "200\n" +

@@ -26,7 +26,11 @@ namespace DotaUtility.Heroes.Intelligence.Radiant
                 },
                 new Ability
                 {
-                    IconNames = new List<string> { "disruptor_kinetic_field" },
+                    IconNames = new List<string>
+                    {
+                        "disruptor_kinetic_field",
+                        @"disruptor\resistive_pinfold\disruptor_kinetic_field"
+                    },
                     Value = "2.6\n" +
                             "3.2\n" +
                             "3.8\n" +
