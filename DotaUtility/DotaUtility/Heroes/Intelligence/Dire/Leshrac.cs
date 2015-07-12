@@ -15,10 +15,10 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                         "leshrac_split_earth",
                         @"leshrac\tormented_staff\leshrac_split_earth"
                     },
-                    Value = "110 2\n" +
+                    Value = " 90 2\n" +
                             "130 2\n" +
-                            "150 2\n" +
-                            "170 2"
+                            "180 2\n" +
+                            "220 2"
                 },
                 new Ability
                 {
