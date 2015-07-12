@@ -11,10 +11,10 @@ namespace DotaUtility.Heroes.Intelligence.Dire
                 new Ability
                 {
                     IconNames = new List<string> { "winter_wyvern_arctic_burn" },
-                    Value = "30 25\n" +
-                            "30 30\n" +
-                            "30 35\n" +
-                            "30 40"
+                    Value = "25 25\n" +
+                            "25 30\n" +
+                            "25 35\n" +
+                            "25 40"
                 },
                 new Ability
                 {
