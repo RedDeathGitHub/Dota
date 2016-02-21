@@ -1,0 +1,1 @@
+account_id: 18994288 match_id: 2164977959 seq_num: 1114 reasons: 1 matches_in_report: 25 matches_clean: 24 matches_reported: 1 matches_abandoned: 0 reports_count: 1 reports_parties: 1 commend_count: 2 end_score: 8558 date: 1455970383
